@@ -83,12 +83,12 @@ export default function Index() {
                       <div className="flex flex-wrap -m-2">
                         <div className="w-full md:w-auto p-2" />
                         <div className="w-full md:w-auto p-2">
-                          <a
+                          <Link
                             className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full"
-                            href="/contact"
+                            to="/contact"
                           >
                             Get in Touch
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -240,12 +240,12 @@ export default function Index() {
                     </p>
                     <div className="flex flex-wrap justify-center -m-2">
                       <div className="w-full md:w-auto p-2">
-                        <a
+                        <Link
                           className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full"
-                          href="#"
+                          to="/contact"
                         >
                           Get in Touch
-                        </a>
+                        </Link>
                       </div>
                       <div className="w-full md:w-auto p-2">
                         <a
