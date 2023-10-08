@@ -82,12 +82,12 @@ export default function Oral() {
                       <div className="flex flex-wrap -m-2">
                         <div className="w-full md:w-auto p-2" />
                         <div className="w-full md:w-auto p-2">
-                          <a
+                          <Link
                             className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full"
-                            href="/contact"
+                            to="/contact"
                           >
                             Get in Touch
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -959,7 +959,8 @@ export default function Oral() {
                   <div className="w-full md:w-1/3 p-8">
                     <img
                       className="mb-6"
-                      src="zanrly-assets/logos/zanrly-logo-small.svg"
+                      style={{ width: "120px" }}
+                      src={logo}
                       alt=""
                     />
                     <p className="text-xl font-bold">
@@ -1054,7 +1055,7 @@ export default function Oral() {
                     <p className="font-bold">
                       <span>Ⓒ Copyright. All rights reserved by </span>
                       <a className="text-blue-500 hover:text-blue-600" href="#">
-                        Zanrly
+                        Logy.AI
                       </a>
                     </p>
                   </div>

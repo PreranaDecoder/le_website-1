@@ -216,7 +216,7 @@ export default function Index() {
             </div>
           </div>
         </section>
-        <section className="pt-6 pb-20 bg-gray-50 overflow-hidden">
+        <section className="pt-6 pb-10 bg-gray-50 overflow-hidden">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center -m-4">
               <div className="w-full md:w-1/3 p-4">
@@ -226,17 +226,20 @@ export default function Index() {
                 <div className="flex flex-col justify-center items-center p-8 h-full text-center bg-white rounded-3xl">
                   <div className="max-w-lg">
                     <span className="inline-block mb-3 text-sm text-blue-500 font-bold uppercase tracking-widest">
-                      Best caption here
+                      We are hiring 🔥🔥
                     </span>
-                    <h1 className="font-heading mb-6 text-5xl text-gray-900 font-black tracking-tight">
-                      <span>Build better products </span>
-                      <span className="text-blue-500">faster</span>
-                      <span> than ever.</span>
+                    <h1 className="font-heading mb-6 text-4xl text-gray-900 font-black tracking-tight">
+                      <span>
+                        First-Level Health Checks & Care-Coordination, Made Easy
+                        with{" "}
+                      </span>
+                      <span className="text-blue-500">AI</span>
                     </h1>
                     <p className="mb-8 text-xl font-bold">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Duis venenatis volutpat velit, quis iaculis velit bibendum
-                      a. Maecenas accumsan fermentum nisl.
+                      Our Software-As-A-Medical-Device AI tool provides
+                      solutions that are clinically validated in India and
+                      Africa. Our proprietary AI models are also patented for
+                      90%+ accuracy.
                     </p>
                     <div className="flex flex-wrap justify-center -m-2">
                       <div className="w-full md:w-auto p-2">
@@ -247,14 +250,6 @@ export default function Index() {
                           Get in Touch
                         </Link>
                       </div>
-                      <div className="w-full md:w-auto p-2">
-                        <a
-                          className="block w-full px-4 py-2.5 text-sm text-center text-gray-900 font-bold bg-gray-50 hover:bg-gray-200 focus:ring-4 focus:ring-gray-200 rounded-full"
-                          href="#"
-                        >
-                          Watch Video
-                        </a>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -262,54 +257,102 @@ export default function Index() {
             </div>
           </div>
         </section>
-        <section className="py-10 bg-white overflow-hidden">
+        <section className="py-10  overflow-hidden bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="py-16 px-8 bg-white border border-gray-100 rounded-3xl">
               <div className="max-w-7xl mx-auto">
                 <div className="mb-12 max-w-lg mx-auto text-center">
                   <h2 className="font-heading mb-6 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
-                    Grow fast, with us
+                    Scale of impact
                   </h2>
                   <p className="text-gray-500 font-bold">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint. Velit officia consequat duis enim velit
-                    mollit.
+                    Impact of Logy.AI in it's Journey of changing lives
                   </p>
                 </div>
                 <div className="flex flex-wrap -m-4">
-                  <div className="w-full md:w-1/2 p-4">
+                  <div className="w-full md:w-1/3 p-4">
                     <div className="py-14 px-8 text-center h-full bg-white border border-gray-100 rounded-3xl">
                       <div className="md:max-w-xs mx-auto">
                         <h2 className="font-heading mb-6 text-5xl md:text-6xl lg:text-7xl text-gray-900 font-black tracking-tight">
                           <span className="text-transparent bg-clip-text bg-gradient-green-dark">
-                            98%
+                            2X
                           </span>
                         </h2>
                         <h3 className="font-heading mb-3.5 text-xl text-gray-900 font-bold">
-                          Average Satisfaction Rate
+                          ROI Improvement
                         </h3>
-                        <p className="text-gray-600 font-bold">
-                          Amet minim mollit non deserunt ullamco est sit aliqua
-                          dolor
-                        </p>
                       </div>
                     </div>
                   </div>
-                  <div className="w-full md:w-1/2 p-4">
-                    <div className="py-14 px-8 text-center h-full bg-white border border-gray-100 rounded-3xl">
+                  <div className="w-full md:w-1/3 p-4">
+                    <div className="py-14 px-8 text-center h-full bg-gray-50 border border-gray-100 rounded-3xl">
                       <div className="md:max-w-xs mx-auto">
                         <h2 className="font-heading mb-6 text-5xl md:text-6xl lg:text-7xl text-gray-900 font-black tracking-tight">
                           <span className="text-transparent bg-clip-text bg-gradient-orange">
-                            117%
+                            200+
                           </span>
                         </h2>
                         <h3 className="font-heading mb-3.5 text-xl text-gray-900 font-bold">
-                          Average ROI on Ads
+                          Clinics
                         </h3>
-                        <p className="text-gray-600 font-bold">
-                          Amet minim mollit non deserunt ullamco est sit aliqua
-                          dolor
-                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="w-full md:w-1/3 p-4">
+                    <div className="py-14 px-8 text-center h-full bg-white border border-gray-100 rounded-3xl">
+                      <div className="md:max-w-xs mx-auto">
+                        <h2 className="font-heading mb-6 text-5xl md:text-6xl lg:text-7xl text-gray-900 font-black tracking-tight">
+                          <span className="text-transparent bg-clip-text bg-gradient-green-dark">
+                            >90%
+                          </span>
+                        </h2>
+                        <h3 className="font-heading mb-3.5 text-xl text-gray-900 font-bold">
+                          Accuracy
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-wrap -m-4">
+                  <div className="w-full md:w-1/3 p-4">
+                    <div className="py-14 px-8 text-center h-full bg-gray-50 border border-gray-100 rounded-3xl">
+                      <div className="md:max-w-xs mx-auto">
+                        <h2 className="font-heading mb-6 text-5xl md:text-6xl lg:text-7xl text-gray-900 font-black tracking-tight">
+                          <span className="text-transparent bg-clip-text bg-gradient-orange">
+                            300K+
+                          </span>
+                        </h2>
+                        <h3 className="font-heading mb-3.5 text-xl text-gray-900 font-bold">
+                          Lives Touched
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="w-full md:w-1/3 p-4">
+                    <div className="py-14 px-8 text-center h-full bg-white border border-gray-100 rounded-3xl">
+                      <div className="md:max-w-xs mx-auto">
+                        <h2 className="font-heading mb-6 text-5xl md:text-6xl lg:text-7xl text-gray-900 font-black tracking-tight">
+                          <span className="text-transparent bg-clip-text bg-gradient-green-dark">
+                            20%
+                          </span>
+                        </h2>
+                        <h3 className="font-heading mb-3.5 text-xl text-gray-900 font-bold">
+                          Increase in Patient Footfall
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="w-full md:w-1/3 p-4">
+                    <div className="py-14 px-8 text-center h-full bg-gray-50 border border-gray-100 rounded-3xl">
+                      <div className="md:max-w-xs mx-auto">
+                        <h2 className="font-heading mb-6 text-5xl md:text-6xl lg:text-7xl text-gray-900 font-black tracking-tight">
+                          <span className="text-transparent bg-clip-text bg-gradient-orange">
+                            50%
+                          </span>
+                        </h2>
+                        <h3 className="font-heading mb-3.5 text-xl text-gray-900 font-bold">
+                          Lowered Healthcare Cost
+                        </h3>
                       </div>
                     </div>
                   </div>
@@ -318,20 +361,16 @@ export default function Index() {
             </div>
           </div>
         </section>
-        <section className="py-10 bg-white overflow-hidden">
+        <section className="pb-10 bg-gray-50 overflow-hidden">
           <div className="container mx-auto px-4">
             <div className="py-16 px-8 bg-white border border-gray-100 rounded-3xl">
               <div className="max-w-7xl mx-auto">
                 <div className="mb-12 md:max-w-4xl mx-auto text-center">
-                  <span className="inline-block mb-4 text-sm text-blue-500 font-bold uppercase tracking-widest">
-                    Blog
-                  </span>
                   <h2 className="font-heading mb-6 text-4xl md:text-5xl lg:text-6xl text-gray-900 font-black tracking-tight">
-                    Resources and stories center
+                    Case Studies
                   </h2>
                   <p className="md:max-w-md mx-auto text-gray-500 font-bold">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Malesuada tellus vestibulum, commodo pulvinar.
+                    Making a difference in the community. Read the studies.
                   </p>
                 </div>
                 <div className="flex flex-wrap -m-4 mb-6">
@@ -394,34 +433,21 @@ export default function Index() {
                     </div>
                   </div>
                 </div>
-                <div className="flex flex-wrap md:justify-center -m-2">
-                  <div className="w-full md:w-auto p-2">
-                    <a
-                      className="block w-full px-12 py-3.5 text-lg text-center text-white font-bold bg-gray-900 hover:bg-gray-800 focus:ring-4 focus:ring-gray-600 rounded-full"
-                      href="#"
-                    >
-                      Read more News
-                    </a>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
         </section>
-        <section className="py-10 bg-white overflow-hidden">
+        <section className="py-10 bg-gray-50 overflow-hidden">
           <div className="container mx-auto px-4">
             <div className="py-16 px-8 bg-white border border-gray-100 rounded-3xl">
               <div className="max-w-7xl mx-auto">
                 <div className="mb-12 md:max-w-4xl mx-auto text-center">
-                  <span className="inline-block mb-4 text-sm text-blue-500 font-bold uppercase tracking-widest">
-                    Blog
-                  </span>
                   <h2 className="font-heading mb-6 text-4xl md:text-5xl lg:text-6xl text-gray-900 font-black tracking-tight">
-                    Resources and stories center
+                    Articles and Publications
                   </h2>
                   <p className="md:max-w-md mx-auto text-gray-500 font-bold">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Malesuada tellus vestibulum, commodo pulvinar.
+                    What are the newest publications and findings about Logy.AI?
+                    Stay up-to-date here.
                   </p>
                 </div>
                 <div className="max-w-5xl mx-auto">
@@ -496,12 +522,14 @@ export default function Index() {
                     <div className="flex flex-col justify-between md:max-w-sm h-full">
                       <div className="flex-initial mb-8">
                         <h2 className="font-heading mb-8 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
-                          Affordable pricing plans
+                          Our Solutions
                         </h2>
                         <p className="text-gray-700 font-bold">
-                          Amet minim mollit non deserunt ullamco an aliqua dolor
-                          elit officia consequat duis.Amet minim mollit non
-                          deserunt ullamco est sit aliqua.
+                          Our company offers a cutting-edge solution in the form
+                          of a Software as a Medical Device (SAMD) AI tool that
+                          enables healthcare providers to rapidly assess various
+                          conditions, with a current focus on eye and oral
+                          diseases.
                         </p>
                       </div>
                     </div>
@@ -517,17 +545,15 @@ export default function Index() {
                             <h2 className="font-heading mb-2 text-4xl text-gray-900 font-black tracking-tight">
                               Oral screening module
                             </h2>
-                            <p className="mb-6 text-sm text-gray-400 font-bold">
-                              Best for medium business, owners, startups.
-                            </p>
+                            <br />
                             <div className="flex flex-wrap -m-2">
                               <div className="w-full p-2">
-                                <a
+                                <Link
                                   className="block w-full px-8 py-2.5 text-sm text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full"
-                                  href="#"
+                                  to="/oral"
                                 >
-                                  Purchase Now
-                                </a>
+                                  Explore Now
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -542,17 +568,15 @@ export default function Index() {
                             <h2 className="font-heading mb-2 text-4xl text-gray-900 font-black tracking-tight">
                               Eye screening module
                             </h2>
-                            <p className="mb-6 text-sm text-gray-400 font-bold">
-                              Best for medium business, owners, startups.
-                            </p>
+                            <br />
                             <div className="flex flex-wrap -m-2">
                               <div className="w-full p-2">
-                                <a
+                                <Link
                                   className="block w-full px-8 py-2.5 text-sm text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full"
-                                  href="#"
+                                  to="/eye"
                                 >
-                                  Purchase Now
-                                </a>
+                                  Explore Now
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -565,10 +589,10 @@ export default function Index() {
             </div>
           </div>
         </section>
-        <section className="py-10 overflow-hidden bg-blueGray-100">
+        <section className="py-10 overflow-hidden bg-gray-50">
           <div className="container mx-auto px-4">
             <h2 className="font-heading mb-10 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
-              Meet our top tier customers
+              Serving clients globally
             </h2>
           </div>
           <div className="flex flex-nowrap justify-center items-center -m-4">
@@ -711,12 +735,12 @@ export default function Index() {
             </div>
           </div>
         </section>
-        <div className="container mx-auto">
-          <h3 className="text-gray-900 font-black font-heading text-3xl md:text-4xl xl:text-5xl">
-            Covered by
-          </h3>
-        </div>
-        <section className="py-10 overflow-hidden">
+        <section className="py-10 overflow-hidden bg-gray-50">
+          <div className="container mx-auto px-4">
+            <h2 className="font-heading mb-10 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
+              Covered by
+            </h2>
+          </div>
           <div className="container mx-auto px-4">
             <div className="px-4 bg-white border border-gray-100 rounded-3xl">
               <div className="flex flex-wrap items-center py-11 -m-8">
@@ -738,7 +762,7 @@ export default function Index() {
             </div>
           </div>
         </section>
-        <section className="py-10 bg-gray-50 overflow-hidden">
+        <section className="pb-10 bg-gray-50 overflow-hidden">
           <div className="container mx-auto px-4">
             <div className="py-16 px-8 bg-white border border-gray-100 rounded-3xl">
               <div className="max-w-7xl mx-auto">
@@ -747,7 +771,7 @@ export default function Index() {
                     Testimonials
                   </span>
                   <h2 className="font-heading mb-12 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
-                    Our customer says
+                    Hear from our clients
                   </h2>
                 </div>
                 <div className="flex flex-wrap -m-4">
@@ -800,7 +824,7 @@ export default function Index() {
                     </div>
                   </div>
                   <div className="w-full md:w-1/3 p-4">
-                    <div className="flex flex-col justify-between px-8 pt-12 pb-8 h-full text-center bg-gray-100 border border-gray-100rounded-3xl">
+                    <div className="flex flex-col justify-between px-8 pt-12 pb-8 h-full text-center bg-gray-100 border border-gray-100 rounded-3xl">
                       <div className="flex-initial mb-8">
                         <img
                           className="mb-6 mx-auto rounded-full"
@@ -830,14 +854,15 @@ export default function Index() {
         </section>
         <section className="py-10 bg-gray-50 overflow-hidden">
           <div className="container mx-auto px-4">
-            <div className="py-16 px-8 md:px-16 bg-gradient-red rounded-3xl">
+            <div className="py-16 px-8 md:px-16 bg-blue-500 rounded-3xl">
               <div className="flex flex-wrap items-center -m-4">
-                <div className="w-full md:w-1/2 p-4">
+                <div className="w-full md:w-3/5 p-4">
                   <h2 className="font-heading text-4xl md:text-5xl text-white font-black tracking-tight">
-                    Ready to dive in? Let’s start together.
+                    Join the growing number of healthcare providers who trust
+                    Logy.AI
                   </h2>
                 </div>
-                <div className="w-full md:w-1/2 p-4">
+                <div className="w-full md:w-2/5 p-4">
                   <div className="flex flex-wrap md:justify-end -m-2">
                     <div className="w-auto p-2">
                       <a
@@ -861,7 +886,8 @@ export default function Index() {
                   <div className="w-full md:w-1/3 p-8">
                     <img
                       className="mb-6"
-                      src="zanrly-assets/logos/zanrly-logo-small.svg"
+                      style={{ width: "120px" }}
+                      src={logo}
                       alt=""
                     />
                     <p className="text-xl font-bold">
