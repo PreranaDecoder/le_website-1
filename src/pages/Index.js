@@ -4,6 +4,14 @@ import { Link } from "react-router-dom";
 
 import logo from "../assets/img/LogoFree.svg";
 import logyanim from "../assets/zanrly-assets/images/headers/logyanim.gif";
+import Clients from "../assets/components/clients";
+import edex from "../assets/img/edexlive.png";
+import dainik from "../assets/img/dainikbhaskar.png";
+
+import cs1 from "../assets/zanrly-assets/images/blog/blog.png";
+import cs2 from "../assets/zanrly-assets/images/blog/blog2.png";
+import cs3 from "../assets/zanrly-assets/images/blog/blog3.png";
+import articleimg from "../assets/zanrly-assets/images/blog/blog4.png";
 
 const meta = {
   title: "",
@@ -26,13 +34,20 @@ export default function Index() {
       <>
         <section className="pt-6 bg-gray-50 overflow-hidden">
           <div className="container mx-auto px-4">
-            <div className="mb-6">
+            <div className="">
               <div className="flex items-center justify-between px-6 py-3.5 bg-white border border-gray-100 rounded-full">
                 <div className="w-auto">
                   <div className="flex flex-wrap items-center">
                     <div className="w-auto">
                       <Link className="inline-block" to="/">
-                        <img src={logo} style={{ width: "90px" }} alt="" />
+                        <img
+                          src={logo}
+                          style={{
+                            width: "100px",
+                            transform: "translateY(3px) translateX(10px)",
+                          }}
+                          alt=""
+                        />
                       </Link>
                     </div>
                   </div>
@@ -257,7 +272,7 @@ export default function Index() {
             </div>
           </div>
         </section>
-        <section className="py-10  overflow-hidden bg-gray-50">
+        <section className="pb-10  overflow-hidden bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="py-16 px-8 bg-white border border-gray-100 rounded-3xl">
               <div className="max-w-7xl mx-auto">
@@ -303,7 +318,7 @@ export default function Index() {
                       <div className="md:max-w-xs mx-auto">
                         <h2 className="font-heading mb-6 text-5xl md:text-6xl lg:text-7xl text-gray-900 font-black tracking-tight">
                           <span className="text-transparent bg-clip-text bg-gradient-green-dark">
-                            >90%
+                            {">"}90%
                           </span>
                         </h2>
                         <h3 className="font-heading mb-3.5 text-xl text-gray-900 font-bold">
@@ -376,58 +391,47 @@ export default function Index() {
                 <div className="flex flex-wrap -m-4 mb-6">
                   <div className="w-full md:w-1/3 p-4">
                     <div className="h-full bg-gray-100 rounded-3xl">
-                      <img
-                        className="w-full"
-                        src="zanrly-assets/images/blog/blog.png"
-                        alt=""
-                      />
+                      <img className="w-full" src={cs1} alt="" />
                       <div className="p-8">
                         <a className="group inline-block mb-4" href="#">
                           <h3 className="font-heading text-2xl text-gray-900 hover:text-gray-700 group-hover:underline font-black">
-                            You will never believe these bizarre truth of
-                            travel.
+                            Logy.AI eye screening solution: Vidisha 5G use cases
+                            pilot launch on 13th January 2023
                           </h3>
                         </a>
                         <p className="text-sm text-gray-500 font-bold">
-                          Design process • 4 min read
+                          Case Study • 4 min read
                         </p>
                       </div>
                     </div>
                   </div>
                   <div className="w-full md:w-1/3 p-4">
                     <div className="h-full bg-gray-100 rounded-3xl">
-                      <img
-                        className="w-full"
-                        src="zanrly-assets/images/blog/blog2.png"
-                        alt=""
-                      />
+                      <img className="w-full" src={cs2} alt="" />
                       <div className="p-8">
                         <a className="group inline-block mb-4" href="#">
                           <h3 className="font-heading text-2xl text-gray-900 hover:text-gray-700 group-hover:underline font-black">
-                            Five web design blogs you should be reading
+                            Logy.AI’s Collaboration with Colgate Kenya
                           </h3>
                         </a>
                         <p className="text-sm text-gray-500 font-bold">
-                          Technology • 4 min read
+                          Case Study • 4 min read
                         </p>
                       </div>
                     </div>
                   </div>
                   <div className="w-full md:w-1/3 p-4">
                     <div className="h-full bg-gray-100 rounded-3xl">
-                      <img
-                        className="w-full"
-                        src="zanrly-assets/images/blog/blog3.png"
-                        alt=""
-                      />
+                      <img className="w-full" src={cs3} alt="" />
                       <div className="p-8">
                         <a className="group inline-block mb-4" href="#">
                           <h3 className="font-heading text-2xl text-gray-900 hover:text-gray-700 group-hover:underline font-black">
-                            80 Best Virtual Reality Blogs and Websites
+                            Logy.AI 5G digital health launch at Vidisha, Madhya
+                            Pradesh
                           </h3>
                         </a>
                         <p className="text-sm text-gray-500 font-bold">
-                          Inspiration • 4 min read
+                          Case Study • 4 min read
                         </p>
                       </div>
                     </div>
@@ -437,7 +441,7 @@ export default function Index() {
             </div>
           </div>
         </section>
-        <section className="py-10 bg-gray-50 overflow-hidden">
+        <section className="pb-10 bg-gray-50 overflow-hidden">
           <div className="container mx-auto px-4">
             <div className="py-16 px-8 bg-white border border-gray-100 rounded-3xl">
               <div className="max-w-7xl mx-auto">
@@ -457,7 +461,7 @@ export default function Index() {
                         <div className="w-full md:w-1/2">
                           <img
                             className="w-full h-full object-cover"
-                            src="zanrly-assets/images/blog/blog4.png"
+                            src={articleimg}
                             alt=""
                           />
                         </div>
@@ -466,18 +470,21 @@ export default function Index() {
                             <div className="flex flex-col justify-between h-full">
                               <div className="flex-initial mb-8">
                                 <p className="mb-3 text-sm text-gray-500 font-bold">
-                                  Design process • 4 min read
+                                  Article • 4 min read
                                 </p>
                                 <a className="group inline-block mb-4" href="#">
                                   <h3 className="font-heading text-2xl text-gray-900 hover:text-gray-700 group-hover:underline font-black">
-                                    You will never believe these bizarre truth
-                                    of travel.
+                                    Teeth talk: This Hyderabad start-up is using
+                                    AI and WhatsApp to bring oral hygiene to the
+                                    fore
                                   </h3>
                                 </a>
                                 <p className="text-gray-500 font-bold">
-                                  Lorem ipsum dolor sit amet, consectetur
-                                  adipiscing elit. Malesuada tellus vestibulum,
-                                  commodo pulvinar.
+                                  Logy.AI is a start-up that is using the power
+                                  of WhatsApp and Artificial Intelligence to
+                                  step up oral hygiene efforts. We get a demo to
+                                  understand how exactly it works and we are
+                                  thrilled indeed.
                                 </p>
                               </div>
                               <div className="flex-initial">
@@ -501,12 +508,12 @@ export default function Index() {
                 </div>
                 <div className="flex flex-wrap md:justify-center -m-2">
                   <div className="w-full md:w-auto p-2">
-                    <a
+                    <Link
                       className="block w-full px-12 py-3.5 text-lg text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full"
-                      href="#"
+                      to="/articles"
                     >
-                      Read more News
-                    </a>
+                      Read more Articles
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -537,7 +544,7 @@ export default function Index() {
                   <div className="w-full md:w-1/2 p-8">
                     <div className="flex flex-wrap -m-4">
                       <div className="w-full lg:w-1/2 p-4">
-                        <div className="flex flex-col justify-between p-8 h-full bg-gray-100 rounded-3xl">
+                        <div className="flex flex-col justify-between p-8 h-full bg-gray-50 rounded-3xl">
                           <div className="flex-initial mb-8">
                             <span className="inline-block mb-6 text-sm text-blue-500 font-bold uppercase tracking-widest">
                               PRODUCT
@@ -560,7 +567,7 @@ export default function Index() {
                         </div>
                       </div>
                       <div className="w-full lg:w-1/2 p-4">
-                        <div className="flex flex-col justify-between p-8 h-full bg-gray-100 rounded-3xl">
+                        <div className="flex flex-col justify-between p-8 h-full bg-gray-50 rounded-3xl">
                           <div className="flex-initial mb-8">
                             <span className="inline-block mb-6 text-sm text-blue-500 font-bold uppercase tracking-widest">
                               PRODUCT
@@ -595,146 +602,8 @@ export default function Index() {
               Serving clients globally
             </h2>
           </div>
-          <div className="flex flex-nowrap justify-center items-center -m-4">
-            <div className="flex-shrink-0 w-64 p-4">
-              <div className="py-24 px-8 h-full bg-white rounded-3xl">
-                <img
-                  className="mx-auto"
-                  src="zanrly-assets/brands/brand.svg"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="flex-shrink-0 w-64 p-4">
-              <div className="py-24 px-8 h-full bg-white rounded-3xl">
-                <img
-                  className="mx-auto"
-                  src="zanrly-assets/brands/brand3.svg"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="flex-shrink-0 w-64 p-4">
-              <div className="py-24 px-8 h-full bg-white rounded-3xl">
-                <img
-                  className="mx-auto"
-                  src="zanrly-assets/brands/brand4.svg"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="flex-shrink-0 w-64 p-4">
-              <div className="py-24 px-8 h-full bg-white rounded-3xl">
-                <img
-                  className="mx-auto"
-                  src="zanrly-assets/brands/brand6.svg"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="flex-shrink-0 w-64 p-4">
-              <div className="py-24 px-8 h-full bg-white rounded-3xl">
-                <img
-                  className="mx-auto"
-                  src="zanrly-assets/brands/brand8.svg"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="flex-shrink-0 w-64 p-4">
-              <div className="py-24 px-8 h-full bg-white rounded-3xl">
-                <img
-                  className="mx-auto"
-                  src="zanrly-assets/brands/brand3.svg"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="flex-shrink-0 w-64 p-4">
-              <div className="py-24 px-8 h-full bg-white rounded-3xl">
-                <img
-                  className="mx-auto"
-                  src="zanrly-assets/brands/brand4.svg"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="flex-shrink-0 w-64 p-4">
-              <div className="py-24 px-8 h-full bg-white rounded-3xl">
-                <img
-                  className="mx-auto"
-                  src="zanrly-assets/brands/brand6.svg"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-nowrap justify-center items-center -m-4">
-            <div className="flex-shrink-0 w-64 p-4">
-              <div className="py-24 px-8 h-full bg-white rounded-3xl">
-                <img
-                  className="mx-auto"
-                  src="zanrly-assets/brands/brand7.svg"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="flex-shrink-0 w-64 p-4">
-              <div className="py-24 px-8 h-full bg-white rounded-3xl">
-                <img
-                  className="mx-auto"
-                  src="zanrly-assets/brands/brand5.svg"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="flex-shrink-0 w-64 p-4">
-              <div className="py-24 px-8 h-full bg-white rounded-3xl">
-                <img
-                  className="mx-auto"
-                  src="zanrly-assets/brands/brand2.svg"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="flex-shrink-0 w-64 p-4">
-              <div className="py-24 px-8 h-full bg-white rounded-3xl">
-                <img
-                  className="mx-auto"
-                  src="zanrly-assets/brands/brand9.svg"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="flex-shrink-0 w-64 p-4">
-              <div className="py-24 px-8 h-full bg-white rounded-3xl">
-                <img
-                  className="mx-auto"
-                  src="zanrly-assets/brands/brand7.svg"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="flex-shrink-0 w-64 p-4">
-              <div className="py-24 px-8 h-full bg-white rounded-3xl">
-                <img
-                  className="mx-auto"
-                  src="zanrly-assets/brands/brand5.svg"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="flex-shrink-0 w-64 p-4">
-              <div className="py-24 px-8 h-full bg-white rounded-3xl">
-                <img
-                  className="mx-auto"
-                  src="zanrly-assets/brands/brand2.svg"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
         </section>
+        <Clients />
         <section className="py-10 overflow-hidden bg-gray-50">
           <div className="container mx-auto px-4">
             <h2 className="font-heading mb-10 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
@@ -742,19 +611,21 @@ export default function Index() {
             </h2>
           </div>
           <div className="container mx-auto px-4">
-            <div className="px-4 bg-white border border-gray-100 rounded-3xl">
-              <div className="flex flex-wrap items-center py-11 -m-8">
+            <div className="px-4 bg-white w-fit border border-gray-100 rounded-3xl">
+              <div className="flex flex-wrap items-center py-11 -m-8 ">
                 <div className="w-full sm:w-1/3 lg:w-1/6 p-8">
                   <img
                     className="mx-auto"
-                    src="zanrly-assets/brands/brand3.svg"
+                    style={{ padding: "10%" }}
+                    src={edex}
                     alt=""
                   />
                 </div>
                 <div className="w-full sm:w-1/3 lg:w-1/6 p-8">
                   <img
                     className="mx-auto"
-                    src="zanrly-assets/brands/brand4.svg"
+                    style={{ padding: "10%" }}
+                    src={dainik}
                     alt=""
                   />
                 </div>
@@ -852,7 +723,7 @@ export default function Index() {
             </div>
           </div>
         </section>
-        <section className="py-10 bg-gray-50 overflow-hidden">
+        <section className="pb-10 bg-gray-50 overflow-hidden">
           <div className="container mx-auto px-4">
             <div className="py-16 px-8 md:px-16 bg-blue-500 rounded-3xl">
               <div className="flex flex-wrap items-center -m-4">
@@ -865,12 +736,12 @@ export default function Index() {
                 <div className="w-full md:w-2/5 p-4">
                   <div className="flex flex-wrap md:justify-end -m-2">
                     <div className="w-auto p-2">
-                      <a
+                      <Link
                         className="block w-full px-8 py-3.5 text-lg text-center text-white font-bold bg-gray-900 hover:bg-gray-800 focus:ring-4 focus:ring-gray-600 rounded-full"
-                        href="#"
+                        to="/contact"
                       >
-                        Get Started
-                      </a>
+                        Get in Touch
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -878,7 +749,7 @@ export default function Index() {
             </div>
           </div>
         </section>
-        <section className="py-10 bg-gray-50 overflow-hidden">
+        <section className="pb-10 bg-gray-50 overflow-hidden">
           <div className="container mx-auto px-4">
             <div className="py-16 px-8 bg-white rounded-3xl">
               <div className="max-w-7xl mx-auto">
@@ -891,21 +762,16 @@ export default function Index() {
                       alt=""
                     />
                     <p className="text-xl font-bold">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Duis venenatis volutpat velit, quis iaculis velit
-                      bibendum.
+                      Experience the power of AI-powered healthcare platform
+                      through Logy.AI’s proprietary and clinically validated
+                      solutions. Our tool leverages smartphones and WhatsApp and
+                      can be used to improve care coordination, prevent
+                      avoidable diseases and provide appropriate care for
+                      patients worldwide.
                     </p>
                   </div>
                   <div className="w-full md:w-1/3 p-8">
-                    <ul className="md:max-w-max ml-auto">
-                      <li className="mb-6">
-                        <a
-                          className="inline-block text-3xl text-gray-700 hover:text-blue-500 font-black tracking-tight"
-                          href="#"
-                        >
-                          Products
-                        </a>
-                      </li>
+                    <ul className="md:max-w-max ">
                       <li className="mb-6">
                         <a
                           className="inline-block text-3xl text-gray-700 hover:text-blue-500 font-black tracking-tight"
@@ -919,7 +785,7 @@ export default function Index() {
                           className="inline-block text-3xl text-gray-700 hover:text-blue-500 font-black tracking-tight"
                           href="#"
                         >
-                          Careers
+                          Products
                         </a>
                       </li>
                       <li className="mb-6">
@@ -927,7 +793,15 @@ export default function Index() {
                           className="inline-block text-3xl text-gray-700 hover:text-blue-500 font-black tracking-tight"
                           href="#"
                         >
-                          Portfolio
+                          Articles
+                        </a>
+                      </li>
+                      <li className="mb-6">
+                        <a
+                          className="inline-block text-3xl text-gray-700 hover:text-blue-500 font-black tracking-tight"
+                          href="#"
+                        >
+                          Contact
                         </a>
                       </li>
                       <li>
@@ -935,43 +809,27 @@ export default function Index() {
                           className="inline-block text-3xl text-gray-700 hover:text-blue-500 font-black tracking-tight"
                           href="#"
                         >
-                          Contact Us
+                          Privacy Policy
                         </a>
                       </li>
                     </ul>
                   </div>
                   <div className="w-full md:w-1/3 p-8">
-                    <ul className="md:max-w-max ml-auto">
+                    <ul className="md:max-w-max ">
                       <li className="mb-4">
                         <a
-                          className="inline-block text-gray-500 hover:text-gray-600 font-medium"
+                          className="inline-block text-gray-500 hover:text-gray-600 font-bold"
                           href="#"
                         >
-                          Docs
+                          Our Locations
                         </a>
                       </li>
                       <li className="mb-4">
                         <a
-                          className="inline-block text-gray-500 hover:text-gray-600 font-medium"
+                          className="inline-block text-gray-500 hover:text-gray-600 "
                           href="#"
                         >
-                          Knowledge Base
-                        </a>
-                      </li>
-                      <li className="mb-4">
-                        <a
-                          className="inline-block text-gray-500 hover:text-gray-600 font-medium"
-                          href="#"
-                        >
-                          System Status
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          className="inline-block text-gray-500 hover:text-gray-600 font-medium"
-                          href="#"
-                        >
-                          Security
+                          INDIA / USA
                         </a>
                       </li>
                     </ul>

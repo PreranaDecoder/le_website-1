@@ -30,7 +30,14 @@ export default function Aboutus() {
                 <div className="flex flex-wrap items-center">
                   <div className="w-auto">
                     <Link className="inline-block" to="/">
-                      <img src={logo} style={{ width: "90px" }} alt="" />
+                      <img
+                        src={logo}
+                        style={{
+                          width: "100px",
+                          transform: "translateY(3px) translateX(10px)",
+                        }}
+                        alt=""
+                      />
                     </Link>
                   </div>
                 </div>
