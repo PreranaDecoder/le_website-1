@@ -3,6 +3,15 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 import logo from "../assets/img/LogoFree.svg";
+import abouthead from "../assets/img/abouthead.png";
+import aboutusnumbers from "../assets/img/aboutusnumbers.svg";
+import mplier from "../assets/img/mplier.png";
+import anand from "../assets/zanrly-assets/images/teams/Anand Panchbhai.png";
+import vinay from "../assets/zanrly-assets/images/teams/Vinay Khobragade.png";
+import priyanjit from "../assets/zanrly-assets/images/teams/Priyanjit Ghosh.png";
+import nivedita from "../assets/zanrly-assets/images/teams/Nivedita Tiwari.png";
+
+import "../assets/css/aboutus.css";
 
 const meta = {
   title: "",
@@ -221,44 +230,30 @@ export default function Aboutus() {
           </div>
         </div>
       </section>
-      <section className="pb-20 bg-gray-50 overflow-hidden">
+      <section className="pb-12 bg-gray-50 overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="mb-6"></div>
           <div className="bg-white overflow-hidden rounded-t-3xl">
             <div className="px-8 pt-20">
               <div className="md:max-w-2xl text-center mx-auto">
                 <span className="inline-block mb-3 text-sm text-blue-500 font-bold uppercase tracking-widest">
-                  Best caption here
+                  About us
                 </span>
                 <h1 className="font-heading mb-6 text-5xl lg:text-6xl text-gray-900 font-black tracking-tight">
-                  Build what you imagine
+                  Our Mission
                 </h1>
                 <p className="mb-8 text-xl font-bold">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                  venenatis volutpat velit, quis iaculis velit bibendum a.
-                  Maecenas accumsan fermentum nisl.
+                  Keep innovating and building clinically validated AI tools
+                  enabled over smartphones, for easy screening and care
+                  coordination that can be used by anyone, anywhere and anytime
+                  to touch and improve the health outcomes of 100 million lives
+                  by 2030.
                 </p>
-                <div className="flex flex-wrap justify-center mb-20 -m-2">
-                  <div className="w-full md:w-auto p-2">
-                    <a
-                      className="block w-full px-8 py-3.5 text-lg text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full"
-                      href="#"
-                    >
-                      Get Started
-                    </a>
-                  </div>
-                </div>
               </div>
             </div>
             <div className="relative">
               <div className="relative z-20 px-8 max-w-max mx-auto">
-                <img src="zanrly-assets/images/headers/video.png" alt="" />
-                <a
-                  className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 inline-block px-8 py-3.5 text-lg text-center text-gray-900 font-bold bg-gray-50 hover:bg-gray-200 focus:ring-4 focus:ring-gray-200 rounded-full"
-                  href="#"
-                >
-                  Watch Video
-                </a>
+                <img src={abouthead} alt="" />
               </div>
               <div className="absolute left-0 top-0 w-full h-1/2 bg-gray-100">
                 <div className="h-full bg-white rounded-b-3xl" />
@@ -268,79 +263,39 @@ export default function Aboutus() {
           </div>
         </div>
       </section>
-      <section className="py-10 bg-gray-50 overflow-hidden">
+      <section className="pb-12 bg-gray-50 overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="px-8 bg-white border border-gray-100 rounded-3xl py-16">
             <div className="max-w-7xl mx-auto">
-              <div className="max-w-lg mx-auto text-center">
-                <h2 className="font-heading mb-6 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
-                  Content here
-                </h2>
-                <p className="text-gray-500 font-bold">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
+              <div className="w-full mx-auto text-center">
+                <p className="text-gray-500 text-xl font-bold">
+                  With its AI-powered healthcare screening tools, Logy.AI is one
+                  of the pioneers in the Software as a medical device (SAMD)
+                  domain and is truly a story of made in India for the world.
+                  Rooted in three fundamental principles of empathy, honesty,
+                  and ethics, Logy.AI envisions a future where accessible
+                  healthcare is available to all, facilitated by its remarkable
+                  AI tools.
                 </p>
+                <p className="text-gray-500 text-xl font-bold mb-6">
+                  Leveraging advanced technology, Logy.AI's tools possess the
+                  capability to diagnose diseases, forecast outcomes, and
+                  empower patients to receive prompt and efficient treatment. By
+                  adopting Logy.AI's innovative solutions, hospitals, clinics,
+                  diagnostic centers, and healthcare organizations can elevate
+                  the quality of care they offer, ultimately leading to improved
+                  patient outcomes.{" "}
+                </p>
+              </div>
+              <div className="">
+                <img className="pt-8" src={aboutusnumbers} />
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section className="py-10 bg-gray-50 overflow-hidden">
-        <div className="container mx-auto px-4">
-          <div className="py-16 px-8 bg-white border border-gray-100 rounded-3xl">
-            <div className="max-w-7xl mx-auto">
-              <div className="mb-12 max-w-lg mx-auto text-center">
-                <h2 className="font-heading mb-6 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
-                  Grow fast, with us
-                </h2>
-                <p className="text-gray-500 font-bold">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
-                </p>
-              </div>
-              <div className="flex flex-wrap -m-4">
-                <div className="w-full md:w-1/2 p-4">
-                  <div className="py-14 px-8 text-center h-full bg-gray-100 rounded-3xl">
-                    <div className="md:max-w-xs mx-auto">
-                      <h2 className="font-heading mb-6 text-5xl md:text-6xl lg:text-7xl text-gray-900 font-black tracking-tight">
-                        <span className="text-transparent bg-clip-text bg-gradient-green-dark">
-                          98%
-                        </span>
-                      </h2>
-                      <h3 className="font-heading mb-3.5 text-xl text-gray-900 font-bold">
-                        Average Satisfaction Rate
-                      </h3>
-                      <p className="text-gray-600 font-bold">
-                        Amet minim mollit non deserunt ullamco est sit aliqua
-                        dolor
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="w-full md:w-1/2 p-4">
-                  <div className="py-14 px-8 text-center h-full bg-gray-100 rounded-3xl">
-                    <div className="md:max-w-xs mx-auto">
-                      <h2 className="font-heading mb-6 text-5xl md:text-6xl lg:text-7xl text-gray-900 font-black tracking-tight">
-                        <span className="text-transparent bg-clip-text bg-gradient-orange">
-                          117%
-                        </span>
-                      </h2>
-                      <h3 className="font-heading mb-3.5 text-xl text-gray-900 font-bold">
-                        Average ROI on Ads
-                      </h3>
-                      <p className="text-gray-600 font-bold">
-                        Amet minim mollit non deserunt ullamco est sit aliqua
-                        dolor
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="bg-gray-50 overflow-hidden py-10">
+
+      <section className="bg-gray-50 overflow-hidden pb-12">
         <div className="container mx-auto px-4">
           <div className="px-8 bg-white rounded-3xl">
             <div className="max-w-7xl mx-auto">
@@ -350,27 +305,17 @@ export default function Aboutus() {
                     <h2 className="font-heading mb-6 text-4xl md:text-5xl text-gray-900 font-black tracking-tight text-left">
                       Our Key Investor
                     </h2>
-                    <p className="mb-8 text-xl font-bold text-left">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Duis venenatis volutpat velit, quis iaculis velit bibendum
-                      a. Maecenas accumsan fermentum nisl.
+                    <p className=" text-xl font-bold text-left">
+                      Investors who have put their faith in us, we have been
+                      able to make great strides in our journey. We are humbled
+                      by their trust and are grateful for their support.
                     </p>
-                    <div className="flex flex-wrap -m-2">
-                      <div className="w-full md:w-auto p-2">
-                        <a
-                          className="block w-full px-8 py-3.5 text-lg text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full"
-                          href="#"
-                        >
-                          Get Started
-                        </a>
-                      </div>
-                    </div>
                   </div>
                 </div>
                 <div className="w-full md:w-1/2">
                   <img
                     className="mx-auto md:mr-0 rounded-3xl p-6"
-                    src="zanrly-assets/images/features/invest.png"
+                    src={mplier}
                     alt=""
                   />
                 </div>
@@ -389,17 +334,17 @@ export default function Aboutus() {
               The brain behind Logy.AI
             </h2>
           </div>
-          <div className="flex flex-wrap -m-4">
-            <div className="w-full md:w-1/3 p-4">
+          <div className="flex flex-wrap  -m-4">
+            <div className="testimonialblock">
               <div className="flex flex-col justify-between px-8 pt-10 pb-12 h-full text-center bg-white rounded-3xl">
                 <div className="flex-initial mb-8">
                   <img
                     className="mb-8 mx-auto rounded-3xl"
-                    src="zanrly-assets/images/teams/avatar.png"
+                    src={anand}
                     alt=""
                   />
                   <h3 className="font-heading mb-2 text-2xl text-gray-900 font-black tracking-tight">
-                    John Doe
+                    Anand Panchbhai
                   </h3>
                   <p className="text-sm text-gray-500 font-bold">
                     Design, Founder
@@ -435,16 +380,16 @@ export default function Aboutus() {
                 </div>
               </div>
             </div>
-            <div className="w-full md:w-1/3 p-4">
+            <div className="testimonialblock">
               <div className="flex flex-col justify-between px-8 pt-10 pb-12 h-full text-center bg-white rounded-3xl">
                 <div className="flex-initial mb-8">
                   <img
                     className="mb-8 mx-auto rounded-3xl"
-                    src="zanrly-assets/images/teams/avatar.png"
+                    src={priyanjit}
                     alt=""
                   />
                   <h3 className="font-heading mb-2 text-2xl text-gray-900 font-black tracking-tight">
-                    John Doe
+                    Priyanjit Ghosh
                   </h3>
                   <p className="text-sm text-gray-500 font-bold">
                     Design, Founder
@@ -480,16 +425,61 @@ export default function Aboutus() {
                 </div>
               </div>
             </div>
-            <div className="w-full md:w-1/3 p-4">
+            <div className="testimonialblock">
               <div className="flex flex-col justify-between px-8 pt-10 pb-12 h-full text-center bg-white rounded-3xl">
                 <div className="flex-initial mb-8">
                   <img
                     className="mb-8 mx-auto rounded-3xl"
-                    src="zanrly-assets/images/teams/avatar.png"
+                    src={vinay}
                     alt=""
                   />
                   <h3 className="font-heading mb-2 text-2xl text-gray-900 font-black tracking-tight">
-                    John Doe
+                    Vinay Khobragade
+                  </h3>
+                  <p className="text-sm text-gray-500 font-bold">
+                    Design, Founder
+                  </p>
+                </div>
+                <div className="flex-initial">
+                  <div className="flex flex-wrap justify-center -m-1.5">
+                    <div className="w-auto p-1.5">
+                      <a
+                        className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full"
+                        href="#"
+                      >
+                        <img src="zanrly-assets/images/insta.svg" alt="" />
+                      </a>
+                    </div>
+                    <div className="w-auto p-1.5">
+                      <a
+                        className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full"
+                        href="#"
+                      >
+                        <img src="zanrly-assets/images/twitter.svg" alt="" />
+                      </a>
+                    </div>
+                    <div className="w-auto p-1.5">
+                      <a
+                        className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full"
+                        href="#"
+                      >
+                        <img src="zanrly-assets/images/fb.svg" alt="" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="testimonialblock">
+              <div className="flex flex-col justify-between px-8 pt-10 pb-12 h-full text-center bg-white rounded-3xl">
+                <div className="flex-initial mb-8">
+                  <img
+                    className="mb-8 mx-auto rounded-3xl"
+                    src={nivedita}
+                    alt=""
+                  />
+                  <h3 className="font-heading mb-2 text-2xl text-gray-900 font-black tracking-tight">
+                    Nivedita Tiwari
                   </h3>
                   <p className="text-sm text-gray-500 font-bold">
                     Design, Founder
@@ -528,7 +518,8 @@ export default function Aboutus() {
           </div>
         </div>
       </section>
-      <section className="py-10 bg-gray-50 overflow-hidden">
+
+      <section className="pb-10 bg-gray-50 overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="py-16 px-8 bg-white rounded-3xl">
             <div className="max-w-7xl mx-auto">
@@ -540,21 +531,17 @@ export default function Aboutus() {
                     src={logo}
                     alt=""
                   />
-                  <p className="text-xl font-bold text-left">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Duis venenatis volutpat velit, quis iaculis velit bibendum.
+                  <p className="text-xl font-bold">
+                    Experience the power of AI-powered healthcare platform
+                    through Logy.AI’s proprietary and clinically validated
+                    solutions. Our tool leverages smartphones and WhatsApp and
+                    can be used to improve care coordination, prevent avoidable
+                    diseases and provide appropriate care for patients
+                    worldwide.
                   </p>
                 </div>
                 <div className="w-full md:w-1/3 p-8">
-                  <ul className="md:max-w-max ml-auto text-left">
-                    <li className="mb-6">
-                      <a
-                        className="inline-block text-3xl text-gray-700 hover:text-blue-500 font-black tracking-tight"
-                        href="#"
-                      >
-                        Products
-                      </a>
-                    </li>
+                  <ul className="md:max-w-max ">
                     <li className="mb-6">
                       <a
                         className="inline-block text-3xl text-gray-700 hover:text-blue-500 font-black tracking-tight"
@@ -568,7 +555,7 @@ export default function Aboutus() {
                         className="inline-block text-3xl text-gray-700 hover:text-blue-500 font-black tracking-tight"
                         href="#"
                       >
-                        Careers
+                        Products
                       </a>
                     </li>
                     <li className="mb-6">
@@ -576,7 +563,15 @@ export default function Aboutus() {
                         className="inline-block text-3xl text-gray-700 hover:text-blue-500 font-black tracking-tight"
                         href="#"
                       >
-                        Portfolio
+                        Articles
+                      </a>
+                    </li>
+                    <li className="mb-6">
+                      <a
+                        className="inline-block text-3xl text-gray-700 hover:text-blue-500 font-black tracking-tight"
+                        href="#"
+                      >
+                        Contact
                       </a>
                     </li>
                     <li>
@@ -584,43 +579,27 @@ export default function Aboutus() {
                         className="inline-block text-3xl text-gray-700 hover:text-blue-500 font-black tracking-tight"
                         href="#"
                       >
-                        Contact Us
+                        Privacy Policy
                       </a>
                     </li>
                   </ul>
                 </div>
                 <div className="w-full md:w-1/3 p-8">
-                  <ul className="md:max-w-max ml-auto text-left">
+                  <ul className="md:max-w-max ">
                     <li className="mb-4">
                       <a
-                        className="inline-block text-gray-500 hover:text-gray-600 font-medium"
+                        className="inline-block text-gray-500 hover:text-gray-600 font-bold"
                         href="#"
                       >
-                        Docs
+                        Our Locations
                       </a>
                     </li>
                     <li className="mb-4">
                       <a
-                        className="inline-block text-gray-500 hover:text-gray-600 font-medium"
+                        className="inline-block text-gray-500 hover:text-gray-600 "
                         href="#"
                       >
-                        Knowledge Base
-                      </a>
-                    </li>
-                    <li className="mb-4">
-                      <a
-                        className="inline-block text-gray-500 hover:text-gray-600 font-medium"
-                        href="#"
-                      >
-                        System Status
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="inline-block text-gray-500 hover:text-gray-600 font-medium"
-                        href="#"
-                      >
-                        Security
+                        INDIA / USA
                       </a>
                     </li>
                   </ul>

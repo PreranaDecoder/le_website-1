@@ -1,12 +1,32 @@
 {
   "files": {
-    "main.js": "/logy/static/js/main.07a62381.js",
+    "main.css": "/logy/static/css/main.f7c28808.css",
+    "main.js": "/logy/static/js/main.5c394a23.js",
     "static/media/logyanim.gif": "/logy/static/media/logyanim.2358842596b59ebcc67c.gif",
+    "static/media/amtron.png": "/logy/static/media/amtron.cec8bb3d4fc48bcc516d.png",
+    "static/media/sharpsight.png": "/logy/static/media/sharpsight.debe0164b3341dc86e83.png",
+    "static/media/blog.png": "/logy/static/media/blog.0cc17238cf963dd6d70e.png",
+    "static/media/blog3.png": "/logy/static/media/blog3.19df27a365f1cfd03b96.png",
+    "static/media/K - DISC logo.png": "/logy/static/media/K - DISC logo.ab80ebee99a4811032d5.png",
+    "static/media/Apollo sugar clinic.png": "/logy/static/media/Apollo sugar clinic.7385d25865e2cf8f26b8.png",
+    "static/media/edexlive.png": "/logy/static/media/edexlive.c3da54407309aa1c8488.png",
+    "static/media/blog4.png": "/logy/static/media/blog4.a91066c9715d49c745dd.png",
+    "static/media/Pristyn Care.png": "/logy/static/media/Pristyn Care.ef89f29cc445cbade5a0.png",
+    "static/media/DOT.png": "/logy/static/media/DOT.34ecdc580b7566701b65.png",
+    "static/media/Cartula Health.png": "/logy/static/media/Cartula Health.4368356ce170b5b96c32.png",
+    "static/media/Apollo Dental.png": "/logy/static/media/Apollo Dental.c986fbe1e6b98fbd2c19.png",
+    "static/media/dainikbhaskar.png": "/logy/static/media/dainikbhaskar.99b7a735cdd477e258df.png",
+    "static/media/Apollo-Clinic.png": "/logy/static/media/Apollo-Clinic.5b1d27b87e41a6aa67e2.png",
+    "static/media/Dr. Agarwals.png": "/logy/static/media/Dr. Agarwals.1a82a55cf9845f1de242.png",
+    "static/media/cdot_logo.png": "/logy/static/media/cdot_logo.ccb4505b33d554a2623a.png",
+    "static/media/Colgate-Logo.png": "/logy/static/media/Colgate-Logo.073e60ed6bbfbba77c08.png",
     "static/media/LogoFree.svg": "/logy/static/media/LogoFree.ce6822ec19fd926a1cfab4e83088331f.svg",
     "index.html": "/logy/index.html",
-    "main.07a62381.js.map": "/logy/static/js/main.07a62381.js.map"
+    "main.f7c28808.css.map": "/logy/static/css/main.f7c28808.css.map",
+    "main.5c394a23.js.map": "/logy/static/js/main.5c394a23.js.map"
   },
   "entrypoints": [
-    "static/js/main.07a62381.js"
+    "static/css/main.f7c28808.css",
+    "static/js/main.5c394a23.js"
   ]
 }
