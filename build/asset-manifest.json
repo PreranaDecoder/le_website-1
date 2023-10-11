@@ -1,8 +1,13 @@
 {
   "files": {
-    "main.css": "/logy/static/css/main.f7c28808.css",
-    "main.js": "/logy/static/js/main.5c394a23.js",
+    "main.css": "/logy/static/css/main.e50b68b9.css",
+    "main.js": "/logy/static/js/main.f30fb53b.js",
     "static/media/logyanim.gif": "/logy/static/media/logyanim.2358842596b59ebcc67c.gif",
+    "static/media/Nivedita Tiwari.png": "/logy/static/media/Nivedita Tiwari.e19aea7d2a9a124d1bd8.png",
+    "static/media/Vinay Khobragade.png": "/logy/static/media/Vinay Khobragade.1146a1a13a76af787b36.png",
+    "static/media/Anand Panchbhai.png": "/logy/static/media/Anand Panchbhai.a0f38d38e5024ec1e4c8.png",
+    "static/media/Priyanjit Ghosh.png": "/logy/static/media/Priyanjit Ghosh.b2fbdc467e606cea2568.png",
+    "static/media/abouthead.png": "/logy/static/media/abouthead.bc57876a948b52e22bb2.png",
     "static/media/amtron.png": "/logy/static/media/amtron.cec8bb3d4fc48bcc516d.png",
     "static/media/sharpsight.png": "/logy/static/media/sharpsight.debe0164b3341dc86e83.png",
     "static/media/blog.png": "/logy/static/media/blog.0cc17238cf963dd6d70e.png",
@@ -15,18 +20,21 @@
     "static/media/DOT.png": "/logy/static/media/DOT.34ecdc580b7566701b65.png",
     "static/media/Cartula Health.png": "/logy/static/media/Cartula Health.4368356ce170b5b96c32.png",
     "static/media/Apollo Dental.png": "/logy/static/media/Apollo Dental.c986fbe1e6b98fbd2c19.png",
+    "static/media/mplier.png": "/logy/static/media/mplier.7af6d65f9f90aeada34e.png",
     "static/media/dainikbhaskar.png": "/logy/static/media/dainikbhaskar.99b7a735cdd477e258df.png",
     "static/media/Apollo-Clinic.png": "/logy/static/media/Apollo-Clinic.5b1d27b87e41a6aa67e2.png",
     "static/media/Dr. Agarwals.png": "/logy/static/media/Dr. Agarwals.1a82a55cf9845f1de242.png",
+    "static/media/aboutusnumbers.svg": "/logy/static/media/aboutusnumbers.bbadaf516877b808543b4bd4eb9b71de.svg",
+    "static/media/blog5.png": "/logy/static/media/blog5.0e46dab39076483d24bb.png",
     "static/media/cdot_logo.png": "/logy/static/media/cdot_logo.ccb4505b33d554a2623a.png",
     "static/media/Colgate-Logo.png": "/logy/static/media/Colgate-Logo.073e60ed6bbfbba77c08.png",
     "static/media/LogoFree.svg": "/logy/static/media/LogoFree.ce6822ec19fd926a1cfab4e83088331f.svg",
     "index.html": "/logy/index.html",
-    "main.f7c28808.css.map": "/logy/static/css/main.f7c28808.css.map",
-    "main.5c394a23.js.map": "/logy/static/js/main.5c394a23.js.map"
+    "main.e50b68b9.css.map": "/logy/static/css/main.e50b68b9.css.map",
+    "main.f30fb53b.js.map": "/logy/static/js/main.f30fb53b.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7c28808.css",
-    "static/js/main.5c394a23.js"
+    "static/css/main.e50b68b9.css",
+    "static/js/main.f30fb53b.js"
   ]
 }
