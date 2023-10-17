@@ -642,7 +642,7 @@ export default function Index() {
                     Testimonials
                   </span>
                   <h2 className="font-heading mb-12 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
-                    Hear from our clients
+                    Hear from Our Clients
                   </h2>
                 </div>
                 <div className="flex flex-wrap -m-4">

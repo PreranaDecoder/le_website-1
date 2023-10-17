@@ -331,7 +331,7 @@ export default function Products() {
             </div>
           </div>
         </section>
-        <section className="py-10 bg-gray-50 overflow-hidden">
+        <section className="pb-10 bg-gray-50 overflow-hidden">
           <div className="container mx-auto px-4">
             <div className="py-16 px-8 bg-white rounded-3xl">
               <div className="max-w-7xl mx-auto">
@@ -344,21 +344,16 @@ export default function Products() {
                       alt=""
                     />
                     <p className="text-xl font-bold">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Duis venenatis volutpat velit, quis iaculis velit
-                      bibendum.
+                      Experience the power of AI-powered healthcare platform
+                      through Logy.AI’s proprietary and clinically validated
+                      solutions. Our tool leverages smartphones and WhatsApp and
+                      can be used to improve care coordination, prevent
+                      avoidable diseases and provide appropriate care for
+                      patients worldwide.
                     </p>
                   </div>
                   <div className="w-full md:w-1/3 p-8">
-                    <ul className="md:max-w-max ml-auto">
-                      <li className="mb-6">
-                        <a
-                          className="inline-block text-3xl text-gray-700 hover:text-blue-500 font-black tracking-tight"
-                          href="#"
-                        >
-                          Products
-                        </a>
-                      </li>
+                    <ul className="md:max-w-max ">
                       <li className="mb-6">
                         <a
                           className="inline-block text-3xl text-gray-700 hover:text-blue-500 font-black tracking-tight"
@@ -372,7 +367,7 @@ export default function Products() {
                           className="inline-block text-3xl text-gray-700 hover:text-blue-500 font-black tracking-tight"
                           href="#"
                         >
-                          Careers
+                          Products
                         </a>
                       </li>
                       <li className="mb-6">
@@ -380,7 +375,15 @@ export default function Products() {
                           className="inline-block text-3xl text-gray-700 hover:text-blue-500 font-black tracking-tight"
                           href="#"
                         >
-                          Portfolio
+                          Articles
+                        </a>
+                      </li>
+                      <li className="mb-6">
+                        <a
+                          className="inline-block text-3xl text-gray-700 hover:text-blue-500 font-black tracking-tight"
+                          href="#"
+                        >
+                          Contact
                         </a>
                       </li>
                       <li>
@@ -388,43 +391,27 @@ export default function Products() {
                           className="inline-block text-3xl text-gray-700 hover:text-blue-500 font-black tracking-tight"
                           href="#"
                         >
-                          Contact Us
+                          Privacy Policy
                         </a>
                       </li>
                     </ul>
                   </div>
                   <div className="w-full md:w-1/3 p-8">
-                    <ul className="md:max-w-max ml-auto">
+                    <ul className="md:max-w-max ">
                       <li className="mb-4">
                         <a
-                          className="inline-block text-gray-500 hover:text-gray-600 font-medium"
+                          className="inline-block text-gray-500 hover:text-gray-600 font-bold"
                           href="#"
                         >
-                          Docs
+                          Our Locations
                         </a>
                       </li>
                       <li className="mb-4">
                         <a
-                          className="inline-block text-gray-500 hover:text-gray-600 font-medium"
+                          className="inline-block text-gray-500 hover:text-gray-600 "
                           href="#"
                         >
-                          Knowledge Base
-                        </a>
-                      </li>
-                      <li className="mb-4">
-                        <a
-                          className="inline-block text-gray-500 hover:text-gray-600 font-medium"
-                          href="#"
-                        >
-                          System Status
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          className="inline-block text-gray-500 hover:text-gray-600 font-medium"
-                          href="#"
-                        >
-                          Security
+                          INDIA / USA
                         </a>
                       </li>
                     </ul>

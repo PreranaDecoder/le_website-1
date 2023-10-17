@@ -1,0 +1,9 @@
+.stats{
+    width: 16.66666%;
+    padding: 0.6rem;
+}
+@media screen and (max-width:600px){
+    .stats{
+        width: 100%;
+    }
+}

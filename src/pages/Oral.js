@@ -9,6 +9,10 @@ import oralc from "../assets/img/oralc.png";
 import apollo from "../assets/img/Apollo Dental.png";
 import mobident from "../assets/img/mobident.png";
 import sdc from "../assets/img/sdc.png";
+import oralHead from "../assets/img/oralHead.png";
+import Faq from "./faq";
+
+import "../assets/css/oral.css";
 
 const meta = {
   title: "",
@@ -23,6 +27,33 @@ export default function Oral() {
   const toggleMenu = () => {
     setMenu(!menu);
   };
+
+  const questions = [
+    {
+      q: "1.	Are the Logy.AI  solutions clinically validated?",
+      a: "a.	The Logy.AI solutions undergo thorough clinical validation to ensure their effectiveness and have over 90%+ accuracy.",
+    },
+    {
+      q: "2.	Can the Logy.AI solution integrate with our existing solution?",
+      a: "a.	The Logy.AI solution is designed to integrate smoothly with existing solutions, providing seamless compatibility and enhancing the capabilities of the overall system.",
+    },
+    {
+      q: "3.	What languages are supported by the Logy.AI solution?",
+      a: "a.	The Logy.AI solution supports local Indian languages, enabling users to access its features and benefits in their preferred language.",
+    },
+    {
+      q: "4.	How does the Logy.AI solution integrate with WhatsApp?",
+      a: "a.	To integrate with WhatsApp, the Logy.AI solution leverages APIs (Application Programming Interfaces) provided by WhatsApp, allowing seamless communication and interaction with users through the platform.",
+    },
+    {
+      q: "5.	Does the Logy.AI work with both Android & IOS devices?",
+      a: "a.	Yes, the Logy.AI solution is compatible with both Android and iOS devices, ensuring accessibility and convenience for a wide range of users.",
+    },
+    {
+      q: "6.	How does the Logy.AI solution handle privacy and data protection?",
+      a: "a.	The Logy.AI solution prioritizes privacy and data protection. Robust security measures are implemented to safeguard sensitive information, adhering to best practices and compliance standards to maintain user privacy and confidentiality.",
+    },
+  ];
   return (
     <React.Fragment>
       <HelmetProvider>
@@ -247,11 +278,7 @@ export default function Oral() {
                 </div>
                 <div className="w-full md:w-1/2 p-8">
                   <div className="max-w-max mx-auto md:mr-0 bg-white overflow-hidden rounded-3xl">
-                    <img
-                      className="mx-auto"
-                      src="zanrly-assets/images/headers/work.png"
-                      alt=""
-                    />
+                    <img className="mx-auto" src={oralHead} alt="" />
                   </div>
                 </div>
               </div>
@@ -378,70 +405,68 @@ export default function Oral() {
         <section className="pb-6 bg-gray-50 overflow-hidden">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap -m-4">
-              <div className="w-full md:w-1/3 p-4">
-                <div className="flex flex-col justify-end p-10 pt-20 lg:pt-28 bg-white h-full border border-gray-100 rounded-3xl">
-                  <h2 className="font-heading text-3xl text-gray-900 font-bold tracking-tight">
-                    <span className="text-4xl font-black text-transparent bg-clip-text bg-gradient-green">
+              <div className="stats">
+                <div className="flex flex-col justify-end p-6 pt-20 lg:pt-28 bg-white h-full border border-gray-100 rounded-3xl">
+                  <h2 className="font-heading text-2xl text-gray-900 font-bold tracking-tight">
+                    <span className="text-3xl font-black text-transparent bg-clip-text bg-gradient-green">
                       10,000+
                     </span>
                     <span> Tests Completed</span>
                   </h2>
                 </div>
               </div>
-              <div className="w-full md:w-1/3 p-4">
-                <div className="flex flex-col justify-end p-10 pt-20 lg:pt-28 bg-white h-full border border-gray-100 rounded-3xl">
-                  <h2 className="font-heading text-3xl text-gray-900 font-bold tracking-tight">
+              <div className="stats">
+                <div className="flex flex-col justify-end p-6 pt-20 lg:pt-28 bg-white h-full border border-gray-100 rounded-3xl">
+                  <h2 className="font-heading text-2xl text-gray-900 font-bold tracking-tight">
                     <span>Takes less than </span>
-                    <span className="text-4xl font-black text-transparent bg-clip-text bg-gradient-pink">
+                    <span className="text-3xl font-black text-transparent bg-clip-text bg-gradient-pink">
                       2
                     </span>
                     <span> minutes</span>
                   </h2>
                 </div>
               </div>
-              <div className="w-full md:w-1/3 p-4">
-                <div className="flex flex-col justify-end p-10 pt-20 lg:pt-28 bg-white h-full border border-gray-100 rounded-3xl">
-                  <h2 className="font-heading text-3xl text-gray-900 font-bold tracking-tight">
-                    <span className="text-4xl font-black text-transparent bg-clip-text bg-gradient-aqua">
+              <div className="stats">
+                <div className="flex flex-col justify-end p-6 pt-20 lg:pt-28 bg-white h-full border border-gray-100 rounded-3xl">
+                  <h2 className="font-heading text-2xl text-gray-900 font-bold tracking-tight">
+                    <span className="text-3xl font-black text-transparent bg-clip-text bg-gradient-aqua">
                       Safe
                     </span>
                     <span> and </span>
-                    <span className="text-4xl font-black text-transparent bg-clip-text bg-gradient-aqua">
+                    <span className="text-3xl font-black text-transparent bg-clip-text bg-gradient-aqua">
                       Secure
                     </span>
                     <span> tests</span>
                   </h2>
                 </div>
               </div>
-            </div>
-            <div className="flex flex-wrap -m-4">
-              <div className="w-full md:w-1/3 p-4">
-                <div className="flex flex-col justify-end p-10 pt-20 lg:pt-28 bg-white h-full border border-gray-100 rounded-3xl">
-                  <h2 className="font-heading text-3xl text-gray-900 font-bold tracking-tight">
-                    <span className="text-4xl font-black text-transparent bg-clip-text bg-gradient-green">
-                      90%+
+              <div className="stats">
+                <div className="flex flex-col justify-end p-6 pt-20 lg:pt-28 bg-white h-full border border-gray-100 rounded-3xl">
+                  <h2 className="font-heading text-2xl text-gray-900 font-bold tracking-tight">
+                    <span className="text-3xl font-black text-transparent bg-clip-text bg-gradient-pink">
+                      90% +
                     </span>
-                    <span> Accurate results</span>
+                    <span> Accurate Results </span>
                   </h2>
                 </div>
               </div>
-              <div className="w-full md:w-1/3 p-4">
-                <div className="flex flex-col justify-end p-10 pt-20 lg:pt-28 bg-white h-full border border-gray-100 rounded-3xl">
-                  <h2 className="font-heading text-3xl text-gray-900 font-bold tracking-tight">
-                    <span className="text-4xl font-black text-transparent bg-clip-text bg-gradient-pink">
+              <div className="stats">
+                <div className="flex flex-col justify-end p-6 pt-20 lg:pt-28 bg-white h-full border border-gray-100 rounded-3xl">
+                  <h2 className="font-heading text-2xl text-gray-900 font-bold tracking-tight">
+                    <span className="text-3xl font-black text-transparent bg-clip-text bg-gradient-aqua">
                       Patent
                     </span>
                     <span> Secured </span>
                   </h2>
                 </div>
               </div>
-              <div className="w-full md:w-1/3 p-4">
-                <div className="flex flex-col justify-end p-10 pt-20 lg:pt-28 bg-white h-full border border-gray-100 rounded-3xl">
-                  <h2 className="font-heading text-3xl text-gray-900 font-bold tracking-tight">
-                    <span className="text-4xl font-black text-transparent bg-clip-text bg-gradient-aqua">
+              <div className="stats">
+                <div className="flex flex-col justify-end p-6 pt-20 lg:pt-28 bg-white h-full border border-gray-100 rounded-3xl">
+                  <h2 className="font-heading text-2xl text-gray-900 font-bold tracking-tight">
+                    <span className="text-3xl font-black text-transparent bg-clip-text bg-gradient-pink">
                       Whatsapp
                     </span>
-                    <span> based app</span>
+                    <span> based Application </span>
                   </h2>
                 </div>
               </div>
@@ -723,10 +748,11 @@ export default function Oral() {
                 <div className="w-full md:w-1/2 p-8">
                   <div className="md:max-w-sm">
                     <span className="inline-block mb-5 text-sm text-blue-500 font-bold uppercase tracking-widest">
-                      What we found
+                      Use our solution
                     </span>
                     <h2 className="font-heading mb-8 text-4xl text-gray-900 font-black tracking-tight">
-                      Take full control of design &amp; development.
+                      Take full control of design &amp; development. Use our
+                      services through.
                     </h2>
                     <div className="flex flex-wrap -m-2">
                       <div className="w-full md:w-auto p-2">
@@ -766,7 +792,8 @@ export default function Oral() {
                           />
                         </svg>
                         <h3 className="font-heading text-xl text-gray-900 font-black xl:w-40">
-                          Unlimited team members
+                          Integrate Logy.AI - for - Dentistry to your workflow
+                          in a jiff
                         </h3>
                       </div>
                     </div>
@@ -794,7 +821,7 @@ export default function Oral() {
                           />
                         </svg>
                         <h3 className="font-heading text-xl text-gray-900 font-black xl:w-40">
-                          Get exact reports
+                          Experience our AI powered User Interface on the Web
                         </h3>
                       </div>
                     </div>
@@ -822,7 +849,7 @@ export default function Oral() {
                           />
                         </svg>
                         <h3 className="font-heading text-xl text-gray-900 font-black xl:w-40">
-                          Learn how users are doing
+                          Diagnose your Oral Health on WhatsApp
                         </h3>
                       </div>
                     </div>
@@ -850,7 +877,8 @@ export default function Oral() {
                           />
                         </svg>
                         <h3 className="font-heading text-xl text-gray-900 font-black xl:w-40">
-                          Without compromise
+                          Get Expert opinion of Professional Dentists with a few
+                          clicks
                         </h3>
                       </div>
                     </div>
@@ -860,6 +888,7 @@ export default function Oral() {
             </div>
           </div>
         </section>
+
         <section className="pb-6 bg-gray-50 overflow-hidden">
           <div className="container mx-auto px-4">
             <div className="relative py-16 px-8 bg-white overflow-hidden rounded-3xl">
@@ -880,133 +909,7 @@ export default function Oral() {
                     Malesuada tellus vestibulum, commodo pulvinar.
                   </p>
                 </div>
-                <div className="max-w-3xl mx-auto">
-                  <div className="flex flex-wrap -m-3 mb-10">
-                    <div className="w-full p-3">
-                      <a
-                        className="block p-10 bg-gray-100 rounded-3xl"
-                        href="#"
-                      >
-                        <div className="flex flex-wrap -m-2">
-                          <div className="flex-1 p-2">
-                            <h3 className="font-heading mb-4 text-xl text-gray-900 font-black">
-                              Do you provide any free plan?
-                            </h3>
-                            <p className="text-gray-500 font-bold">
-                              Lorem ipsum dolor sit amet, to the consectr
-                              adipiscing elit. Volutpat tempor to the condi
-                              mentum vitae vel purus.
-                            </p>
-                          </div>
-                          <div className="w-auto p-2">
-                            <svg
-                              width={24}
-                              height={24}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M6.07928 15.82L12.3093 15.82L17.9193 15.82C18.8793 15.82 19.3593 14.66 18.6793 13.98L13.4993 8.80001C12.6693 7.97001 11.3193 7.97001 10.4893 8.80001L8.51928 10.77L5.30927 13.98C4.63927 14.66 5.11928 15.82 6.07928 15.82Z"
-                                fill="#D1D5DB"
-                              />
-                            </svg>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                    <div className="w-full p-3">
-                      <a
-                        className="block p-10 bg-gray-100 rounded-3xl"
-                        href="#"
-                      >
-                        <div className="flex flex-wrap -m-2">
-                          <div className="flex-1 p-2">
-                            <h3 className="font-heading text-xl text-gray-900 font-black">
-                              How to claim your 25% discount offer?
-                            </h3>
-                          </div>
-                          <div className="w-auto p-2">
-                            <svg
-                              width={24}
-                              height={24}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M17.9207 8.17999H11.6907H6.08072C5.12072 8.17999 4.64073 9.33999 5.32073 10.02L10.5007 15.2C11.3307 16.03 12.6807 16.03 13.5107 15.2L15.4807 13.23L18.6907 10.02C19.3607 9.33999 18.8807 8.17999 17.9207 8.17999Z"
-                                fill="#D1D5DB"
-                              />
-                            </svg>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                    <div className="w-full p-3">
-                      <a
-                        className="block p-10 bg-gray-100 rounded-3xl"
-                        href="#"
-                      >
-                        <div className="flex flex-wrap -m-2">
-                          <div className="flex-1 p-2">
-                            <h3 className="font-heading text-xl text-gray-900 font-black">
-                              What’s your refund policy?
-                            </h3>
-                          </div>
-                          <div className="w-auto p-2">
-                            <svg
-                              width={24}
-                              height={24}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M17.9207 8.17999H11.6907H6.08072C5.12072 8.17999 4.64073 9.33999 5.32073 10.02L10.5007 15.2C11.3307 16.03 12.6807 16.03 13.5107 15.2L15.4807 13.23L18.6907 10.02C19.3607 9.33999 18.8807 8.17999 17.9207 8.17999Z"
-                                fill="#D1D5DB"
-                              />
-                            </svg>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                    <div className="w-full p-3">
-                      <a
-                        className="block p-10 bg-gray-100 rounded-3xl"
-                        href="#"
-                      >
-                        <div className="flex flex-wrap -m-2">
-                          <div className="flex-1 p-2">
-                            <h3 className="font-heading text-xl text-gray-900 font-black">
-                              How to get support for the product?
-                            </h3>
-                          </div>
-                          <div className="w-auto p-2">
-                            <svg
-                              width={24}
-                              height={24}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M17.9207 8.17999H11.6907H6.08072C5.12072 8.17999 4.64073 9.33999 5.32073 10.02L10.5007 15.2C11.3307 16.03 12.6807 16.03 13.5107 15.2L15.4807 13.23L18.6907 10.02C19.3607 9.33999 18.8807 8.17999 17.9207 8.17999Z"
-                                fill="#D1D5DB"
-                              />
-                            </svg>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                  <p className="text-gray-500 font-bold text-center">
-                    <span>Still have any questions? </span>
-                    <a className="text-blue-500 hover:text-blue-600" href="#">
-                      Contact us
-                    </a>
-                  </p>
-                </div>
+                <Faq />
               </div>
             </div>
           </div>
