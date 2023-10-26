@@ -274,6 +274,10 @@ export default function Oral() {
                       </span>
                       <span> than ever.</span>
                     </h1>
+                    <p className="mb-6 text-xl font-bold">
+                      Accessible Oral Health Solutions for Home and Satellite
+                      Camps using Smartphones
+                    </p>
                   </div>
                 </div>
                 <div className="w-full md:w-1/2 p-8">
@@ -463,7 +467,7 @@ export default function Oral() {
               <div className="stats">
                 <div className="flex flex-col justify-end p-6 pt-20 lg:pt-28 bg-white h-full border border-gray-100 rounded-3xl">
                   <h2 className="font-heading text-2xl text-gray-900 font-bold tracking-tight">
-                    <span className="text-3xl font-black text-transparent bg-clip-text bg-gradient-pink">
+                    <span className="text-2xl font-black text-transparent bg-clip-text bg-gradient-pink">
                       Whatsapp
                     </span>
                     <span> based Application </span>
@@ -528,7 +532,7 @@ export default function Oral() {
                               Step 1
                             </h3>
                             <p className="text-gray-700 font-normal text-xl">
-                              Say Hi to Logy.AI-for-Dentistry
+                              The Patient Says Hi to Logy.AI bot on WhatsApp
                             </p>
                           </div>
                         </div>
@@ -565,7 +569,8 @@ export default function Oral() {
                               Step 2
                             </h3>
                             <p className="text-gray-700 font-normal text-xl">
-                              Share your name, age and other basic details
+                              They are prompted to share their Name, Age & Other
+                              Details
                             </p>
                           </div>
                         </div>
@@ -602,7 +607,7 @@ export default function Oral() {
                               Step 3
                             </h3>
                             <p className="text-gray-700 font-normal text-xl">
-                              Send an image of the inside of your mouth
+                              They share an image of the insides of their mouth
                             </p>
                           </div>
                         </div>
@@ -639,7 +644,8 @@ export default function Oral() {
                               Result
                             </h3>
                             <p className="text-gray-700 font-normal text-xl">
-                              Get your report in under a minute
+                              Logy.AI solution shares their report in under a
+                              minute
                             </p>
                           </div>
                         </div>
@@ -754,16 +760,7 @@ export default function Oral() {
                       Take full control of design &amp; development. Use our
                       services through.
                     </h2>
-                    <div className="flex flex-wrap -m-2">
-                      <div className="w-full md:w-auto p-2">
-                        <a
-                          className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full"
-                          href="#"
-                        >
-                          Get Started
-                        </a>
-                      </div>
-                    </div>
+                    <div className="flex flex-wrap -m-2"></div>
                   </div>
                 </div>
                 <div className="w-full md:w-1/2 p-8">
