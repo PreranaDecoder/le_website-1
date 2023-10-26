@@ -3,15 +3,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 import logo from "../assets/img/LogoFree.svg";
-import abouthead from "../assets/img/abouthead.png";
-import aboutusnumbers from "../assets/img/aboutusnumbers.svg";
-import mplier from "../assets/img/mplier.png";
-import anand from "../assets/zanrly-assets/images/teams/Anand Panchbhai.png";
-import vinay from "../assets/zanrly-assets/images/teams/Vinay Khobragade.png";
-import priyanjit from "../assets/zanrly-assets/images/teams/Priyanjit Ghosh.png";
-import nivedita from "../assets/zanrly-assets/images/teams/Nivedita Tiwari.png";
-
-import "../assets/css/aboutus.css";
+import "../assets/css/cs.css";
 
 const meta = {
   title: "",
@@ -21,7 +13,7 @@ const meta = {
   script: [],
 };
 
-export default function Aboutus() {
+export default function Cs1() {
   const [menu, setMenu] = useState(true);
   const toggleMenu = () => {
     setMenu(!menu);
@@ -65,7 +57,7 @@ export default function Aboutus() {
                       </li>
                       <li className="mr-9">
                         <Link
-                          className="bg-gray-50 px-6 py-2 rounded-full inline-block text-sm font-bold text-gray-900 hover:text-gray-700 "
+                          className=" px-6 py-2 rounded-full inline-block text-sm font-bold text-gray-900 hover:text-gray-700 "
                           to="/about"
                         >
                           About us
@@ -230,296 +222,191 @@ export default function Aboutus() {
           </div>
         </div>
       </section>
-      <section className="pb-12 bg-gray-50 overflow-hidden">
+      <section className="overflow-hidden">
         <div className="container mx-auto px-4">
-          <div className="mb-6"></div>
-          <div className="bg-white overflow-hidden rounded-t-3xl">
-            <div className="px-8 pt-20">
-              <div className="md:max-w-2xl text-center mx-auto">
-                <span className="inline-block mb-3 text-sm text-blue-500 font-bold uppercase tracking-widest">
-                  About us
+          <div className="relative py-16 px-8 bg-white overflow-hidden rounded-3xl">
+            <div className="absolute top-0 left-1/2 min-w-max transform -translate-x-1/2"></div>
+            <div className="relative z-10">
+              <div className="md:max-w-2xl mx-auto text-center">
+                <h2 className="font-heading mb-6 text-4xl md:text-5xl lg:text-6xl text-gray-900 font-black ">
+                  Case Study: Logy.AI’s Collaboration with Colgate Kenya
+                </h2>
+              </div>
+              <br />
+              <hr />
+              <br />
+              <h5
+                className=" mb-6 text-4xl md:text-5xl lg:text-4xl  "
+                style={{ color: "rgb(59 130 246)" }}
+              >
+                Overview
+              </h5>
+              <p className="text-gray-500 font-bold">
+                Kenya, a nation with a population of more than 50 million,
+                suffers from a severe lack of dental care services. The shortage
+                of dental professionals, particularly in rural and underserved
+                areas, presents a significant obstacle. Colgate and Logy.AI
+                partnered together to develop an oral screening tool in Kenya to
+                address the country's shortage of dental care facilities.
+              </p>
+              <br />
+              <h5
+                className=" mb-6 text-4xl md:text-5xl lg:text-4xl text-gray-900  "
+                style={{ color: "rgb(59 130 246)" }}
+              >
+                The Solution
+              </h5>
+              <p className="text-gray-500 font-bold">
+                The cornerstone of the chatbot is the free dental screenings and
+                oral care tips available to its users. The tool is a wonderful
+                resource that is supported by WhatsApp, allowing Colgate to
+                connect with the masses of the country. The application is
+                straightforward to use, educational, and readily accessible to
+                all users. Users who have access to a smartphone with internet
+                access and WhatsApp installed can carry out screenings within
+                minutes. The high number of screenings performed, and the
+                general improvement in oral hygiene practices among the general
+                public are all indicators of the success of the tool in
+                providing free screenings and dental advice.
+              </p>
+              <br />
+              <h5
+                className=" mb-6 text-4xl md:text-5xl lg:text-4xl text-gray-900  "
+                style={{ color: "rgb(59 130 246)" }}
+              >
+                Impact
+              </h5>
+              <p className="text-gray-500 font-bold">
+                Colgate’s initiative with Logy.AI has found great success, and
+                the figures given below are a testament to that.
+              </p>
+              <br />
+              <h5 className=" mb-3 text-2xl text-gray-900 font-bold ">
+                Dental Screenings and Reports
+              </h5>
+              <p className="text-gray-500 font-bold">
+                MyToothDoc has been instrumental in{" "}
+                <span className="highl">
+                  {" "}
+                  61,105 dental screenings as of August 31, 2023
                 </span>
-                <h1 className="font-heading mb-6 text-5xl lg:text-6xl text-gray-900 font-black tracking-tight">
-                  Our Mission
-                </h1>
-                <p className="mb-8 text-xl font-bold">
-                  Keep innovating and building clinically validated AI tools
-                  enabled over smartphones, for easy screening and care
-                  coordination that can be used by anyone, anywhere and anytime
-                  to touch and improve the health outcomes of 100 million lives
-                  by 2030.
-                </p>
-              </div>
-            </div>
-            <div className="relative">
-              <div className="relative z-20 px-8 max-w-max mx-auto">
-                <img src={abouthead} alt="" />
-              </div>
-              <div className="absolute left-0 top-0 w-full h-1/2 bg-gray-100">
-                <div className="h-full bg-white rounded-b-3xl" />
-              </div>
-              <div className="absolute left-0 bottom-0 w-full h-1/2 bg-gray-50" />
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="pb-12 bg-gray-50 overflow-hidden">
-        <div className="container mx-auto px-4">
-          <div className="px-8 bg-white border border-gray-100 rounded-3xl py-16">
-            <div className="max-w-7xl mx-auto">
-              <div className="w-full mx-auto text-center">
-                <p className="text-gray-500 text-xl font-bold">
-                  With its AI-powered healthcare screening tools, Logy.AI is one
-                  of the pioneers in the Software as a medical device (SAMD)
-                  domain and is truly a story of made in India for the world.
-                  Rooted in three fundamental principles of empathy, honesty,
-                  and ethics, Logy.AI envisions a future where accessible
-                  healthcare is available to all, facilitated by its remarkable
-                  AI tools.
-                </p>
-                <p className="text-gray-500 text-xl font-bold mb-6">
-                  Leveraging advanced technology, Logy.AI's tools possess the
-                  capability to diagnose diseases, forecast outcomes, and
-                  empower patients to receive prompt and efficient treatment. By
-                  adopting Logy.AI's innovative solutions, hospitals, clinics,
-                  diagnostic centers, and healthcare organizations can elevate
-                  the quality of care they offer, ultimately leading to improved
-                  patient outcomes.{" "}
-                </p>
-              </div>
-              <div className="">
-                <img className="pt-8" src={aboutusnumbers} />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-gray-50 overflow-hidden pb-12">
-        <div className="container mx-auto px-4">
-          <div className="px-8 bg-white rounded-3xl">
-            <div className="max-w-7xl mx-auto">
-              <div className="flex flex-wrap">
-                <div className="w-full md:w-1/2 p-8">
-                  <div className="md:max-w-lg">
-                    <h2 className="font-heading mb-6 text-4xl md:text-5xl text-gray-900 font-black tracking-tight text-left">
-                      Our Key Investor
-                    </h2>
-                    <p className=" text-xl font-bold text-left">
-                      Investors who have put their faith in us, we have been
-                      able to make great strides in our journey. We are humbled
-                      by their trust and are grateful for their support.
-                    </p>
-                  </div>
-                </div>
-                <div className="w-full md:w-1/2">
-                  <img
-                    className="mx-auto md:mr-0 rounded-3xl p-6"
-                    src={mplier}
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="py-16 bg-gray-100 overflow-hidden">
-        <div className="container mx-auto px-4">
-          <div className="mb-16 max-w-xl mx-auto text-center">
-            <span className="inline-block mb-2 text-sm text-blue-500 font-bold uppercase tracking-widest">
-              Our team
-            </span>
-            <h2 className="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
-              The brain behind Logy.AI
-            </h2>
-          </div>
-          <div className="flex flex-wrap  -m-4">
-            <div className="testimonialblock">
-              <div className="flex flex-col justify-between px-8 pt-10 pb-12 h-full text-center bg-white rounded-3xl">
-                <div className="flex-initial mb-8">
-                  <img
-                    className="mb-8 mx-auto rounded-3xl"
-                    src={anand}
-                    alt=""
-                  />
-                  <h3 className="font-heading mb-2 text-2xl text-gray-900 font-black tracking-tight">
-                    Anand Panchbhai
-                  </h3>
-                  <p className="text-sm text-gray-500 font-bold">
-                    Design, Founder
-                  </p>
-                </div>
-                <div className="flex-initial">
-                  <div className="flex flex-wrap justify-center -m-1.5">
-                    <div className="w-auto p-1.5">
-                      <a
-                        className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full"
-                        href="#"
-                      >
-                        <img src="zanrly-assets/images/insta.svg" alt="" />
-                      </a>
-                    </div>
-                    <div className="w-auto p-1.5">
-                      <a
-                        className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full"
-                        href="#"
-                      >
-                        <img src="zanrly-assets/images/twitter.svg" alt="" />
-                      </a>
-                    </div>
-                    <div className="w-auto p-1.5">
-                      <a
-                        className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full"
-                        href="#"
-                      >
-                        <img src="zanrly-assets/images/fb.svg" alt="" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="testimonialblock">
-              <div className="flex flex-col justify-between px-8 pt-10 pb-12 h-full text-center bg-white rounded-3xl">
-                <div className="flex-initial mb-8">
-                  <img
-                    className="mb-8 mx-auto rounded-3xl"
-                    src={priyanjit}
-                    alt=""
-                  />
-                  <h3 className="font-heading mb-2 text-2xl text-gray-900 font-black tracking-tight">
-                    Priyanjit Ghosh
-                  </h3>
-                  <p className="text-sm text-gray-500 font-bold">
-                    Design, Founder
-                  </p>
-                </div>
-                <div className="flex-initial">
-                  <div className="flex flex-wrap justify-center -m-1.5">
-                    <div className="w-auto p-1.5">
-                      <a
-                        className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full"
-                        href="#"
-                      >
-                        <img src="zanrly-assets/images/insta.svg" alt="" />
-                      </a>
-                    </div>
-                    <div className="w-auto p-1.5">
-                      <a
-                        className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full"
-                        href="#"
-                      >
-                        <img src="zanrly-assets/images/twitter.svg" alt="" />
-                      </a>
-                    </div>
-                    <div className="w-auto p-1.5">
-                      <a
-                        className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full"
-                        href="#"
-                      >
-                        <img src="zanrly-assets/images/fb.svg" alt="" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="testimonialblock">
-              <div className="flex flex-col justify-between px-8 pt-10 pb-12 h-full text-center bg-white rounded-3xl">
-                <div className="flex-initial mb-8">
-                  <img
-                    className="mb-8 mx-auto rounded-3xl"
-                    src={vinay}
-                    alt=""
-                  />
-                  <h3 className="font-heading mb-2 text-2xl text-gray-900 font-black tracking-tight">
-                    Vinay Khobragade
-                  </h3>
-                  <p className="text-sm text-gray-500 font-bold">
-                    Design, Founder
-                  </p>
-                </div>
-                <div className="flex-initial">
-                  <div className="flex flex-wrap justify-center -m-1.5">
-                    <div className="w-auto p-1.5">
-                      <a
-                        className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full"
-                        href="#"
-                      >
-                        <img src="zanrly-assets/images/insta.svg" alt="" />
-                      </a>
-                    </div>
-                    <div className="w-auto p-1.5">
-                      <a
-                        className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full"
-                        href="#"
-                      >
-                        <img src="zanrly-assets/images/twitter.svg" alt="" />
-                      </a>
-                    </div>
-                    <div className="w-auto p-1.5">
-                      <a
-                        className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full"
-                        href="#"
-                      >
-                        <img src="zanrly-assets/images/fb.svg" alt="" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="testimonialblock">
-              <div className="flex flex-col justify-between px-8 pt-10 pb-12 h-full text-center bg-white rounded-3xl">
-                <div className="flex-initial mb-8">
-                  <img
-                    className="mb-8 mx-auto rounded-3xl"
-                    src={nivedita}
-                    alt=""
-                  />
-                  <h3 className="font-heading mb-2 text-2xl text-gray-900 font-black tracking-tight">
-                    Nivedita Tiwari
-                  </h3>
-                  <p className="text-sm text-gray-500 font-bold">
-                    Design, Founder
-                  </p>
-                </div>
-                <div className="flex-initial">
-                  <div className="flex flex-wrap justify-center -m-1.5">
-                    <div className="w-auto p-1.5">
-                      <a
-                        className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full"
-                        href="#"
-                      >
-                        <img src="zanrly-assets/images/insta.svg" alt="" />
-                      </a>
-                    </div>
-                    <div className="w-auto p-1.5">
-                      <a
-                        className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full"
-                        href="#"
-                      >
-                        <img src="zanrly-assets/images/twitter.svg" alt="" />
-                      </a>
-                    </div>
-                    <div className="w-auto p-1.5">
-                      <a
-                        className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full"
-                        href="#"
-                      >
-                        <img src="zanrly-assets/images/fb.svg" alt="" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                , attesting to its impact. Approximately{" "}
+                <span className="highl">64,024 reports</span> have been
+                generated between January and August, providing users with a
+                fast and easy way to assess their oral health. A total of{" "}
+                <span className="highl">359 registered executives </span>{" "}
+                support the app.
+              </p>
+              <br />
+              <h5 className=" mb-3 text-2xl text-gray-900 font-bold ">
+                Screening by Location
+              </h5>
+              <p className="text-gray-500 font-bold">
+                Across the four regions of Nairobi, Mombasa, Nakuru, and Kisumu,
+                a whopping <span className="highl">4108 screenings</span> were
+                conducted as of 31 August 2023. 88% of the screenings were
+                conducted in Mombassa alone.
+              </p>
+              <br />
+              <h5 className=" mb-3 text-2xl text-gray-900 font-bold ">
+                Habits of users
+              </h5>
+              <p className="text-gray-500 font-bold">
+                On analyzing the habits of 55,220 users,{" "}
+                <span className="highl">
+                  7.7% of users chewed Mira, 5% smoked, and 1.6% chewed tobacco.
+                </span>{" "}
+                85.7% did not have any specific habits.
+              </p>
+              <br />
+              <h5 className=" mb-3 text-2xl text-gray-900 font-bold ">
+                User Engagement
+              </h5>
+              <p className="text-gray-500 font-bold">
+                The total number of active users on the platform has been
+                clocked at <span className="highl">35,636 users</span> so far.
+                The platform consistently maintains a monthly average user count
+                in the range of 4,000 to 5,000. July's statistics of 4,475
+                active users demonstrate a substantial level of engagement.{" "}
+                <span className="highl">198 unique users in clinic bot </span>{" "}
+                were recorded.
+              </p>
+              <br />
+              <h5 className=" mb-3 text-2xl text-gray-900 font-bold ">
+                Oral Care Tips
+              </h5>
+              <p className="text-gray-500 font-bold">
+                <span className="highl">10,375 oral care tips</span> were shared
+                with the users as of 31st August 2023 with the highest tips
+                being shared on topics such as bad breath, cavities and tooth
+                decay, stained teeth, and toothache.
+              </p>
+              <br />
+              <h5
+                className=" mb-6 text-4xl md:text-5xl lg:text-4xl text-gray-900  "
+                style={{ color: "rgb(59 130 246)" }}
+              >
+                User Story
+              </h5>
+              <p className="text-gray-500 font-bold">
+                Mary Omondi felt extremely nervous when her granddaughter
+                suggested she go through an oral screening with the help of
+                Colgate’s oral screening tool. But lately, She agreed with her
+                granddaughter that it was time for an oral screening.
+              </p>
+              <p className="text-gray-500 font-bold">
+                Her granddaughter quickly took out her phone and accessed the
+                chatbot on WhatsApp with a simple “Hi.”
+              </p>
+              <p className="text-gray-500 font-bold">
+                Mary was amazed to see the chatbot responding! The tool asked
+                for her name, age, contact number, and other basic details. It
+                then requested clear pictures of her teeth. They uploaded the
+                images, and the AI-powered system went to work right away. The
+                report was divided into three categories: poor, fair, and good.
+                Sadly for Mary, the study indicated that her dental health was
+                "poor." This meant that she had to seek help to prevent her oral
+                health from worsening.
+              </p>
+              <br />
+              <h5
+                className=" mb-6 text-4xl md:text-5xl lg:text-4xl text-gray-900  "
+                style={{ color: "rgb(59 130 246)" }}
+              >
+                Conclusion
+              </h5>
+              <p className="text-gray-500 font-bold">
+                Ultimately, AI-powered tools such as Logy.AI’s tool narrate a
+                story of how transformation in healthcare systems is possible.
+                The tool builds a deep bond with the users and encourages them
+                to care for their oral health consistently. In a country like
+                Kenya, where dental care is often an afterthought, the tool has
+                brought about a change in the people.
+              </p>
+              <br />
+              <ul style={{ listStyleType: "square" }}>
+                <li className="text-gray-500 font-bold">
+                  {" "}
+                  The machine-learning models used by Logy.AI provide accurate
+                  diagnoses based on millions of dental records
+                </li>
+                <li className="text-gray-500 font-bold">
+                  The platform uses the process of Image Annotation which
+                  involves labeling or classifying an image using text,
+                  annotation tools, or both, to show the data features you want
+                  your model to recognize on its own
+                </li>
+                <li className="text-gray-500 font-bold">
+                  Logy.AI harnessed the power of WhatsApp enabling ease of use
+                  and access.
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </section>
-
       <section className="pb-10 bg-gray-50 overflow-hidden">
+        <br />
         <div className="container mx-auto px-4">
           <div className="py-16 px-8 bg-white rounded-3xl">
             <div className="max-w-7xl mx-auto">

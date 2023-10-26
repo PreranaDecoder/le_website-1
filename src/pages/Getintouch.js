@@ -475,19 +475,52 @@ export default function Getintouch() {
                     <ul className="md:max-w-max ">
                       <li className="mb-4">
                         <a
-                          className="inline-block text-gray-500 hover:text-gray-600 font-bold"
+                          className="inline-block text-gray-500 hover:text-gray-600 font-bold text-2xl"
                           href="#"
                         >
                           Our Locations
                         </a>
                       </li>
+                      <li className="mb-4">LOGY AI HEALTH INC</li>
                       <li className="mb-4">
-                        <a
-                          className="inline-block text-gray-500 hover:text-gray-600 "
-                          href="#"
-                        >
-                          INDIA / USA
-                        </a>
+                        <div className="flex">
+                          <div style={{ marginRight: "8px" }}>
+                            <i
+                              className="fa-solid fa-location-dot"
+                              style={{ color: "#518df5" }}
+                            ></i>
+                          </div>
+                          <div>
+                            {" "}
+                            <span>
+                              919, North Market Street,
+                              <br />
+                              Ste 950, Wilmington
+                              <br />
+                              Delaware - USA 19801
+                            </span>
+                          </div>
+                        </div>
+                      </li>
+                      <li className="mb-4">
+                        <div className="flex">
+                          <div style={{ marginRight: "8px" }}>
+                            <i
+                              className="fa-solid fa-location-dot"
+                              style={{ color: "#518df5" }}
+                            ></i>
+                          </div>
+                          <div>
+                            {" "}
+                            <span>
+                              D Labs Incubator Association,
+                              <br />
+                              ISB Campus, Gachibowli,
+                              <br />
+                              Hyderabad - India, 500111
+                            </span>
+                          </div>
+                        </div>
                       </li>
                     </ul>
                   </div>

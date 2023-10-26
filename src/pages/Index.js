@@ -393,12 +393,15 @@ export default function Index() {
                     <div className="h-full bg-gray-100 rounded-3xl">
                       <img className="w-full" src={cs1} alt="" />
                       <div className="p-8">
-                        <a className="group inline-block mb-4" href="#">
+                        <Link
+                          className="group inline-block mb-4"
+                          to="/cs_kenya"
+                        >
                           <h3 className="font-heading text-2xl text-gray-900 hover:text-gray-700 group-hover:underline font-black">
                             Logy.AI eye screening solution: Vidisha 5G use cases
                             pilot launch on 13th January 2023
                           </h3>
-                        </a>
+                        </Link>
                         <p className="text-sm text-gray-500 font-bold">
                           Case Study • 4 min read
                         </p>
@@ -409,11 +412,14 @@ export default function Index() {
                     <div className="h-full bg-gray-100 rounded-3xl">
                       <img className="w-full" src={cs2} alt="" />
                       <div className="p-8">
-                        <a className="group inline-block mb-4" href="#">
+                        <Link
+                          className="group inline-block mb-4"
+                          to="/cs_kenya"
+                        >
                           <h3 className="font-heading text-2xl text-gray-900 hover:text-gray-700 group-hover:underline font-black">
                             Logy.AI’s Collaboration with Colgate Kenya
                           </h3>
-                        </a>
+                        </Link>
                         <p className="text-sm text-gray-500 font-bold">
                           Case Study • 4 min read
                         </p>
@@ -424,12 +430,15 @@ export default function Index() {
                     <div className="h-full bg-gray-100 rounded-3xl">
                       <img className="w-full" src={cs3} alt="" />
                       <div className="p-8">
-                        <a className="group inline-block mb-4" href="#">
+                        <Link
+                          className="group inline-block mb-4"
+                          to="/cs_kenya"
+                        >
                           <h3 className="font-heading text-2xl text-gray-900 hover:text-gray-700 group-hover:underline font-black">
                             Logy.AI 5G digital health launch at Vidisha, Madhya
                             Pradesh
                           </h3>
-                        </a>
+                        </Link>
                         <p className="text-sm text-gray-500 font-bold">
                           Case Study • 4 min read
                         </p>
@@ -818,19 +827,52 @@ export default function Index() {
                     <ul className="md:max-w-max ">
                       <li className="mb-4">
                         <a
-                          className="inline-block text-gray-500 hover:text-gray-600 font-bold"
+                          className="inline-block text-gray-500 hover:text-gray-600 font-bold text-2xl"
                           href="#"
                         >
                           Our Locations
                         </a>
                       </li>
+                      <li className="mb-4">LOGY AI HEALTH INC</li>
                       <li className="mb-4">
-                        <a
-                          className="inline-block text-gray-500 hover:text-gray-600 "
-                          href="#"
-                        >
-                          INDIA / USA
-                        </a>
+                        <div className="flex">
+                          <div style={{ marginRight: "8px" }}>
+                            <i
+                              className="fa-solid fa-location-dot"
+                              style={{ color: "#518df5" }}
+                            ></i>
+                          </div>
+                          <div>
+                            {" "}
+                            <span>
+                              919, North Market Street,
+                              <br />
+                              Ste 950, Wilmington
+                              <br />
+                              Delaware - USA 19801
+                            </span>
+                          </div>
+                        </div>
+                      </li>
+                      <li className="mb-4">
+                        <div className="flex">
+                          <div style={{ marginRight: "8px" }}>
+                            <i
+                              className="fa-solid fa-location-dot"
+                              style={{ color: "#518df5" }}
+                            ></i>
+                          </div>
+                          <div>
+                            {" "}
+                            <span>
+                              D Labs Incubator Association,
+                              <br />
+                              ISB Campus, Gachibowli,
+                              <br />
+                              Hyderabad - India, 500111
+                            </span>
+                          </div>
+                        </div>
                       </li>
                     </ul>
                   </div>
