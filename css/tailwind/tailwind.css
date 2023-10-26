@@ -751,10 +751,6 @@ video {
   margin-bottom: 2.25rem;
 }
 
-.ml-auto {
-  margin-left: auto;
-}
-
 .mr-9 {
   margin-right: 2.25rem;
 }
@@ -1239,10 +1235,6 @@ video {
 
 .font-bold {
   font-weight: 700;
-}
-
-.font-medium {
-  font-weight: 500;
 }
 
 .font-normal {
