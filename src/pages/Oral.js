@@ -15,7 +15,7 @@ import Faq from "./faq";
 import "../assets/css/oral.css";
 
 const meta = {
-  title: "",
+  title: "Logy.AI - oral",
   meta: [],
   link: [],
   style: [],

@@ -11,7 +11,7 @@ import sharpsight from "../assets/img/sharpsight.png";
 import pristyn from "../assets/img/pristynWhiteBg.png";
 
 const meta = {
-  title: "",
+  title: "Logy.AI - eye",
   meta: [],
   link: [],
   style: [],

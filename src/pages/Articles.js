@@ -7,7 +7,7 @@ import blog4 from "../assets/zanrly-assets/images/blog/blog4.png";
 import blog5 from "../assets/zanrly-assets/images/blog/blog5.png";
 
 const meta = {
-  title: "",
+  title: "Logy.AI - articles",
   meta: [],
   link: [],
   style: [],

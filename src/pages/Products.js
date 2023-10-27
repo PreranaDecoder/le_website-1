@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import logo from "../assets/img/LogoFree.svg";
 
 const meta = {
-  title: "",
+  title: "Logy.AI - products",
   meta: [],
   link: [],
   style: [],

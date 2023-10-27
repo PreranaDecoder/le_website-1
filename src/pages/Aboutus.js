@@ -14,7 +14,7 @@ import nivedita from "../assets/zanrly-assets/images/teams/Nivedita Tiwari.png";
 import "../assets/css/aboutus.css";
 
 const meta = {
-  title: "",
+  title: "Logy.AI - about",
   meta: [],
   link: [],
   style: [],
