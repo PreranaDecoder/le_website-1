@@ -13,6 +13,10 @@ import cs2 from "../assets/zanrly-assets/images/blog/blog2.png";
 import cs3 from "../assets/zanrly-assets/images/blog/blog3.png";
 import articleimg from "../assets/zanrly-assets/images/blog/blog4.png";
 
+import apollo_t from "../assets/img/Apollo-Clinic_t.png";
+import colgate_t from "../assets/img/colgate_t.png";
+import sharp_t from "../assets/img/sharpsight_t.png";
+
 const meta = {
   title: "",
   meta: [],
@@ -659,22 +663,15 @@ export default function Index() {
                     <div className="flex flex-col justify-between px-8 pt-12 pb-8 h-full text-center bg-gray-100 border border-gray-100 rounded-3xl">
                       <div className="flex-initial mb-8">
                         <img
-                          className="mb-6 mx-auto rounded-full"
-                          src="zanrly-assets/images/testimonials/avatar2.png"
+                          className="mb-6 mx-auto "
+                          src={apollo_t}
                           alt=""
+                          style={{ width: "200px" }}
                         />
                         <p className="text-base text-gray-700 font-bold">
-                          Had some issues where my site crashed and broke,
-                          reached out to Shuffle Editor to see if they could
-                          help me fix it.
-                        </p>
-                      </div>
-                      <div className="flex-initial">
-                        <h3 className="font-heading text-2xl text-gray-900 font-black">
-                          Monica Johnson
-                        </h3>
-                        <p className="text-sm text-gray-500 font-bold">
-                          @monicajonhson
+                          Logy.AI's AI-driven Eye Screening Tool delivers quick,
+                          reliable eye health assessments via smartphones,
+                          aligning with top-notch healthcare standards.
                         </p>
                       </div>
                     </div>
@@ -684,21 +681,14 @@ export default function Index() {
                       <div className="flex-initial mb-8">
                         <img
                           className="mb-6 mx-auto rounded-full"
-                          src="zanrly-assets/images/testimonials/avatar2.png"
+                          src={sharp_t}
                           alt=""
+                          style={{ width: "200px" }}
                         />
                         <p className="text-base text-gray-700 font-bold">
-                          Had some issues where my site crashed and broke,
-                          reached out to Shuffle Editor to see if they could
-                          help me fix it.
-                        </p>
-                      </div>
-                      <div className="flex-initial">
-                        <h3 className="font-heading text-2xl text-gray-900 font-black">
-                          Monica Johnson
-                        </h3>
-                        <p className="text-sm text-gray-500 font-bold">
-                          @monicajonhson
+                          Logy.AI's AI-driven Eye Screening Module optimizes
+                          ophthalmic diagnostics, ensuring efficiency and
+                          accuracy in eye health evaluations.
                         </p>
                       </div>
                     </div>
@@ -708,21 +698,14 @@ export default function Index() {
                       <div className="flex-initial mb-8">
                         <img
                           className="mb-6 mx-auto rounded-full"
-                          src="zanrly-assets/images/testimonials/avatar2.png"
+                          src={colgate_t}
                           alt=""
+                          style={{ width: "200px" }}
                         />
                         <p className="text-base text-gray-700 font-bold">
-                          Had some issues where my site crashed and broke,
-                          reached out to Shuffle Editor to see if they could
-                          help me fix it.
-                        </p>
-                      </div>
-                      <div className="flex-initial">
-                        <h3 className="font-heading text-2xl text-gray-900 font-black">
-                          Monica Johnson
-                        </h3>
-                        <p className="text-sm text-gray-500 font-bold">
-                          @monicajonhson
+                          It's Al-powered Oral Screening ensures swift and
+                          accurate dental assessments through smartphones and
+                          WhatsApp. Elevating oral health accessibility.
                         </p>
                       </div>
                     </div>

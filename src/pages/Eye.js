@@ -854,10 +854,6 @@ export default function Eye() {
                   <h2 className="font-heading mb-6 text-4xl md:text-5xl lg:text-6xl text-gray-900 font-black tracking-tight">
                     Got questions? We’re here to help!
                   </h2>
-                  <p className="text-gray-500 font-bold">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Malesuada tellus vestibulum, commodo pulvinar.
-                  </p>
                 </div>
                 <div className="max-w-3xl mx-auto">
                   <div className="flex flex-wrap -m-3 mb-10">
