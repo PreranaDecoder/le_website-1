@@ -18,7 +18,7 @@ import colgate_t from "../assets/img/colgate_t.png";
 import sharp_t from "../assets/img/sharpsight_t.png";
 
 const meta = {
-  title: "",
+  title: "Logy.AI",
   meta: [],
   link: [],
   style: [],
