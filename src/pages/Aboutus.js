@@ -3,6 +3,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 import logo from "../assets/img/LogoFree.svg";
+import linkedin from "../assets/img/linkedin.svg";
 import abouthead from "../assets/img/abouthead.png";
 import aboutusnumbers from "../assets/img/aboutusnumbers.svg";
 import mplier from "../assets/img/mplier.png";
@@ -324,7 +325,7 @@ export default function Aboutus() {
           </div>
         </div>
       </section>
-      <section className="py-16 bg-gray-100 overflow-hidden">
+      <section className="py-16 bg-gray-50 overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="mb-16 max-w-xl mx-auto text-center">
             <span className="inline-block mb-2 text-sm text-blue-500 font-bold uppercase tracking-widest">
@@ -340,51 +341,6 @@ export default function Aboutus() {
                 <div className="flex-initial mb-8">
                   <img
                     className="mb-8 mx-auto rounded-3xl"
-                    src={anand}
-                    alt=""
-                  />
-                  <h3 className="font-heading mb-2 text-2xl text-gray-900 font-black tracking-tight">
-                    Anand Panchbhai
-                  </h3>
-                  <p className="text-sm text-gray-500 font-bold">
-                    Design, Founder
-                  </p>
-                </div>
-                <div className="flex-initial">
-                  <div className="flex flex-wrap justify-center -m-1.5">
-                    <div className="w-auto p-1.5">
-                      <a
-                        className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full"
-                        href="#"
-                      >
-                        <img src="zanrly-assets/images/insta.svg" alt="" />
-                      </a>
-                    </div>
-                    <div className="w-auto p-1.5">
-                      <a
-                        className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full"
-                        href="#"
-                      >
-                        <img src="zanrly-assets/images/twitter.svg" alt="" />
-                      </a>
-                    </div>
-                    <div className="w-auto p-1.5">
-                      <a
-                        className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full"
-                        href="#"
-                      >
-                        <img src="zanrly-assets/images/fb.svg" alt="" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="testimonialblock">
-              <div className="flex flex-col justify-between px-8 pt-10 pb-12 h-full text-center bg-white rounded-3xl">
-                <div className="flex-initial mb-8">
-                  <img
-                    className="mb-8 mx-auto rounded-3xl"
                     src={priyanjit}
                     alt=""
                   />
@@ -392,33 +348,18 @@ export default function Aboutus() {
                     Priyanjit Ghosh
                   </h3>
                   <p className="text-sm text-gray-500 font-bold">
-                    Design, Founder
+                    CEO and Co-Founder
                   </p>
                 </div>
                 <div className="flex-initial">
                   <div className="flex flex-wrap justify-center -m-1.5">
                     <div className="w-auto p-1.5">
                       <a
-                        className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full"
-                        href="#"
+                        className="flex items-center justify-center w-30 h-10 "
+                        href="https://www.linkedin.com/in/priyanjitghosh/"
+                        target="_blank"
                       >
-                        <img src="zanrly-assets/images/insta.svg" alt="" />
-                      </a>
-                    </div>
-                    <div className="w-auto p-1.5">
-                      <a
-                        className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full"
-                        href="#"
-                      >
-                        <img src="zanrly-assets/images/twitter.svg" alt="" />
-                      </a>
-                    </div>
-                    <div className="w-auto p-1.5">
-                      <a
-                        className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full"
-                        href="#"
-                      >
-                        <img src="zanrly-assets/images/fb.svg" alt="" />
+                        <img src={linkedin} alt="" />
                       </a>
                     </div>
                   </div>
@@ -430,40 +371,25 @@ export default function Aboutus() {
                 <div className="flex-initial mb-8">
                   <img
                     className="mb-8 mx-auto rounded-3xl"
-                    src={vinay}
+                    src={anand}
                     alt=""
                   />
                   <h3 className="font-heading mb-2 text-2xl text-gray-900 font-black tracking-tight">
-                    Vinay Khobragade
+                    Anand Panchbhai
                   </h3>
                   <p className="text-sm text-gray-500 font-bold">
-                    Design, Founder
+                    CTO and Co-Founder
                   </p>
                 </div>
                 <div className="flex-initial">
                   <div className="flex flex-wrap justify-center -m-1.5">
                     <div className="w-auto p-1.5">
                       <a
-                        className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full"
-                        href="#"
+                        className="flex items-center justify-center w-30 h-10 "
+                        href="https://www.linkedin.com/in/anandpanchbhai/"
+                        target="_blank"
                       >
-                        <img src="zanrly-assets/images/insta.svg" alt="" />
-                      </a>
-                    </div>
-                    <div className="w-auto p-1.5">
-                      <a
-                        className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full"
-                        href="#"
-                      >
-                        <img src="zanrly-assets/images/twitter.svg" alt="" />
-                      </a>
-                    </div>
-                    <div className="w-auto p-1.5">
-                      <a
-                        className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full"
-                        href="#"
-                      >
-                        <img src="zanrly-assets/images/fb.svg" alt="" />
+                        <img src={linkedin} alt="" />
                       </a>
                     </div>
                   </div>
@@ -482,186 +408,48 @@ export default function Aboutus() {
                     Nivedita Tiwari
                   </h3>
                   <p className="text-sm text-gray-500 font-bold">
-                    Design, Founder
+                    Director of Clinical Ops & Founding team member
                   </p>
                 </div>
                 <div className="flex-initial">
                   <div className="flex flex-wrap justify-center -m-1.5">
                     <div className="w-auto p-1.5">
                       <a
-                        className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full"
-                        href="#"
+                        className="flex items-center justify-center w-30 h-10 "
+                        href="https://www.linkedin.com/in/nivedita-tiwari-88404216b/"
+                        target="_blank"
                       >
-                        <img src="zanrly-assets/images/insta.svg" alt="" />
-                      </a>
-                    </div>
-                    <div className="w-auto p-1.5">
-                      <a
-                        className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full"
-                        href="#"
-                      >
-                        <img src="zanrly-assets/images/twitter.svg" alt="" />
-                      </a>
-                    </div>
-                    <div className="w-auto p-1.5">
-                      <a
-                        className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-full"
-                        href="#"
-                      >
-                        <img src="zanrly-assets/images/fb.svg" alt="" />
+                        <img src={linkedin} alt="" />
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="pb-10 bg-gray-50 overflow-hidden">
-        <div className="container mx-auto px-4">
-          <div className="py-16 px-8 bg-white rounded-3xl">
-            <div className="max-w-7xl mx-auto">
-              <div className="flex flex-wrap -m-8 mb-8">
-                <div className="w-full md:w-1/3 p-8">
+            <div className="testimonialblock">
+              <div className="flex flex-col justify-between px-8 pt-10 pb-12 h-full text-center bg-white rounded-3xl">
+                <div className="flex-initial mb-8">
                   <img
-                    className="mb-6"
-                    style={{ width: "120px" }}
-                    src={logo}
+                    className="mb-8 mx-auto rounded-3xl"
+                    src={vinay}
                     alt=""
                   />
-                  <p className="text-xl font-bold">
-                    Experience the power of AI-powered healthcare platform
-                    through Logy.AI’s proprietary and clinically validated
-                    solutions. Our tool leverages smartphones and WhatsApp and
-                    can be used to improve care coordination, prevent avoidable
-                    diseases and provide appropriate care for patients
-                    worldwide.
+                  <h3 className="font-heading mb-2 text-2xl text-gray-900 font-black tracking-tight">
+                    Vinay Khobragade
+                  </h3>
+                  <p className="text-sm text-gray-500 font-bold">
+                    AI researcher and Founding team member
                   </p>
                 </div>
-                <div className="w-full md:w-1/3 p-8">
-                  <ul className="md:max-w-max ">
-                    <li className="mb-6">
+                <div className="flex-initial">
+                  <div className="flex flex-wrap justify-center -m-1.5">
+                    <div className="w-auto p-1.5">
                       <a
-                        className="inline-block text-3xl text-gray-700 hover:text-blue-500 font-black tracking-tight"
-                        href="#"
+                        className="flex items-center justify-center w-30 h-10 "
+                        href="https://www.linkedin.com/in/vinay-khobragade/"
+                        target="_blank"
                       >
-                        About us
-                      </a>
-                    </li>
-                    <li className="mb-6">
-                      <a
-                        className="inline-block text-3xl text-gray-700 hover:text-blue-500 font-black tracking-tight"
-                        href="#"
-                      >
-                        Products
-                      </a>
-                    </li>
-                    <li className="mb-6">
-                      <a
-                        className="inline-block text-3xl text-gray-700 hover:text-blue-500 font-black tracking-tight"
-                        href="#"
-                      >
-                        Articles
-                      </a>
-                    </li>
-                    <li className="mb-6">
-                      <a
-                        className="inline-block text-3xl text-gray-700 hover:text-blue-500 font-black tracking-tight"
-                        href="#"
-                      >
-                        Contact
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="inline-block text-3xl text-gray-700 hover:text-blue-500 font-black tracking-tight"
-                        href="#"
-                      >
-                        Privacy Policy
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="w-full md:w-1/3 p-8">
-                  <ul className="md:max-w-max ">
-                    <li className="mb-4">
-                      <a
-                        className="inline-block text-gray-500 hover:text-gray-600 font-bold text-2xl"
-                        href="#"
-                      >
-                        Our Locations
-                      </a>
-                    </li>
-                    <li className="mb-4">LOGY AI HEALTH INC</li>
-                    <li className="mb-4">
-                      <div className="flex">
-                        <div style={{ marginRight: "8px" }}>
-                          <i
-                            className="fa-solid fa-location-dot"
-                            style={{ color: "#518df5" }}
-                          ></i>
-                        </div>
-                        <div>
-                          {" "}
-                          <span>
-                            919, North Market Street,
-                            <br />
-                            Ste 950, Wilmington
-                            <br />
-                            Delaware - USA 19801
-                          </span>
-                        </div>
-                      </div>
-                    </li>
-                    <li className="mb-4">
-                      <div className="flex">
-                        <div style={{ marginRight: "8px" }}>
-                          <i
-                            className="fa-solid fa-location-dot"
-                            style={{ color: "#518df5" }}
-                          ></i>
-                        </div>
-                        <div>
-                          {" "}
-                          <span>
-                            D Labs Incubator Association,
-                            <br />
-                            ISB Campus, Gachibowli,
-                            <br />
-                            Hyderabad - India, 500111
-                          </span>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="flex flex-wrap items-center justify-between -m-4">
-                <div className="w-auto p-4">
-                  <p className="font-bold">
-                    <span>Ⓒ Copyright. All rights reserved by </span>
-                    <a className="text-blue-500 hover:text-blue-600" href="#">
-                      Logy.AI
-                    </a>
-                  </p>
-                </div>
-                <div className="w-auto p-4">
-                  <div className="flex flex-wrap -m-4">
-                    <div className="w-auto p-4">
-                      <a className="block" href="#">
-                        <img src="zanrly-assets/images/insta.svg" alt="" />
-                      </a>
-                    </div>
-                    <div className="w-auto p-4">
-                      <a className="block" href="#">
-                        <img src="zanrly-assets/images/twitter.svg" alt="" />
-                      </a>
-                    </div>
-                    <div className="w-auto p-4">
-                      <a className="block" href="#">
-                        <img src="zanrly-assets/images/footers/fb.svg" alt="" />
+                        <img src={linkedin} alt="" />
                       </a>
                     </div>
                   </div>
