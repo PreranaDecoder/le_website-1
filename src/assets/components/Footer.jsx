@@ -7,30 +7,27 @@ import twitter from "../../assets/img/twitter.svg";
 function Footer() {
   return (
     <section className="pb-10 bg-gray-50 overflow-hidden">
-      <div className="container mx-auto px-4">
-        <div className="py-16 px-8 bg-white rounded-3xl">
-          <div className="max-w-7xl mx-auto">
+      <div className="mx-auto ">
+        <div className="py-16 px-8 bg-white ">
+          <div className="max-w-7xl mx-auto px-4">
             <div className="flex flex-wrap -m-8 mb-8">
               <div className="w-full md:w-1/3 p-8">
                 <img
                   className="mb-6"
-                  style={{ width: "120px" }}
+                  style={{ width: "180px" }}
                   src={logo}
                   alt=""
                 />
-                <p className="text-xl font-bold">
+                <p className="text-xl font-normal">
                   Experience the power of AI-powered healthcare platform through
-                  Logy.AI’s proprietary and clinically validated solutions. Our
-                  tool leverages smartphones and WhatsApp and can be used to
-                  improve care coordination, prevent avoidable diseases and
-                  provide appropriate care for patients worldwide.
+                  Logy.AI’s proprietary and clinically validated solutions.
                 </p>
               </div>
               <div className="w-full md:w-1/3 p-8">
-                <ul className="md:max-w-max ">
+                <ul className="md:max-w-max mx-auto  ">
                   <li className="mb-6">
                     <Link
-                      className="inline-block text-3xl text-gray-700 hover:text-blue-500 font-black tracking-tight"
+                      className="inline-block text-3xl text-gray-500 hover:text-blue-500 font-bold tracking-tight"
                       to="/about"
                     >
                       About us
@@ -38,7 +35,7 @@ function Footer() {
                   </li>
                   <li className="mb-6">
                     <Link
-                      className="inline-block text-3xl text-gray-700 hover:text-blue-500 font-black tracking-tight"
+                      className="inline-block text-3xl text-gray-500 hover:text-blue-500 font-bold tracking-tight"
                       to="/products"
                     >
                       Products
@@ -46,7 +43,7 @@ function Footer() {
                   </li>
                   <li className="mb-6">
                     <Link
-                      className="inline-block text-3xl text-gray-700 hover:text-blue-500 font-black tracking-tight"
+                      className="inline-block text-3xl text-gray-500 hover:text-blue-500 font-bold tracking-tight"
                       to="/articles"
                     >
                       Articles
@@ -54,7 +51,7 @@ function Footer() {
                   </li>
                   <li className="mb-6">
                     <Link
-                      className="inline-block text-3xl text-gray-700 hover:text-blue-500 font-black tracking-tight"
+                      className="inline-block text-3xl text-gray-500 hover:text-blue-500 font-bold tracking-tight"
                       to="/contact"
                     >
                       Contact
@@ -126,7 +123,7 @@ function Footer() {
             </div>
             <div className="flex flex-wrap items-center justify-between -m-4">
               <div className="w-auto p-4">
-                <p className="font-bold">
+                <p className="font-normal">
                   <span>Ⓒ Copyright. All rights reserved by </span>
                   <a className="text-blue-500 hover:text-blue-600" href="#">
                     Logy.AI

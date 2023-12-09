@@ -226,24 +226,20 @@ export default function Aboutus() {
               </nav>
             </div>
           </div>
-          <div className="flex flex-wrap justify-center -m-4">
-            <div className="w-full md:flex-1 p-4"></div>
-          </div>
         </div>
       </section>
       <section className="pb-12 bg-gray-50 overflow-hidden">
         <div className="container mx-auto px-4">
-          <div className="mb-6"></div>
           <div className="bg-white overflow-hidden rounded-t-3xl">
             <div className="px-8 pt-20">
               <div className="md:max-w-2xl text-center mx-auto">
                 <span className="inline-block mb-3 text-sm text-blue-500 font-bold uppercase tracking-widest">
                   About us
                 </span>
-                <h1 className="font-heading mb-6 text-5xl lg:text-6xl text-gray-900 font-black tracking-tight">
+                <h1 className="font-heading mb-6 text-5xl lg:text-6xl text-gray-900 font-bold tracking-tight">
                   Our Mission
                 </h1>
-                <p className="mb-8 text-xl font-bold">
+                <p className="mb-8 text-2xl font-normal">
                   Keep innovating and building clinically validated AI tools
                   enabled over smartphones, for easy screening and care
                   coordination that can be used by anyone, anywhere and anytime
@@ -265,11 +261,18 @@ export default function Aboutus() {
         </div>
       </section>
       <section className="pb-12 bg-gray-50 overflow-hidden">
-        <div className="container mx-auto px-4">
-          <div className="px-8 bg-white border border-gray-100 rounded-3xl py-16">
-            <div className="max-w-7xl mx-auto">
+        <div className=" mx-auto ">
+          <div className="px-8 bg-white    py-16">
+            <div className="max-w-5xl mx-auto">
+              <div className=" mb-16">
+                <img
+                  className="pt-2 mx-auto"
+                  style={{ width: "75%" }}
+                  src={aboutusnumbers}
+                />
+              </div>
               <div className="w-full mx-auto text-center">
-                <p className="text-gray-500 text-xl font-bold">
+                <p className="text-gray-900 text-2xl font-normal">
                   With its AI-powered healthcare screening tools, Logy.AI is one
                   of the pioneers in the Software as a medical device (SAMD)
                   domain and is truly a story of made in India for the world.
@@ -278,7 +281,8 @@ export default function Aboutus() {
                   healthcare is available to all, facilitated by its remarkable
                   AI tools.
                 </p>
-                <p className="text-gray-500 text-xl font-bold mb-6">
+                <br />
+                <p className="text-gray-900 text-2xl font-normal mb-6">
                   Leveraging advanced technology, Logy.AI's tools possess the
                   capability to diagnose diseases, forecast outcomes, and
                   empower patients to receive prompt and efficient treatment. By
@@ -287,9 +291,6 @@ export default function Aboutus() {
                   the quality of care they offer, ultimately leading to improved
                   patient outcomes.{" "}
                 </p>
-              </div>
-              <div className="">
-                <img className="pt-8" src={aboutusnumbers} />
               </div>
             </div>
           </div>
@@ -303,10 +304,10 @@ export default function Aboutus() {
               <div className="flex flex-wrap">
                 <div className="w-full md:w-1/2 p-8">
                   <div className="md:max-w-lg">
-                    <h2 className="font-heading mb-6 text-4xl md:text-5xl text-gray-900 font-black tracking-tight text-left">
+                    <h2 className="font-heading mb-6 text-4xl md:text-5xl text-gray-900 font-bold tracking-tight text-left">
                       Our Key Investor
                     </h2>
-                    <p className=" text-xl font-bold text-left">
+                    <p className=" text-2xl font-normal text-strt">
                       Investors who have put their faith in us, we have been
                       able to make great strides in our journey. We are humbled
                       by their trust and are grateful for their support.
@@ -337,8 +338,8 @@ export default function Aboutus() {
           </div>
           <div className="flex flex-wrap  -m-4">
             <div className="testimonialblock">
-              <div className="flex flex-col justify-between px-8 pt-10 pb-12 h-full text-center bg-white rounded-3xl">
-                <div className="flex-initial mb-8">
+              <div className="flex flex-col  px-8 pt-10 pb-12 h-full text-center bg-white rounded-3xl">
+                <div className="flex-initial mb-2">
                   <img
                     className="mb-8 mx-auto rounded-3xl"
                     src={priyanjit}
@@ -367,8 +368,8 @@ export default function Aboutus() {
               </div>
             </div>
             <div className="testimonialblock">
-              <div className="flex flex-col justify-between px-8 pt-10 pb-12 h-full text-center bg-white rounded-3xl">
-                <div className="flex-initial mb-8">
+              <div className="flex flex-col  px-8 pt-10 pb-12 h-full text-center bg-white rounded-3xl">
+                <div className="flex-initial mb-2">
                   <img
                     className="mb-8 mx-auto rounded-3xl"
                     src={anand}
@@ -397,8 +398,8 @@ export default function Aboutus() {
               </div>
             </div>
             <div className="testimonialblock">
-              <div className="flex flex-col justify-between px-8 pt-10 pb-12 h-full text-center bg-white rounded-3xl">
-                <div className="flex-initial mb-8">
+              <div className="flex flex-col  px-8 pt-10 pb-12 h-full text-center bg-white rounded-3xl">
+                <div className="flex-initial mb-2">
                   <img
                     className="mb-8 mx-auto rounded-3xl"
                     src={nivedita}
@@ -427,8 +428,8 @@ export default function Aboutus() {
               </div>
             </div>
             <div className="testimonialblock">
-              <div className="flex flex-col justify-between px-8 pt-10 pb-12 h-full text-center bg-white rounded-3xl">
-                <div className="flex-initial mb-8">
+              <div className="flex flex-col  px-8 pt-10 pb-12 h-full text-center bg-white rounded-3xl">
+                <div className="flex-initial mb-2">
                   <img
                     className="mb-8 mx-auto rounded-3xl"
                     src={vinay}

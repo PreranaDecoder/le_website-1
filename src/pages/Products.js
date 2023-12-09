@@ -217,17 +217,6 @@ export default function Products() {
                 </nav>
               </div>
             </div>
-            <div className="flex flex-wrap justify-center -m-4">
-              <div className="w-full md:flex-1 p-4"></div>
-            </div>
-          </div>
-        </section>
-        <section className="pt-6 bg-gray-50 overflow-hidden">
-          <div className="container mx-auto px-4">
-            <div className="flex flex-wrap justify-center -m-4">
-              <div className="w-full md:w-auto p-4" />
-              <div className="w-full md:flex-1 p-4"></div>
-            </div>
           </div>
         </section>
         <section className="overflow-hidden">

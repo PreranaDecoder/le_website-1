@@ -17,6 +17,8 @@ import apollo_t from "../assets/img/Apollo-Clinic_t.png";
 import colgate_t from "../assets/img/colgate_t.png";
 import sharp_t from "../assets/img/sharpsight_t.png";
 
+import "../assets/css/app.css";
+
 const meta = {
   title: "Logy.AI",
   meta: [],
@@ -230,40 +232,41 @@ export default function Index() {
                 </nav>
               </div>
             </div>
-            <div className="flex flex-wrap justify-center -m-4">
+            <div className="flex flex-wrap justify-start -m-4">
               <div className="w-full md:flex-1 p-4"></div>
             </div>
           </div>
         </section>
         <section className="pt-6 pb-10 bg-gray-50 overflow-hidden">
           <div className="container mx-auto px-4">
-            <div className="flex flex-wrap justify-center -m-4">
+            <div className="flex flex-wrap justify-left -m-4">
               <div className="w-full md:w-1/3 p-4">
                 <img className="mx-auto rounded-3xl" src={logyanim} alt="" />
               </div>
               <div className="w-full md:flex-1 p-4">
-                <div className="flex flex-col justify-center items-center p-8 h-full text-center bg-white rounded-3xl">
-                  <div className="max-w-lg">
-                    <span className="inline-block mb-3 text-sm text-blue-500 font-bold uppercase tracking-widest">
-                      We are hiring 🔥🔥
-                    </span>
-                    <h1 className="font-heading mb-6 text-4xl text-gray-900 font-black tracking-tight">
+                <div className="flex flex-col justify-center items-center p-8 h-full text-start bg-white rounded-3xl">
+                  <div className="max-w-xl">
+                    <span className="inline-block mb-3 text-sm text-blue-500 font-bold uppercase tracking-widest"></span>
+                    <h2 className="text-xl mb-4 text-blue-500">
+                      <b>Software-As-A-Medical-Device</b>
+                    </h2>
+                    <h1 className="font-heading mb-6 text-4xl text-gray-900 font-bold tracking-tight">
                       <span>
                         First-Level Health Checks & Care-Coordination, Made Easy
                         with{" "}
                       </span>
                       <span className="text-blue-500">AI</span>
                     </h1>
-                    <p className="mb-8 text-xl font-bold">
+                    <p className="mb-8 text-xl font-normal">
                       Our Software-As-A-Medical-Device AI tool provides
                       solutions that are clinically validated in India and
                       Africa. Our proprietary AI models are also patented for
                       90%+ accuracy.
                     </p>
-                    <div className="flex flex-wrap justify-center -m-2">
+                    <div className="flex flex-wrap justify-start -m-2">
                       <div className="w-full md:w-auto p-2">
                         <Link
-                          className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full"
+                          className="block w-full px-4 py-2.5 text-sm text-start text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full"
                           to="/contact"
                         >
                           Get in Touch
@@ -276,68 +279,173 @@ export default function Index() {
             </div>
           </div>
         </section>
-        <section className="pb-10  overflow-hidden bg-gray-50">
+        <section className="py-10 overflow-hidden bg-gray-50">
+          <div className="container mx-auto px-4">
+            <h2 className="font-heading mb-2 text-4xl md:text-5xl text-gray-900 font-bold tracking-tight">
+              Serving clients globally
+            </h2>
+          </div>
+        </section>
+        <Clients />
+        <section className="py-10 overflow-hidden bg-white">
+          <div className="container mx-auto px-4">
+            <div className="py-16 px-8 bg-white rounded-3xl">
+              <div className="max-w-7xl mx-auto">
+                <div className="flex flex-wrap -m-8">
+                  <div className="w-full md:w-1/2 p-8">
+                    <div className="flex flex-col justify-between md:max-w-sm h-full">
+                      <div className="flex-initial mb-8">
+                        <h2 className="font-heading mb-8 text-4xl md:text-5xl text-gray-900 font-bold tracking-tight">
+                          Our Solutions
+                        </h2>
+                        <p className="text-gray-500 mb-8 text-xl font-normal">
+                          Our company offers a cutting-edge solution in the form
+                          of a Software as a Medical Device (SAMD) AI tool that
+                          enables healthcare providers to rapidly assess various
+                          conditions, with a current focus on eye and oral
+                          diseases.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="w-full md:w-1/2 p-8">
+                    <div className="flex flex-wrap -m-4">
+                      <div className="w-full lg:w-1/2 p-4">
+                        <div className="flex flex-col justify-between p-8 h-full bg-gray-50 rounded-3xl">
+                          <div className="flex-initial mb-8">
+                            <span className="inline-block mb-6 text-sm text-blue-500 font-bold uppercase tracking-widest">
+                              PRODUCT
+                            </span>
+                            <h2 className="font-heading mb-2 text-4xl text-gray-900 font-bold tracking-tight">
+                              Oral screening module
+                            </h2>
+                            <br />
+                            <div className="flex flex-wrap -m-2">
+                              <div className="w-full p-2">
+                                <Link
+                                  className="block w-full px-8 py-2.5 text-sm text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full"
+                                  to="/oral"
+                                >
+                                  Explore Now
+                                </Link>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="w-full lg:w-1/2 p-4">
+                        <div className="flex flex-col justify-between p-8 h-full bg-gray-50 rounded-3xl">
+                          <div className="flex-initial mb-8">
+                            <span className="inline-block mb-6 text-sm text-blue-500 font-bold uppercase tracking-widest">
+                              PRODUCT
+                            </span>
+                            <h2 className="font-heading mb-2 text-4xl text-gray-900 font-bold tracking-tight">
+                              Eye screening module
+                            </h2>
+                            <br />
+                            <div className="flex flex-wrap -m-2">
+                              <div className="w-full p-2">
+                                <Link
+                                  className="block w-full px-8 py-2.5 text-sm text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full"
+                                  to="/eye"
+                                >
+                                  Explore Now
+                                </Link>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="py-10  overflow-hidden bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="py-16 px-8 bg-white border border-gray-100 rounded-3xl">
               <div className="max-w-7xl mx-auto">
-                <div className="mb-12 max-w-lg mx-auto text-center">
-                  <h2 className="font-heading mb-6 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
+                <div className="mb-12 max-w-lg  text-start">
+                  <h2 className="font-heading mb-2 text-4xl md:text-5xl text-gray-900 font-bold tracking-tight">
                     Scale of impact
                   </h2>
-                  <p className="text-gray-500 font-bold">
+                  <p className="text-gray-500 mb-8 text-xl font-normal">
                     Impact of Logy.AI in it's Journey of changing lives
                   </p>
                 </div>
                 <div className="flex flex-wrap -m-4">
                   <div className="w-full md:w-1/3 p-4">
-                    <div className="py-14 px-8 text-center h-full bg-white border border-gray-100 rounded-3xl">
+                    <div
+                      className="py-14 pb-0 px-8 text-center h-full bg-white border border-gray-100 rounded-3xl"
+                      style={{
+                        paddingBottom: "0px",
+                      }}
+                    >
                       <div className="md:max-w-xs mx-auto">
                         <h2 className="font-heading mb-6 text-5xl md:text-6xl lg:text-7xl text-gray-900 font-black tracking-tight">
-                          <span className="text-transparent bg-clip-text bg-gradient-green-dark">
+                          <span className="text-transparent bg-clip-text bg-gradient-logy">
                             2X
                           </span>
                         </h2>
-                        <h3 className="font-heading mb-3.5 text-xl text-gray-900 font-bold">
-                          ROI Improvement
+                        <h3 className="font-heading mb-3.5 text-2xl text-gray-500 font-bold">
+                          ROI IMPROVEMENT
                         </h3>
                       </div>
+                      <br />
+                      <div className="blueSemiCircle"></div>
                     </div>
                   </div>
                   <div className="w-full md:w-1/3 p-4">
-                    <div className="py-14 px-8 text-center h-full bg-gray-50 border border-gray-100 rounded-3xl">
+                    <div
+                      className="py-14 px-8 text-center h-full bg-gray-50 border border-gray-100 rounded-3xl"
+                      style={{
+                        paddingBottom: "0px",
+                      }}
+                    >
                       <div className="md:max-w-xs mx-auto">
                         <h2 className="font-heading mb-6 text-5xl md:text-6xl lg:text-7xl text-gray-900 font-black tracking-tight">
-                          <span className="text-transparent bg-clip-text bg-gradient-orange">
+                          <span className="text-transparent bg-clip-text bg-gradient-logy">
                             200+
                           </span>
                         </h2>
-                        <h3 className="font-heading mb-3.5 text-xl text-gray-900 font-bold">
-                          Clinics
+                        <h3 className="font-heading mb-3.5 text-2xl text-gray-500 font-bold">
+                          CLINICS
                         </h3>
                       </div>
+                      <br />
+                      <div className="blueSemiCircle"></div>
                     </div>
                   </div>
                   <div className="w-full md:w-1/3 p-4">
-                    <div className="py-14 px-8 text-center h-full bg-white border border-gray-100 rounded-3xl">
+                    <div
+                      className="py-14 px-8 text-center h-full bg-white border border-gray-100 rounded-3xl"
+                      style={{
+                        paddingBottom: "0px",
+                      }}
+                    >
                       <div className="md:max-w-xs mx-auto">
                         <h2 className="font-heading mb-6 text-5xl md:text-6xl lg:text-7xl text-gray-900 font-black tracking-tight">
-                          <span className="text-transparent bg-clip-text bg-gradient-green-dark">
+                          <span className="text-transparent bg-clip-text bg-gradient-logy">
                             {">"}90%
                           </span>
                         </h2>
-                        <h3 className="font-heading mb-3.5 text-xl text-gray-900 font-bold">
-                          Accuracy
+                        <h3 className="font-heading mb-3.5 text-2xl text-gray-500 font-bold">
+                          ACCURACY
                         </h3>
                       </div>
+                      <br />
+                      <div className="blueSemiCircle"></div>
                     </div>
                   </div>
                 </div>
-                <div className="flex flex-wrap -m-4">
+                {/* <div className="flex flex-wrap -m-4">
                   <div className="w-full md:w-1/3 p-4">
                     <div className="py-14 px-8 text-center h-full bg-gray-50 border border-gray-100 rounded-3xl">
                       <div className="md:max-w-xs mx-auto">
                         <h2 className="font-heading mb-6 text-5xl md:text-6xl lg:text-7xl text-gray-900 font-black tracking-tight">
-                          <span className="text-transparent bg-clip-text bg-gradient-orange">
+                          <span className="text-transparent bg-clip-text bg-gradient-logy">
                             300K+
                           </span>
                         </h2>
@@ -351,7 +459,7 @@ export default function Index() {
                     <div className="py-14 px-8 text-center h-full bg-white border border-gray-100 rounded-3xl">
                       <div className="md:max-w-xs mx-auto">
                         <h2 className="font-heading mb-6 text-5xl md:text-6xl lg:text-7xl text-gray-900 font-black tracking-tight">
-                          <span className="text-transparent bg-clip-text bg-gradient-green-dark">
+                          <span className="text-transparent bg-clip-text bg-gradient-logy">
                             20%
                           </span>
                         </h2>
@@ -365,7 +473,7 @@ export default function Index() {
                     <div className="py-14 px-8 text-center h-full bg-gray-50 border border-gray-100 rounded-3xl">
                       <div className="md:max-w-xs mx-auto">
                         <h2 className="font-heading mb-6 text-5xl md:text-6xl lg:text-7xl text-gray-900 font-black tracking-tight">
-                          <span className="text-transparent bg-clip-text bg-gradient-orange">
+                          <span className="text-transparent bg-clip-text bg-gradient-logy">
                             50%
                           </span>
                         </h2>
@@ -375,6 +483,75 @@ export default function Index() {
                       </div>
                     </div>
                   </div>
+                </div> */}
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="pb-10 bg-gray-50 overflow-hidden">
+          <div className="container mx-auto px-4">
+            <div className="py-16 px-8 bg-white border border-gray-100 rounded-3xl">
+              <div className="max-w-7xl mx-auto">
+                <div className="max-w-lg  text-start">
+                  <span className="inline-block mb-2 text-sm text-blue-500 font-bold uppercase tracking-widest">
+                    Testimonials
+                  </span>
+                  <h2 className="font-heading mb-12 text-4xl md:text-5xl text-gray-900 font-bold tracking-tight">
+                    Hear from Our Clients
+                  </h2>
+                </div>
+                <div className="flex flex-wrap -m-4">
+                  <div className="w-full md:w-1/3 p-4">
+                    <div className="flex flex-col justify-between px-8 pt-12 pb-8 h-full text-start bg-gray-50 border border-gray-100 rounded-3xl">
+                      <div className="flex-initial mb-8">
+                        <img
+                          className="mb-6  "
+                          src={apollo_t}
+                          alt=""
+                          style={{ width: "200px" }}
+                        />
+                        <p className="text-base text-gray-700 font-normal text-xl">
+                          Logy.AI's AI-driven Eye Screening Tool delivers quick,
+                          reliable eye health assessments via smartphones,
+                          aligning with top-notch healthcare standards.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="w-full md:w-1/3 p-4">
+                    <div className="flex flex-col justify-between px-8 pt-12 pb-8 h-full text-start bg-gray-50 border border-gray-100 rounded-3xl">
+                      <div className="flex-initial mb-8">
+                        <img
+                          className="mb-6  rounded-full"
+                          src={sharp_t}
+                          alt=""
+                          style={{ width: "200px" }}
+                        />
+                        <p className="text-base text-gray-700 font-normal text-xl">
+                          Logy.AI's AI-driven Eye Screening Module optimizes
+                          ophthalmic diagnostics, ensuring efficiency and
+                          accuracy in eye health evaluations.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="w-full md:w-1/3 p-4">
+                    <div className="flex flex-col justify-between px-8 pt-12 pb-8 h-full text-start bg-gray-50 border border-gray-100 rounded-3xl">
+                      <div className="flex-initial mb-8">
+                        <img
+                          className="mb-6  rounded-full"
+                          src={colgate_t}
+                          alt=""
+                          style={{ width: "200px" }}
+                        />
+                        <p className="text-base text-gray-700 font-normal text-xl">
+                          It's Al-powered Oral Screening ensures swift and
+                          accurate dental assessments through smartphones and
+                          WhatsApp. Elevating oral health accessibility.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -384,66 +561,66 @@ export default function Index() {
           <div className="container mx-auto px-4">
             <div className="py-16 px-8 bg-white border border-gray-100 rounded-3xl">
               <div className="max-w-7xl mx-auto">
-                <div className="mb-12 md:max-w-4xl mx-auto text-center">
-                  <h2 className="font-heading mb-6 text-4xl md:text-5xl lg:text-6xl text-gray-900 font-black tracking-tight">
+                <div className="mb-12 md:max-w-4xl m text-start">
+                  <h2 className="font-heading mb-2 text-4xl md:text-5xl  text-gray-900 font-bold tracking-tight">
                     Case Studies
                   </h2>
-                  <p className="md:max-w-md mx-auto text-gray-500 font-bold">
+                  <p className="text-gray-500 mb-8 text-xl font-normal">
                     Making a difference in the community. Read the studies.
                   </p>
                 </div>
-                <div className="flex flex-wrap -m-4 mb-6">
+                <div className=" flex flex-wrap -m-4 ">
                   <div className="w-full md:w-1/3 p-4">
-                    <div className="h-full bg-gray-100 rounded-3xl">
+                    <div className="h-full bg-gray-100 rounded-3xl p-3">
                       <img className="w-full" src={cs1} alt="" />
                       <div className="p-8">
                         <Link
                           className="group inline-block mb-4"
                           to="/cs_kenya"
                         >
-                          <h3 className="font-heading text-2xl text-gray-900 hover:text-gray-700 group-hover:underline font-black">
+                          <h3 className="font-bold text-xl text-gray-900 hover:text-gray-700 group-hover:underline font-bold">
                             Logy.AI eye screening solution: Vidisha 5G use cases
                             pilot launch on 13th January 2023
                           </h3>
                         </Link>
-                        <p className="text-sm text-gray-500 font-bold">
+                        <p className="text-normal text-gray-500 ">
                           Case Study • 4 min read
                         </p>
                       </div>
                     </div>
                   </div>
                   <div className="w-full md:w-1/3 p-4">
-                    <div className="h-full bg-gray-100 rounded-3xl">
+                    <div className="h-full bg-gray-100 rounded-3xl p-3">
                       <img className="w-full" src={cs2} alt="" />
                       <div className="p-8">
                         <Link
                           className="group inline-block mb-4"
                           to="/cs_kenya"
                         >
-                          <h3 className="font-heading text-2xl text-gray-900 hover:text-gray-700 group-hover:underline font-black">
+                          <h3 className="font-bold text-xl text-gray-900 hover:text-gray-700 group-hover:underline font-bold">
                             Logy.AI’s Collaboration with Colgate Kenya
                           </h3>
                         </Link>
-                        <p className="text-sm text-gray-500 font-bold">
+                        <p className="text-normal text-gray-500 ">
                           Case Study • 4 min read
                         </p>
                       </div>
                     </div>
                   </div>
                   <div className="w-full md:w-1/3 p-4">
-                    <div className="h-full bg-gray-100 rounded-3xl">
+                    <div className="h-full bg-gray-100 rounded-3xl p-3">
                       <img className="w-full" src={cs3} alt="" />
                       <div className="p-8">
                         <Link
                           className="group inline-block mb-4"
                           to="/cs_kenya"
                         >
-                          <h3 className="font-heading text-2xl text-gray-900 hover:text-gray-700 group-hover:underline font-black">
+                          <h3 className="font-bold text-xl text-gray-900 hover:text-gray-700 group-hover:underline font-bold">
                             Logy.AI 5G digital health launch at Vidisha, Madhya
                             Pradesh
                           </h3>
                         </Link>
-                        <p className="text-sm text-gray-500 font-bold">
+                        <p className="text-normal text-gray-500 ">
                           Case Study • 4 min read
                         </p>
                       </div>
@@ -457,12 +634,12 @@ export default function Index() {
         <section className="pb-10 bg-gray-50 overflow-hidden">
           <div className="container mx-auto px-4">
             <div className="py-16 px-8 bg-white border border-gray-100 rounded-3xl">
-              <div className="max-w-7xl mx-auto">
-                <div className="mb-12 md:max-w-4xl mx-auto text-center">
-                  <h2 className="font-heading mb-6 text-4xl md:text-5xl lg:text-6xl text-gray-900 font-black tracking-tight">
+              <div className="max-w-5xl mx-auto">
+                <div className="mb-12 md:max-w-4xl  text-start">
+                  <h2 className="font-heading mb-2 text-4xl md:text-5xl  text-gray-900 font-bold tracking-tight">
                     Articles and Publications
                   </h2>
-                  <p className="md:max-w-md mx-auto text-gray-500 font-bold">
+                  <p className="text-gray-500 mb-8 text-xl font-normal">
                     What are the newest publications and findings about Logy.AI?
                     Stay up-to-date here.
                   </p>
@@ -486,13 +663,13 @@ export default function Index() {
                                   Article • 4 min read
                                 </p>
                                 <a className="group inline-block mb-4" href="#">
-                                  <h3 className="font-heading text-2xl text-gray-900 hover:text-gray-700 group-hover:underline font-black">
+                                  <h3 className="font-heading text-2xl text-gray-900 hover:text-gray-700 group-hover:underline font-bold">
                                     Teeth talk: This Hyderabad start-up is using
                                     AI and WhatsApp to bring oral hygiene to the
                                     fore
                                   </h3>
                                 </a>
-                                <p className="text-gray-500 font-bold">
+                                <p className="text-gray-500 font-normal">
                                   Logy.AI is a start-up that is using the power
                                   of WhatsApp and Artificial Intelligence to
                                   step up oral hygiene efforts. We get a demo to
@@ -533,194 +710,13 @@ export default function Index() {
             </div>
           </div>
         </section>
-        <section className="py-10 overflow-hidden bg-white">
-          <div className="container mx-auto px-4">
-            <div className="py-16 px-8 bg-white rounded-3xl">
-              <div className="max-w-7xl mx-auto">
-                <div className="flex flex-wrap -m-8">
-                  <div className="w-full md:w-1/2 p-8">
-                    <div className="flex flex-col justify-between md:max-w-sm h-full">
-                      <div className="flex-initial mb-8">
-                        <h2 className="font-heading mb-8 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
-                          Our Solutions
-                        </h2>
-                        <p className="text-gray-700 font-bold">
-                          Our company offers a cutting-edge solution in the form
-                          of a Software as a Medical Device (SAMD) AI tool that
-                          enables healthcare providers to rapidly assess various
-                          conditions, with a current focus on eye and oral
-                          diseases.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="w-full md:w-1/2 p-8">
-                    <div className="flex flex-wrap -m-4">
-                      <div className="w-full lg:w-1/2 p-4">
-                        <div className="flex flex-col justify-between p-8 h-full bg-gray-50 rounded-3xl">
-                          <div className="flex-initial mb-8">
-                            <span className="inline-block mb-6 text-sm text-blue-500 font-bold uppercase tracking-widest">
-                              PRODUCT
-                            </span>
-                            <h2 className="font-heading mb-2 text-4xl text-gray-900 font-black tracking-tight">
-                              Oral screening module
-                            </h2>
-                            <br />
-                            <div className="flex flex-wrap -m-2">
-                              <div className="w-full p-2">
-                                <Link
-                                  className="block w-full px-8 py-2.5 text-sm text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full"
-                                  to="/oral"
-                                >
-                                  Explore Now
-                                </Link>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="w-full lg:w-1/2 p-4">
-                        <div className="flex flex-col justify-between p-8 h-full bg-gray-50 rounded-3xl">
-                          <div className="flex-initial mb-8">
-                            <span className="inline-block mb-6 text-sm text-blue-500 font-bold uppercase tracking-widest">
-                              PRODUCT
-                            </span>
-                            <h2 className="font-heading mb-2 text-4xl text-gray-900 font-black tracking-tight">
-                              Eye screening module
-                            </h2>
-                            <br />
-                            <div className="flex flex-wrap -m-2">
-                              <div className="w-full p-2">
-                                <Link
-                                  className="block w-full px-8 py-2.5 text-sm text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full"
-                                  to="/eye"
-                                >
-                                  Explore Now
-                                </Link>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="py-10 overflow-hidden bg-gray-50">
-          <div className="container mx-auto px-4">
-            <h2 className="font-heading mb-10 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
-              Serving clients globally
-            </h2>
-          </div>
-        </section>
-        <Clients />
-        <section className="py-10 overflow-hidden bg-gray-50">
-          <div className="container mx-auto px-4">
-            <h2 className="font-heading mb-10 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
-              Covered by
-            </h2>
-          </div>
-          <div className="container mx-auto px-4">
-            <div className="px-4 bg-white w-fit border border-gray-100 rounded-3xl">
-              <div className="flex flex-wrap items-center py-11 -m-8 ">
-                <div className="w-full sm:w-1/3 lg:w-1/6 p-8">
-                  <img
-                    className="mx-auto"
-                    style={{ padding: "10%" }}
-                    src={edex}
-                    alt=""
-                  />
-                </div>
-                <div className="w-full sm:w-1/3 lg:w-1/6 p-8">
-                  <img
-                    className="mx-auto"
-                    style={{ padding: "10%" }}
-                    src={dainik}
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="pb-10 bg-gray-50 overflow-hidden">
-          <div className="container mx-auto px-4">
-            <div className="py-16 px-8 bg-white border border-gray-100 rounded-3xl">
-              <div className="max-w-7xl mx-auto">
-                <div className="max-w-lg mx-auto text-center">
-                  <span className="inline-block mb-2 text-sm text-blue-500 font-bold uppercase tracking-widest">
-                    Testimonials
-                  </span>
-                  <h2 className="font-heading mb-12 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
-                    Hear from Our Clients
-                  </h2>
-                </div>
-                <div className="flex flex-wrap -m-4">
-                  <div className="w-full md:w-1/3 p-4">
-                    <div className="flex flex-col justify-between px-8 pt-12 pb-8 h-full text-center bg-gray-100 border border-gray-100 rounded-3xl">
-                      <div className="flex-initial mb-8">
-                        <img
-                          className="mb-6 mx-auto "
-                          src={apollo_t}
-                          alt=""
-                          style={{ width: "200px" }}
-                        />
-                        <p className="text-base text-gray-700 font-bold">
-                          Logy.AI's AI-driven Eye Screening Tool delivers quick,
-                          reliable eye health assessments via smartphones,
-                          aligning with top-notch healthcare standards.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="w-full md:w-1/3 p-4">
-                    <div className="flex flex-col justify-between px-8 pt-12 pb-8 h-full text-center bg-gray-100 border border-gray-100 rounded-3xl">
-                      <div className="flex-initial mb-8">
-                        <img
-                          className="mb-6 mx-auto rounded-full"
-                          src={sharp_t}
-                          alt=""
-                          style={{ width: "200px" }}
-                        />
-                        <p className="text-base text-gray-700 font-bold">
-                          Logy.AI's AI-driven Eye Screening Module optimizes
-                          ophthalmic diagnostics, ensuring efficiency and
-                          accuracy in eye health evaluations.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="w-full md:w-1/3 p-4">
-                    <div className="flex flex-col justify-between px-8 pt-12 pb-8 h-full text-center bg-gray-100 border border-gray-100 rounded-3xl">
-                      <div className="flex-initial mb-8">
-                        <img
-                          className="mb-6 mx-auto rounded-full"
-                          src={colgate_t}
-                          alt=""
-                          style={{ width: "200px" }}
-                        />
-                        <p className="text-base text-gray-700 font-bold">
-                          It's Al-powered Oral Screening ensures swift and
-                          accurate dental assessments through smartphones and
-                          WhatsApp. Elevating oral health accessibility.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+
         <section className="pb-10 bg-gray-50 overflow-hidden">
           <div className="container mx-auto px-4">
             <div className="py-16 px-8 md:px-16 bg-blue-500 rounded-3xl">
               <div className="flex flex-wrap items-center -m-4">
                 <div className="w-full md:w-3/5 p-4">
-                  <h2 className="font-heading text-4xl md:text-5xl text-white font-black tracking-tight">
+                  <h2 className="font-heading text-4xl md:text-5xl text-white font-bold tracking-tight">
                     Join the growing number of healthcare providers who trust
                     Logy.AI
                   </h2>
