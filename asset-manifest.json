@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/logy/static/css/main.d1aa55c7.css",
-    "main.js": "/logy/static/js/main.fbf78c82.js",
-    "static/media/logyanim.gif": "/logy/static/media/logyanim.2358842596b59ebcc67c.gif",
+    "main.css": "/logy/static/css/main.32c30aee.css",
+    "main.js": "/logy/static/js/main.4699110f.js",
+    "static/media/logyanim.gif": "/logy/static/media/logyanim.723301ae925492376c3a.gif",
     "static/media/Nivedita Tiwari.png": "/logy/static/media/Nivedita Tiwari.e19aea7d2a9a124d1bd8.png",
     "static/media/Vinay Khobragade.png": "/logy/static/media/Vinay Khobragade.1146a1a13a76af787b36.png",
     "static/media/Anand Panchbhai.png": "/logy/static/media/Anand Panchbhai.a0f38d38e5024ec1e4c8.png",
@@ -31,7 +31,7 @@
     "static/media/dainikbhaskar.png": "/logy/static/media/dainikbhaskar.99b7a735cdd477e258df.png",
     "static/media/Apollo-Clinic.png": "/logy/static/media/Apollo-Clinic.5b1d27b87e41a6aa67e2.png",
     "static/media/Dr. Agarwals.png": "/logy/static/media/Dr. Agarwals.1a82a55cf9845f1de242.png",
-    "static/media/aboutusnumbers.svg": "/logy/static/media/aboutusnumbers.bbadaf516877b808543b4bd4eb9b71de.svg",
+    "static/media/aboutusnumbers.svg": "/logy/static/media/aboutusnumbers.7e4d67f1ac0c655d962437a29628db16.svg",
     "static/media/sharpsight_t.png": "/logy/static/media/sharpsight_t.b0554afd29ebed450a98.png",
     "static/media/blog5.png": "/logy/static/media/blog5.0e46dab39076483d24bb.png",
     "static/media/cdot_logo.png": "/logy/static/media/cdot_logo.ccb4505b33d554a2623a.png",
@@ -39,18 +39,18 @@
     "static/media/colgate2.png": "/logy/static/media/colgate2.d81d8703503df22aa3fe.png",
     "static/media/Colgate-Logo.png": "/logy/static/media/Colgate-Logo.073e60ed6bbfbba77c08.png",
     "static/media/pristynWhiteBg.png": "/logy/static/media/pristynWhiteBg.9bcce75b772a2f8dcb61.png",
-    "static/media/LogoFree.svg": "/logy/static/media/LogoFree.ce6822ec19fd926a1cfab4e83088331f.svg",
-    "static/media/linkedin.svg": "/logy/static/media/linkedin.7ea38b8a7e11e2d79f014bdc8e296b39.svg",
-    "static/media/insta.svg": "/logy/static/media/insta.ac5711ee936d9658e6cf5e915ddaef58.svg",
-    "static/media/iconlogo.svg": "/logy/static/media/iconlogo.3b42ed61956a9411eb3553f7fc221ec8.svg",
-    "static/media/twitter.svg": "/logy/static/media/twitter.397c09eaf6add12766a2f60a1f5b8fb4.svg",
+    "static/media/LogoFree.svg": "/logy/static/media/LogoFree.fbe31b872b6dfb4426a93dc716d1e979.svg",
+    "static/media/linkedin.svg": "/logy/static/media/linkedin.14e4ce8cc84ec2d14321c3b78e4fab6a.svg",
+    "static/media/insta.svg": "/logy/static/media/insta.a037e60f3631694eb0119c2e119a2995.svg",
+    "static/media/iconlogo.svg": "/logy/static/media/iconlogo.975a92eadc2e1e7d1e147d0982f52dc9.svg",
+    "static/media/twitter.svg": "/logy/static/media/twitter.a47caae622c6d6437c007317f7868a98.svg",
     "index.html": "/logy/index.html",
-    "static/media/fb.svg": "/logy/static/media/fb.946ec2d8104097c73520da7b5b65eda2.svg",
-    "main.d1aa55c7.css.map": "/logy/static/css/main.d1aa55c7.css.map",
-    "main.fbf78c82.js.map": "/logy/static/js/main.fbf78c82.js.map"
+    "static/media/fb.svg": "/logy/static/media/fb.0d8c9b7c6d7d4c2dc53f119eeba7347e.svg",
+    "main.32c30aee.css.map": "/logy/static/css/main.32c30aee.css.map",
+    "main.4699110f.js.map": "/logy/static/js/main.4699110f.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1aa55c7.css",
-    "static/js/main.fbf78c82.js"
+    "static/css/main.32c30aee.css",
+    "static/js/main.4699110f.js"
   ]
 }
