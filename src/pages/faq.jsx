@@ -46,7 +46,7 @@ export default function Faq() {
                   >
                     <div className="flex flex-wrap -m-2">
                       <div className="flex-1 p-2">
-                        <h3 className="font-heading text-xl text-gray-900 font-black">
+                        <h3 className="font-heading text-xl text-gray-900 font-bold">
                           {com.name}
                         </h3>
                         <div
@@ -58,7 +58,9 @@ export default function Faq() {
                           {filterCompany.map((item, index) => {
                             return (
                               <div key={index}>
-                                <h5>{item.BILL_INFO_ID} </h5>
+                                <h5 className=" text-xl text-gray-900 font-normal">
+                                  {item.BILL_INFO_ID}{" "}
+                                </h5>
                               </div>
                             );
                           })}
@@ -84,7 +86,7 @@ export default function Faq() {
               );
             })}
           </div>
-          <p className="text-gray-500 font-bold text-center">
+          <p className="text-gray-500 font-normal text-2xl text-center">
             <span>Still have any questions? </span>
             <Link className="text-blue-500 hover:text-blue-600" to="/contact">
               Contact us

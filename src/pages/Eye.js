@@ -10,6 +10,13 @@ import apollo from "../assets/img/Apollo-Clinic.png";
 import sharpsight from "../assets/img/sharpsight.png";
 import pristyn from "../assets/img/pristynWhiteBg.png";
 
+import eyescans from "../assets/img/eyescans.svg";
+import wtsapp from "../assets/img/wtsapp.svg";
+import time from "../assets/img/time.svg";
+import accuracy from "../assets/img/accuracy.svg";
+
+import Faq from "./faq";
+
 const meta = {
   title: "Logy.AI - eye",
   meta: [],
@@ -245,7 +252,7 @@ export default function Eye() {
                       </span>
                       <span> than ever.</span>
                     </h1>
-                    <p className="mb-6 text-xl font-bold">
+                    <p className="mb-6  font-normal text-2xl">
                       Accessible Eye Care Solutions for Home and Satellite Camps
                       using Smartphones
                     </p>
@@ -340,14 +347,14 @@ export default function Eye() {
             </div>
             <div className="flex flex-wrap justify-center -m-4">
               <div className="w-full md:flex-1 p-4">
-                <div className="flex flex-col justify-center items-center p-8 h-full text-center bg-white rounded-3xl">
+                <div className="flex flex-col justify-center items-center p-8 h-full text-center rounded-3xl">
                   <div className="w-full">
-                    <h1 className="font-heading mb-6 text-5xl text-gray-900 font-black tracking-tight">
+                    <h1 className="font-heading mb-6 text-5xl text-gray-900 font-bold text-start tracking-tight">
                       <span>One of it's kind </span>
                       <span className="text-blue-500">solution</span>
                       <span> for Eye screening.</span>
                     </h1>
-                    <p className="mb-4 text-xl font-bold">
+                    <p className="mb-4 font-normal text-2xl text-start">
                       The logy.AI Eye Screening Solution helps in the early
                       prediction of cataract diseases and provides early
                       warnings for pre-diabetes. Clinically validated in India
@@ -360,31 +367,41 @@ export default function Eye() {
             </div>
           </div>
         </section>
-        <section className="pb-6 bg-gray-50 overflow-hidden">
+        <section className="pb-12 pt-2 bg-gray-50 overflow-hidden ">
           <div className="container mx-auto px-4">
-            <div className="flex flex-wrap -m-4">
+            <div className="flex flex-wrap">
               <div className="stats">
-                <div className="flex flex-col justify-end p-6 pt-20 lg:pt-28 bg-white h-full border border-gray-100 rounded-3xl">
+                <img
+                  src={eyescans}
+                  className="-m-4"
+                  style={{ width: "20%", marginLeft: "auto" }}
+                />
+                <div className="flex flex-col justify-between p-6  lg:pt-12 bg-white  border border-gray-100 rounded-3xl">
                   <h2 className="font-heading text-2xl text-gray-900 font-bold tracking-tight">
-                    <span className="text-3xl font-black text-transparent bg-clip-text bg-gradient-green">
-                      2,000+
+                    <span className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-blue">
+                      10,000+
                     </span>
-                    <span> Tests Completed</span>
+                    <span className="font-normal"> Tests Completed</span>
                   </h2>
                 </div>
               </div>
               <div className="stats">
-                <div className="flex flex-col justify-end p-6 pt-20 lg:pt-28 bg-white h-full border border-gray-100 rounded-3xl">
+                <img
+                  src={time}
+                  className="-m-4"
+                  style={{ width: "20%", marginLeft: "auto" }}
+                />
+                <div className="flex flex-col justify-between p-6  lg:pt-12 bg-white  border border-gray-100 rounded-3xl">
                   <h2 className="font-heading text-2xl text-gray-900 font-bold tracking-tight">
-                    <span>Takes less than </span>
-                    <span className="text-3xl font-black text-transparent bg-clip-text bg-gradient-pink">
+                    <span className="font-normal">Takes less than </span>
+                    <span className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-blue">
                       2
                     </span>
-                    <span> minutes</span>
+                    <span className="font-normal"> minutes</span>
                   </h2>
                 </div>
               </div>
-              <div className="stats">
+              {/* <div className="stats">
                 <div className="flex flex-col justify-end p-6 pt-20 lg:pt-28 bg-white h-full border border-gray-100 rounded-3xl">
                   <h2 className="font-heading text-2xl text-gray-900 font-bold tracking-tight">
                     <span className="text-3xl font-black text-transparent bg-clip-text bg-gradient-aqua">
@@ -397,34 +414,44 @@ export default function Eye() {
                     <span> tests</span>
                   </h2>
                 </div>
-              </div>
+              </div> */}
               <div className="stats">
-                <div className="flex flex-col justify-end p-6 pt-20 lg:pt-28 bg-white h-full border border-gray-100 rounded-3xl">
+                <img
+                  src={accuracy}
+                  className="-m-4"
+                  style={{ width: "20%", marginLeft: "auto" }}
+                />
+                <div className="flex flex-col justify-between p-6  lg:pt-12 bg-white  border border-gray-100 rounded-3xl">
                   <h2 className="font-heading text-2xl text-gray-900 font-bold tracking-tight">
-                    <span className="text-3xl font-black text-transparent bg-clip-text bg-gradient-pink">
+                    <span className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-blue">
                       90% +
                     </span>
-                    <span> Accurate Results </span>
+                    <span className="font-normal"> Accurate Results </span>
                   </h2>
                 </div>
               </div>
-              <div className="stats">
+              {/* <div className="stats">
                 <div className="flex flex-col justify-end p-6 pt-20 lg:pt-28 bg-white h-full border border-gray-100 rounded-3xl">
                   <h2 className="font-heading text-2xl text-gray-900 font-bold tracking-tight">
                     <span className="text-3xl font-black text-transparent bg-clip-text bg-gradient-aqua">
                       Patent
                     </span>
-                    <span> Pending </span>
+                    <span> Secured </span>
                   </h2>
                 </div>
-              </div>
+              </div> */}
               <div className="stats">
-                <div className="flex flex-col justify-end p-6 pt-20 lg:pt-28 bg-white h-full border border-gray-100 rounded-3xl">
+                <img
+                  src={wtsapp}
+                  className="-m-4 "
+                  style={{ width: "20%", marginLeft: "auto" }}
+                />
+                <div className="flex flex-col justify-between p-6  lg:pt-12 bg-white  border border-gray-100 rounded-3xl">
                   <h2 className="font-heading text-2xl text-gray-900 font-bold tracking-tight">
-                    <span className="text-2xl font-black text-transparent bg-clip-text bg-gradient-pink">
+                    <span className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-blue">
                       Whatsapp
                     </span>
-                    <span> based Application </span>
+                    <span className="font-normal"> based Application </span>
                   </h2>
                 </div>
               </div>
@@ -439,7 +466,7 @@ export default function Eye() {
                   <span className="inline-block mb-4 text-sm text-blue-500 font-bold uppercase tracking-widest">
                     How it works
                   </span>
-                  <h2 className="font-heading mb-6 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
+                  <h2 className="font-heading mb-6 text-4xl md:text-5xl text-gray-900 font-bold tracking-tight">
                     Step by Step guide on how to use the solution
                   </h2>
 
@@ -485,7 +512,7 @@ export default function Eye() {
                             <h3 className="font-heading mb-3 text-2xl text-gray-900 font-bold">
                               Step 1
                             </h3>
-                            <p className="text-gray-700 font-normal text-xl">
+                            <p className="text-gray-700 font-normal text-2xl">
                               The Patient Says Hi to Logy.AI bot on WhatsApp
                             </p>
                           </div>
@@ -522,7 +549,7 @@ export default function Eye() {
                             <h3 className="font-heading mb-3 text-2xl text-gray-900 font-bold">
                               Step 2
                             </h3>
-                            <p className="text-gray-700 font-normal text-xl">
+                            <p className="text-gray-700 font-normal text-2xl">
                               They are prompted to share their Name, Age & Other
                               Details
                             </p>
@@ -560,7 +587,7 @@ export default function Eye() {
                             <h3 className="font-heading mb-3 text-2xl text-gray-900 font-bold">
                               Step 3
                             </h3>
-                            <p className="text-gray-700 font-normal text-xl">
+                            <p className="text-gray-700 font-normal text-2xl">
                               They share an image of their eyes
                             </p>
                           </div>
@@ -594,10 +621,10 @@ export default function Eye() {
                             <div className="md:hidden w-px h-24 bg-gray-200" />
                           </div>
                           <div className="flex-1 p-4">
-                            <h3 className="font-heading mb-3 text-2xl text-gray-900 font-bold">
+                            <h3 className="font-heading mb-3 text-2xl text-blue-500 font-bold">
                               Result
                             </h3>
-                            <p className="text-gray-700 font-normal text-xl">
+                            <p className="text-gray-700 font-normal text-2xl">
                               Logy.AI solution shares their report in under a
                               minute
                             </p>
@@ -614,25 +641,25 @@ export default function Eye() {
         <section className="py-10 bg-gray-50 overflow-hidden">
           <div className="container mx-auto px-4">
             <div className="py-16 px-8 bg-white border border-gray-100 rounded-3xl">
-              <div className="max-w-7xl mx-auto">
-                <div className="max-w-lg mx-auto text-center">
+              <div className="max-w-7xl ">
+                <div className="max-w-lg  text-start">
                   <span className="inline-block mb-2 text-sm text-blue-500 font-bold uppercase tracking-widest">
                     Testimonials
                   </span>
-                  <h2 className="font-heading mb-12 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
+                  <h2 className="font-heading mb-12 text-4xl md:text-5xl text-gray-900 font-bold tracking-tight">
                     Our customer says
                   </h2>
                 </div>
                 <div className="flex flex-wrap -m-4">
                   <div className="w-full md:w-1/3 p-4">
-                    <div className="flex flex-col justify-between px-8 pt-12 pb-8 h-full text-center bg-gray-100 border border-gray-100 rounded-3xl">
+                    <div className="flex flex-col justify-between text-start px-8 pt-12 pb-8 h-full text-center bg-gray-100 border border-gray-100 rounded-3xl">
                       <div className="flex-initial mb-8">
                         <img
                           className="mb-6 mx-auto rounded-full"
                           src="zanrly-assets/images/testimonials/avatar2.png"
                           alt=""
                         />
-                        <p className="text-base text-gray-700 font-bold">
+                        <p className="text-base text-gray-700 font-normal text-xl">
                           Had some issues where my site crashed and broke,
                           reached out to Shuffle Editor to see if they could
                           help me fix it.
@@ -649,14 +676,14 @@ export default function Eye() {
                     </div>
                   </div>
                   <div className="w-full md:w-1/3 p-4">
-                    <div className="flex flex-col justify-between px-8 pt-12 pb-8 h-full text-center bg-gray-100 border border-gray-100 rounded-3xl">
+                    <div className="flex flex-col justify-between text-start px-8 pt-12 pb-8 h-full text-center bg-gray-100 border border-gray-100 rounded-3xl">
                       <div className="flex-initial mb-8">
                         <img
                           className="mb-6 mx-auto rounded-full"
                           src="zanrly-assets/images/testimonials/avatar2.png"
                           alt=""
                         />
-                        <p className="text-base text-gray-700 font-bold">
+                        <p className="text-base text-gray-700 font-normal text-xl">
                           Had some issues where my site crashed and broke,
                           reached out to Shuffle Editor to see if they could
                           help me fix it.
@@ -673,14 +700,14 @@ export default function Eye() {
                     </div>
                   </div>
                   <div className="w-full md:w-1/3 p-4">
-                    <div className="flex flex-col justify-between px-8 pt-12 pb-8 h-full text-center bg-gray-100 border border-gray-100rounded-3xl">
+                    <div className="flex flex-col justify-between text-start px-8 pt-12 pb-8 h-full text-center bg-gray-100 border border-gray-100rounded-3xl">
                       <div className="flex-initial mb-8">
                         <img
                           className="mb-6 mx-auto rounded-full"
                           src="zanrly-assets/images/testimonials/avatar2.png"
                           alt=""
                         />
-                        <p className="text-base text-gray-700 font-bold">
+                        <p className="text-base text-gray-700 font-normal text-xl">
                           Had some issues where my site crashed and broke,
                           reached out to Shuffle Editor to see if they could
                           help me fix it.
@@ -710,7 +737,7 @@ export default function Eye() {
                     <span className="inline-block mb-5 text-sm text-blue-500 font-bold uppercase tracking-widest">
                       Use our solution
                     </span>
-                    <h2 className="font-heading mb-8 text-4xl text-gray-900 font-black tracking-tight">
+                    <h2 className="font-heading mb-8 text-4xl md:text-5xl text-gray-900 font-bold tracking-tight">
                       Take full control of design &amp; development. Use our
                       services through.
                     </h2>
@@ -742,7 +769,7 @@ export default function Eye() {
                             fill="#3B82F6"
                           />
                         </svg>
-                        <h3 className="font-heading text-xl text-gray-900 font-black xl:w-40">
+                        <h3 className="font-heading text-2xl text-gray-900 font-normal xl:w-40">
                           Integrate Logy.AI - for - Dentistry to your workflow
                           in a jiff
                         </h3>
@@ -771,7 +798,7 @@ export default function Eye() {
                             fill="#3B82F6"
                           />
                         </svg>
-                        <h3 className="font-heading text-xl text-gray-900 font-black xl:w-40">
+                        <h3 className="font-heading text-2xl text-gray-900 font-normal xl:w-40">
                           Experience our AI powered User Interface on the Web
                         </h3>
                       </div>
@@ -799,7 +826,7 @@ export default function Eye() {
                             fill="#3B82F6"
                           />
                         </svg>
-                        <h3 className="font-heading text-xl text-gray-900 font-black xl:w-40">
+                        <h3 className="font-heading text-2xl text-gray-900 font-normal xl:w-40">
                           Diagnose your Oral Health on WhatsApp
                         </h3>
                       </div>
@@ -827,7 +854,7 @@ export default function Eye() {
                             fill="#3B82F6"
                           />
                         </svg>
-                        <h3 className="font-heading text-xl text-gray-900 font-black xl:w-40">
+                        <h3 className="font-heading text-2xl text-gray-900 font-normal xl:w-40">
                           Get Expert opinion of Professional Dentists with a few
                           clicks
                         </h3>
@@ -851,137 +878,11 @@ export default function Eye() {
                   <span className="inline-block mb-5 text-sm text-blue-500 font-bold uppercase tracking-widest">
                     Frequently asked questions
                   </span>
-                  <h2 className="font-heading mb-6 text-4xl md:text-5xl lg:text-6xl text-gray-900 font-black tracking-tight">
+                  <h2 className="font-heading mb-6 text-4xl md:text-5xl lg:text-6xl text-gray-900 font-bold tracking-tight">
                     Got questions? We’re here to help!
                   </h2>
                 </div>
-                <div className="max-w-3xl mx-auto">
-                  <div className="flex flex-wrap -m-3 mb-10">
-                    <div className="w-full p-3">
-                      <a
-                        className="block p-10 bg-gray-100 rounded-3xl"
-                        href="#"
-                      >
-                        <div className="flex flex-wrap -m-2">
-                          <div className="flex-1 p-2">
-                            <h3 className="font-heading mb-4 text-xl text-gray-900 font-black">
-                              Do you provide any free plan?
-                            </h3>
-                            <p className="text-gray-500 font-bold">
-                              Lorem ipsum dolor sit amet, to the consectr
-                              adipiscing elit. Volutpat tempor to the condi
-                              mentum vitae vel purus.
-                            </p>
-                          </div>
-                          <div className="w-auto p-2">
-                            <svg
-                              width={24}
-                              height={24}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M6.07928 15.82L12.3093 15.82L17.9193 15.82C18.8793 15.82 19.3593 14.66 18.6793 13.98L13.4993 8.80001C12.6693 7.97001 11.3193 7.97001 10.4893 8.80001L8.51928 10.77L5.30927 13.98C4.63927 14.66 5.11928 15.82 6.07928 15.82Z"
-                                fill="#D1D5DB"
-                              />
-                            </svg>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                    <div className="w-full p-3">
-                      <a
-                        className="block p-10 bg-gray-100 rounded-3xl"
-                        href="#"
-                      >
-                        <div className="flex flex-wrap -m-2">
-                          <div className="flex-1 p-2">
-                            <h3 className="font-heading text-xl text-gray-900 font-black">
-                              How to claim your 25% discount offer?
-                            </h3>
-                          </div>
-                          <div className="w-auto p-2">
-                            <svg
-                              width={24}
-                              height={24}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M17.9207 8.17999H11.6907H6.08072C5.12072 8.17999 4.64073 9.33999 5.32073 10.02L10.5007 15.2C11.3307 16.03 12.6807 16.03 13.5107 15.2L15.4807 13.23L18.6907 10.02C19.3607 9.33999 18.8807 8.17999 17.9207 8.17999Z"
-                                fill="#D1D5DB"
-                              />
-                            </svg>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                    <div className="w-full p-3">
-                      <a
-                        className="block p-10 bg-gray-100 rounded-3xl"
-                        href="#"
-                      >
-                        <div className="flex flex-wrap -m-2">
-                          <div className="flex-1 p-2">
-                            <h3 className="font-heading text-xl text-gray-900 font-black">
-                              What’s your refund policy?
-                            </h3>
-                          </div>
-                          <div className="w-auto p-2">
-                            <svg
-                              width={24}
-                              height={24}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M17.9207 8.17999H11.6907H6.08072C5.12072 8.17999 4.64073 9.33999 5.32073 10.02L10.5007 15.2C11.3307 16.03 12.6807 16.03 13.5107 15.2L15.4807 13.23L18.6907 10.02C19.3607 9.33999 18.8807 8.17999 17.9207 8.17999Z"
-                                fill="#D1D5DB"
-                              />
-                            </svg>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                    <div className="w-full p-3">
-                      <a
-                        className="block p-10 bg-gray-100 rounded-3xl"
-                        href="#"
-                      >
-                        <div className="flex flex-wrap -m-2">
-                          <div className="flex-1 p-2">
-                            <h3 className="font-heading text-xl text-gray-900 font-black">
-                              How to get support for the product?
-                            </h3>
-                          </div>
-                          <div className="w-auto p-2">
-                            <svg
-                              width={24}
-                              height={24}
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M17.9207 8.17999H11.6907H6.08072C5.12072 8.17999 4.64073 9.33999 5.32073 10.02L10.5007 15.2C11.3307 16.03 12.6807 16.03 13.5107 15.2L15.4807 13.23L18.6907 10.02C19.3607 9.33999 18.8807 8.17999 17.9207 8.17999Z"
-                                fill="#D1D5DB"
-                              />
-                            </svg>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                  <p className="text-gray-500 font-bold text-center">
-                    <span>Still have any questions? </span>
-                    <a className="text-blue-500 hover:text-blue-600" href="#">
-                      Contact us
-                    </a>
-                  </p>
-                </div>
+                <Faq />
               </div>
             </div>
           </div>

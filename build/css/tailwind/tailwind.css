@@ -682,10 +682,6 @@ video {
   margin: -0.75rem;
 }
 
-.-m-3\.5 {
-  margin: -0.875rem;
-}
-
 .-m-4 {
   margin: -1rem;
 }
@@ -701,6 +697,14 @@ video {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
 }
 
 .mb-10 {
@@ -791,12 +795,12 @@ video {
   height: 100%;
 }
 
-.w-10 {
-  width: 2.5rem;
-}
-
 .w-16 {
   width: 4rem;
+}
+
+.w-30 {
+  width: 7.5rem;
 }
 
 .w-4\/6 {
@@ -884,6 +888,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-end {
@@ -983,10 +991,6 @@ video {
 
 .bg-gradient-green {
   background-image: linear-gradient(104deg, rgba(223,244,244,1) 0%, rgba(60,231,181,1) 40%);
-}
-
-.bg-gradient-green-dark {
-  background-image: linear-gradient(98.24deg, #06E992 0%, #0289EB 100%);
 }
 
 .bg-gradient-orange {
@@ -1125,6 +1129,10 @@ video {
   padding-bottom: 2rem;
 }
 
+.pb-0 {
+  padding-bottom: 0px;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1179,6 +1187,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.text-start {
+  text-align: start;
 }
 
 .font-body {
@@ -1321,19 +1333,9 @@ video {
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
-.hover\:text-blue-500:hover {
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
-}
-
 .hover\:text-blue-600:hover {
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity));
-}
-
-.hover\:text-gray-600:hover {
-  --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
 .hover\:text-gray-700:hover {
@@ -1362,10 +1364,6 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:w-1\/3 {
-    width: 33.333333%;
-  }
-
   .sm\:w-auto {
     width: auto;
   }
@@ -1418,11 +1416,6 @@ video {
 
   .md\:max-w-lg {
     max-width: 32rem;
-  }
-
-  .md\:max-w-max {
-    max-width: -webkit-max-content;
-    max-width: max-content;
   }
 
   .md\:max-w-md {
@@ -1480,10 +1473,6 @@ video {
 
   .lg\:w-1\/2 {
     width: 50%;
-  }
-
-  .lg\:w-1\/6 {
-    width: 16.666667%;
   }
 
   .lg\:items-center {

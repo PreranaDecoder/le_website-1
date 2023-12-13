@@ -279,7 +279,7 @@ export default function Getintouch() {
                     </div>
                   </div>
                   <div className="w-full md:w-1/3 p-4"></div>
-                  <div className="w-full md:w-1/3 p-4">
+                  <div className="w-full md:w-1/3 ">
                     <form className="p-6 bg-gray-100 border border-gray-100 rounded-xl">
                       <div className="flex flex-wrap -m-3 mb-3">
                         <div
@@ -300,8 +300,8 @@ export default function Getintouch() {
                           <input
                             className="appearance-none px-6 py-2 w-full text-lg text-gray-500  bg-white placeholder-gray-500 outline-none focus:ring-4 focus:ring-blue-200 rounded-xl"
                             id="contactLightReverseInput4-2"
-                            type="text"
-                            placeholder="Email address"
+                            type="email"
+                            placeholder="Enter Email address"
                           />
                         </div>
                       </div>

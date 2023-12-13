@@ -228,10 +228,10 @@ export default function Products() {
                   <span className="inline-block mb-5 text-sm text-blue-500 font-bold uppercase tracking-widest">
                     FROM THE HOUSE OF LOGY.AI
                   </span>
-                  <h2 className="font-heading mb-6 text-4xl md:text-5xl lg:text-6xl text-gray-900 font-black tracking-tight">
+                  <h2 className="font-heading mb-6 text-4xl md:text-5xl lg:text-6xl text-gray-900 font-bold tracking-tight">
                     Our Products
                   </h2>
-                  <p className="text-gray-500 font-bold">
+                  <p className="text-gray-500 font-normal text-2xl">
                     Our company offers a cutting-edge solution in the form of a
                     Software as a Medical Device (SAMD) AI tool that enables
                     healthcare providers to rapidly assess various conditions,
@@ -258,6 +258,15 @@ export default function Products() {
                             <h2 className="font-heading mb-4 text-4xl text-gray-900 font-black tracking-tight">
                               Oral screening module
                             </h2>
+                            <div className="flex-initial mb-8">
+                              <h4 className="font-heading mb-4 text-gray-900 font-bold">
+                                What is this?
+                              </h4>
+                              <p className="text-gray-700 font-normal text-xl">
+                                Accessible Oral Health Solutions for Home and
+                                Satellite Camps using Smartphones
+                              </p>
+                            </div>
 
                             <div className="flex flex-wrap -m-2">
                               <div className="p-2">
@@ -270,15 +279,6 @@ export default function Products() {
                               </div>
                             </div>
                           </div>
-                          <div className="flex-initial">
-                            <h4 className="font-heading mb-4 text-gray-900 font-bold">
-                              What is this?
-                            </h4>
-                            <p className="text-gray-500 font-bold">
-                              Accessible Oral Health Solutions for Home and
-                              Satellite Camps using Smartphones
-                            </p>
-                          </div>
                         </div>
                       </div>
                       <div className="w-full lg:w-1/2 p-4">
@@ -290,7 +290,15 @@ export default function Products() {
                             <h2 className="font-heading mb-4 text-4xl text-gray-900 font-black tracking-tight">
                               Eye screening module
                             </h2>
-
+                            <div className="flex-initial mb-8">
+                              <h4 className="font-heading mb-4 text-gray-900 font-bold">
+                                What is this?
+                              </h4>
+                              <p className="text-gray-700 font-normal text-xl">
+                                Accessible Eye Care Solutions for Home and
+                                Satellite Camps using Smartphones
+                              </p>
+                            </div>
                             <div className="flex flex-wrap -m-2">
                               <div className="p-2">
                                 <Link
@@ -301,15 +309,6 @@ export default function Products() {
                                 </Link>
                               </div>
                             </div>
-                          </div>
-                          <div className="flex-initial">
-                            <h4 className="font-heading mb-4 text-gray-900 font-bold">
-                              What is this?
-                            </h4>
-                            <p className="text-gray-500 font-bold">
-                              Accessible Eye Care Solutions for Home and
-                              Satellite Camps using Smartphones
-                            </p>
                           </div>
                         </div>
                       </div>

@@ -1,6 +1,9 @@
 .stats{
-    width: 16.66666%;
+    width: 25%;
     padding: 0.6rem;
+}
+.bg-gradient-blue{
+    color: #3b82f6;
 }
 @media screen and (max-width:600px){
     .stats{

@@ -10,6 +10,12 @@ import apollo from "../assets/img/Apollo Dental.png";
 import mobident from "../assets/img/mobident.png";
 import sdc from "../assets/img/sdc.png";
 import oralHead from "../assets/img/oralHead.png";
+
+import scans from "../assets/img/scans.svg";
+import wtsapp from "../assets/img/wtsapp.svg";
+import time from "../assets/img/time.svg";
+import accuracy from "../assets/img/accuracy.svg";
+
 import Faq from "./faq";
 
 import "../assets/css/oral.css";
@@ -276,7 +282,7 @@ export default function Oral() {
                       </span>
                       <span> than ever.</span>
                     </h1>
-                    <p className="mb-6 text-xl font-bold">
+                    <p className="mb-6 text-2xl font-normal">
                       Accessible Oral Health Solutions for Home and Satellite
                       Camps using Smartphones
                     </p>
@@ -387,14 +393,14 @@ export default function Oral() {
             </div>
             <div className="flex flex-wrap justify-center -m-4">
               <div className="w-full md:flex-1 p-4">
-                <div className="flex flex-col justify-center items-center p-8 h-full text-center bg-white rounded-3xl">
+                <div className="flex flex-col justify-center items-center p-8 h-full text-center  rounded-3xl">
                   <div className="w-full">
-                    <h1 className="font-heading mb-6 text-5xl text-gray-900 font-black tracking-tight">
+                    <h1 className="font-heading mb-6 text-5xl text-gray-900 text-start font-bold tracking-tight">
                       <span>One of it's kind </span>
                       <span className="text-blue-500">solution</span>
                       <span> for oral screening.</span>
                     </h1>
-                    <p className="mb-4 text-xl font-bold">
+                    <p className="mb-4 text-2xl font-normal text-start">
                       Logy.AI's Oral Screening Solution can help predict dental
                       cavities or caries, perio-dental diseases, and
                       precancerous lesions at an early stage. Clinically
@@ -408,31 +414,41 @@ export default function Oral() {
             </div>
           </div>
         </section>
-        <section className="pb-6 bg-gray-50 overflow-hidden">
+        <section className="pb-12 pt-2 bg-gray-50 overflow-hidden ">
           <div className="container mx-auto px-4">
-            <div className="flex flex-wrap -m-4">
+            <div className="flex flex-wrap">
               <div className="stats">
-                <div className="flex flex-col justify-end p-6 pt-20 lg:pt-28 bg-white h-full border border-gray-100 rounded-3xl">
+                <img
+                  src={scans}
+                  className="-m-4"
+                  style={{ width: "20%", marginLeft: "auto" }}
+                />
+                <div className="flex flex-col justify-between p-6  lg:pt-12 bg-white  border border-gray-100 rounded-3xl">
                   <h2 className="font-heading text-2xl text-gray-900 font-bold tracking-tight">
-                    <span className="text-3xl font-black text-transparent bg-clip-text bg-gradient-green">
+                    <span className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-blue">
                       10,000+
                     </span>
-                    <span> Tests Completed</span>
+                    <span className="font-normal"> Tests Completed</span>
                   </h2>
                 </div>
               </div>
               <div className="stats">
-                <div className="flex flex-col justify-end p-6 pt-20 lg:pt-28 bg-white h-full border border-gray-100 rounded-3xl">
+                <img
+                  src={time}
+                  className="-m-4"
+                  style={{ width: "20%", marginLeft: "auto" }}
+                />
+                <div className="flex flex-col justify-between p-6  lg:pt-12 bg-white  border border-gray-100 rounded-3xl">
                   <h2 className="font-heading text-2xl text-gray-900 font-bold tracking-tight">
-                    <span>Takes less than </span>
-                    <span className="text-3xl font-black text-transparent bg-clip-text bg-gradient-pink">
+                    <span className="font-normal">Takes less than </span>
+                    <span className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-blue">
                       2
                     </span>
-                    <span> minutes</span>
+                    <span className="font-normal"> minutes</span>
                   </h2>
                 </div>
               </div>
-              <div className="stats">
+              {/* <div className="stats">
                 <div className="flex flex-col justify-end p-6 pt-20 lg:pt-28 bg-white h-full border border-gray-100 rounded-3xl">
                   <h2 className="font-heading text-2xl text-gray-900 font-bold tracking-tight">
                     <span className="text-3xl font-black text-transparent bg-clip-text bg-gradient-aqua">
@@ -445,18 +461,23 @@ export default function Oral() {
                     <span> tests</span>
                   </h2>
                 </div>
-              </div>
+              </div> */}
               <div className="stats">
-                <div className="flex flex-col justify-end p-6 pt-20 lg:pt-28 bg-white h-full border border-gray-100 rounded-3xl">
+                <img
+                  src={accuracy}
+                  className="-m-4"
+                  style={{ width: "20%", marginLeft: "auto" }}
+                />
+                <div className="flex flex-col justify-between p-6  lg:pt-12 bg-white  border border-gray-100 rounded-3xl">
                   <h2 className="font-heading text-2xl text-gray-900 font-bold tracking-tight">
-                    <span className="text-3xl font-black text-transparent bg-clip-text bg-gradient-pink">
+                    <span className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-blue">
                       90% +
                     </span>
-                    <span> Accurate Results </span>
+                    <span className="font-normal"> Accurate Results </span>
                   </h2>
                 </div>
               </div>
-              <div className="stats">
+              {/* <div className="stats">
                 <div className="flex flex-col justify-end p-6 pt-20 lg:pt-28 bg-white h-full border border-gray-100 rounded-3xl">
                   <h2 className="font-heading text-2xl text-gray-900 font-bold tracking-tight">
                     <span className="text-3xl font-black text-transparent bg-clip-text bg-gradient-aqua">
@@ -465,14 +486,19 @@ export default function Oral() {
                     <span> Secured </span>
                   </h2>
                 </div>
-              </div>
+              </div> */}
               <div className="stats">
-                <div className="flex flex-col justify-end p-6 pt-20 lg:pt-28 bg-white h-full border border-gray-100 rounded-3xl">
+                <img
+                  src={wtsapp}
+                  className="-m-4 "
+                  style={{ width: "20%", marginLeft: "auto" }}
+                />
+                <div className="flex flex-col justify-between p-6  lg:pt-12 bg-white  border border-gray-100 rounded-3xl">
                   <h2 className="font-heading text-2xl text-gray-900 font-bold tracking-tight">
-                    <span className="text-2xl font-black text-transparent bg-clip-text bg-gradient-pink">
+                    <span className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-blue">
                       Whatsapp
                     </span>
-                    <span> based Application </span>
+                    <span className="font-normal"> based Application </span>
                   </h2>
                 </div>
               </div>
@@ -487,7 +513,7 @@ export default function Oral() {
                   <span className="inline-block mb-4 text-sm text-blue-500 font-bold uppercase tracking-widest">
                     How it works
                   </span>
-                  <h2 className="font-heading mb-6 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
+                  <h2 className="font-heading mb-6 text-4xl md:text-5xl text-gray-900 font-bold tracking-tight">
                     Step by Step guide on how to use the solution
                   </h2>
 
@@ -533,7 +559,7 @@ export default function Oral() {
                             <h3 className="font-heading mb-3 text-2xl text-gray-900 font-bold">
                               Step 1
                             </h3>
-                            <p className="text-gray-700 font-normal text-xl">
+                            <p className="text-gray-700 font-normal text-2xl">
                               The Patient Says Hi to Logy.AI bot on WhatsApp
                             </p>
                           </div>
@@ -570,7 +596,7 @@ export default function Oral() {
                             <h3 className="font-heading mb-3 text-2xl text-gray-900 font-bold">
                               Step 2
                             </h3>
-                            <p className="text-gray-700 font-normal text-xl">
+                            <p className="text-gray-700 font-normal text-2xl">
                               They are prompted to share their Name, Age & Other
                               Details
                             </p>
@@ -608,7 +634,7 @@ export default function Oral() {
                             <h3 className="font-heading mb-3 text-2xl text-gray-900 font-bold">
                               Step 3
                             </h3>
-                            <p className="text-gray-700 font-normal text-xl">
+                            <p className="text-gray-700 font-normal text-2xl">
                               They share an image of the insides of their mouth
                             </p>
                           </div>
@@ -642,10 +668,10 @@ export default function Oral() {
                             <div className="md:hidden w-px h-24 bg-gray-200" />
                           </div>
                           <div className="flex-1 p-4">
-                            <h3 className="font-heading mb-3 text-2xl text-gray-900 font-bold">
+                            <h3 className="font-heading mb-3 text-2xl text-blue-500 font-bold">
                               Result
                             </h3>
-                            <p className="text-gray-700 font-normal text-xl">
+                            <p className="text-gray-700 font-normal text-2xl">
                               Logy.AI solution shares their report in under a
                               minute
                             </p>
@@ -659,28 +685,28 @@ export default function Oral() {
             </div>
           </div>
         </section>
-        <section className="pb-6 bg-gray-50 overflow-hidden">
+        <section className="pb-6 pt-6 bg-gray-50 overflow-hidden">
           <div className="container mx-auto px-4">
             <div className="py-16 px-8 bg-white border border-gray-100 rounded-3xl">
-              <div className="max-w-7xl mx-auto">
-                <div className="max-w-lg mx-auto text-center">
-                  <span className="inline-block mb-2 text-sm text-blue-500 font-bold uppercase tracking-widest">
+              <div className="max-w-7xl ">
+                <div className="max-w-lg  text-start">
+                  <span className="inline-block mb-2 text-start text-sm text-blue-500 font-bold uppercase tracking-widest">
                     Testimonials
                   </span>
-                  <h2 className="font-heading mb-12 text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
-                    Our customer says
+                  <h2 className="font-heading mb-12 text-start text-4xl md:text-5xl text-gray-900 font-bold tracking-tight">
+                    Our customers say
                   </h2>
                 </div>
-                <div className="flex flex-wrap -m-4">
-                  <div className="w-full md:w-1/3 p-4">
-                    <div className="flex flex-col justify-between px-8 pt-12 pb-8 h-full text-center bg-gray-100 border border-gray-100 rounded-3xl">
+                <div className="flex flex-wrap -m-4 ">
+                  <div className="w-full md:w-1/3 p-4 ">
+                    <div className="flex flex-col justify-between text-start px-8 pt-12 pb-8 h-full text-center bg-gray-100 border border-gray-100 rounded-3xl">
                       <div className="flex-initial mb-8">
                         <img
                           className="mb-6 mx-auto rounded-full"
                           src="zanrly-assets/images/testimonials/avatar2.png"
                           alt=""
                         />
-                        <p className="text-base text-gray-700 font-bold">
+                        <p className="text-base text-gray-700 font-normal text-xl">
                           Had some issues where my site crashed and broke,
                           reached out to Shuffle Editor to see if they could
                           help me fix it.
@@ -697,14 +723,14 @@ export default function Oral() {
                     </div>
                   </div>
                   <div className="w-full md:w-1/3 p-4">
-                    <div className="flex flex-col justify-between px-8 pt-12 pb-8 h-full text-center bg-gray-100 border border-gray-100 rounded-3xl">
+                    <div className="flex flex-col justify-between text-start px-8 pt-12 pb-8 h-full text-center bg-gray-100 border border-gray-100 rounded-3xl">
                       <div className="flex-initial mb-8">
                         <img
                           className="mb-6 mx-auto rounded-full"
                           src="zanrly-assets/images/testimonials/avatar2.png"
                           alt=""
                         />
-                        <p className="text-base text-gray-700 font-bold">
+                        <p className="text-base text-gray-700 font-normal text-xl">
                           Had some issues where my site crashed and broke,
                           reached out to Shuffle Editor to see if they could
                           help me fix it.
@@ -721,14 +747,14 @@ export default function Oral() {
                     </div>
                   </div>
                   <div className="w-full md:w-1/3 p-4">
-                    <div className="flex flex-col justify-between px-8 pt-12 pb-8 h-full text-center bg-gray-100 border border-gray-100rounded-3xl">
+                    <div className="flex flex-col justify-between text-start px-8 pt-12 pb-8 h-full text-center bg-gray-100 border border-gray-100rounded-3xl">
                       <div className="flex-initial mb-8">
                         <img
                           className="mb-6 mx-auto rounded-full"
                           src="zanrly-assets/images/testimonials/avatar2.png"
                           alt=""
                         />
-                        <p className="text-base text-gray-700 font-bold">
+                        <p className="text-base text-gray-700 font-normal text-xl">
                           Had some issues where my site crashed and broke,
                           reached out to Shuffle Editor to see if they could
                           help me fix it.
@@ -758,7 +784,7 @@ export default function Oral() {
                     <span className="inline-block mb-5 text-sm text-blue-500 font-bold uppercase tracking-widest">
                       Use our solution
                     </span>
-                    <h2 className="font-heading mb-8 text-4xl text-gray-900 font-black tracking-tight">
+                    <h2 className="font-heading mb-8 text-4xl md:text-5xl text-gray-900 font-bold tracking-tight">
                       Take full control of design &amp; development. Use our
                       services through.
                     </h2>
@@ -790,7 +816,7 @@ export default function Oral() {
                             fill="#3B82F6"
                           />
                         </svg>
-                        <h3 className="font-heading text-xl text-gray-900 font-black xl:w-40">
+                        <h3 className="font-heading text-2xl text-gray-900 font-normal xl:w-40">
                           Integrate Logy.AI - for - Dentistry to your workflow
                           in a jiff
                         </h3>
@@ -819,7 +845,7 @@ export default function Oral() {
                             fill="#3B82F6"
                           />
                         </svg>
-                        <h3 className="font-heading text-xl text-gray-900 font-black xl:w-40">
+                        <h3 className="font-heading text-2xl text-gray-900 font-normal xl:w-40">
                           Experience our AI powered User Interface on the Web
                         </h3>
                       </div>
@@ -847,7 +873,7 @@ export default function Oral() {
                             fill="#3B82F6"
                           />
                         </svg>
-                        <h3 className="font-heading text-xl text-gray-900 font-black xl:w-40">
+                        <h3 className="font-heading text-2xl text-gray-900 font-normal xl:w-40">
                           Diagnose your Oral Health on WhatsApp
                         </h3>
                       </div>
@@ -875,7 +901,7 @@ export default function Oral() {
                             fill="#3B82F6"
                           />
                         </svg>
-                        <h3 className="font-heading text-xl text-gray-900 font-black xl:w-40">
+                        <h3 className="font-heading text-2xl text-gray-900 font-normal xl:w-40">
                           Get Expert opinion of Professional Dentists with a few
                           clicks
                         </h3>
@@ -900,7 +926,7 @@ export default function Oral() {
                   <span className="inline-block mb-5 text-sm text-blue-500 font-bold uppercase tracking-widest">
                     Frequently asked questions
                   </span>
-                  <h2 className="font-heading mb-6 text-4xl md:text-5xl lg:text-6xl text-gray-900 font-black tracking-tight">
+                  <h2 className="font-heading mb-6 text-4xl md:text-5xl lg:text-6xl text-gray-900 font-bold tracking-tight">
                     Got questions? We’re here to help!
                   </h2>
                 </div>
