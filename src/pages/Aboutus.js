@@ -11,6 +11,7 @@ import anand from "../assets/zanrly-assets/images/teams/Anand Panchbhai.png";
 import vinay from "../assets/zanrly-assets/images/teams/Vinay Khobragade.png";
 import priyanjit from "../assets/zanrly-assets/images/teams/Priyanjit Ghosh.png";
 import nivedita from "../assets/zanrly-assets/images/teams/Nivedita Tiwari.png";
+import Clients from "../assets/components/clients";
 
 import "../assets/css/aboutus.css";
 
@@ -260,7 +261,7 @@ export default function Aboutus() {
           </div>
         </div>
       </section>
-      <section className="pb-12 bg-gray-50 overflow-hidden">
+      {/* <section className="pb-12 bg-gray-50 overflow-hidden">
         <div className=" mx-auto ">
           <div className="px-8 bg-white    py-16">
             <div className="max-w-5xl mx-auto">
@@ -295,7 +296,7 @@ export default function Aboutus() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="bg-gray-50 overflow-hidden pb-12">
         <div className="container mx-auto px-4">
@@ -307,7 +308,7 @@ export default function Aboutus() {
                     <h2 className="font-heading mb-6 text-4xl md:text-5xl text-gray-900 font-bold tracking-tight text-left">
                       Our Key Investor
                     </h2>
-                    <p className=" text-2xl font-normal text-strt">
+                    <p className=" text-2xl font-normal investorText">
                       Investors who have put their faith in us, we have been
                       able to make great strides in our journey. We are humbled
                       by their trust and are grateful for their support.
@@ -326,13 +327,32 @@ export default function Aboutus() {
           </div>
         </div>
       </section>
-      <section className="py-16 bg-gray-50 overflow-hidden">
+      <section className="bg-gray-50 overflow-hidden ">
+        <div className="container mx-auto px-4">
+          <div className="px-8  rounded-3xl">
+            <div className="max-w-7xl mx-auto">
+              <div className="flex flex-wrap">
+                <div className="w-full md:w-1/2 p-8">
+                  <div className="md:max-w-lg">
+                    <h2 className="font-heading  text-4xl md:text-5xl text-gray-900 font-bold tracking-tight text-left">
+                      Partners and collaborators who put their faith in us
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <Clients type="contri" />
+      </section>
+
+      <section className="pb-12 pt-8 bg-gray-50 overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="mb-16 max-w-xl mx-auto text-center">
             <span className="inline-block mb-2 text-sm text-blue-500 font-bold uppercase tracking-widest">
               Our team
             </span>
-            <h2 className="font-heading text-4xl md:text-5xl text-gray-900 font-black tracking-tight">
+            <h2 className="font-heading text-4xl md:text-5xl text-gray-900 font-bold tracking-tight">
               The brain behind Logy.AI
             </h2>
           </div>
@@ -345,7 +365,7 @@ export default function Aboutus() {
                     src={priyanjit}
                     alt=""
                   />
-                  <h3 className="font-heading mb-2 text-2xl text-gray-900 font-black tracking-tight">
+                  <h3 className="font-heading mb-2 text-2xl text-gray-900 font-bold tracking-tight">
                     Priyanjit Ghosh
                   </h3>
                   <p className="text-sm text-gray-500 font-bold">
@@ -375,7 +395,7 @@ export default function Aboutus() {
                     src={anand}
                     alt=""
                   />
-                  <h3 className="font-heading mb-2 text-2xl text-gray-900 font-black tracking-tight">
+                  <h3 className="font-heading mb-2 text-2xl text-gray-900 font-bold tracking-tight">
                     Anand Panchbhai
                   </h3>
                   <p className="text-sm text-gray-500 font-bold">
@@ -405,7 +425,7 @@ export default function Aboutus() {
                     src={nivedita}
                     alt=""
                   />
-                  <h3 className="font-heading mb-2 text-2xl text-gray-900 font-black tracking-tight">
+                  <h3 className="font-heading mb-2 text-2xl text-gray-900 font-bold tracking-tight">
                     Nivedita Tiwari
                   </h3>
                   <p className="text-sm text-gray-500 font-bold">
@@ -435,7 +455,7 @@ export default function Aboutus() {
                     src={vinay}
                     alt=""
                   />
-                  <h3 className="font-heading mb-2 text-2xl text-gray-900 font-black tracking-tight">
+                  <h3 className="font-heading mb-2 text-2xl text-gray-900 font-bold tracking-tight">
                     Vinay Khobragade
                   </h3>
                   <p className="text-sm text-gray-500 font-bold">

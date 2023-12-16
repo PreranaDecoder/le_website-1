@@ -7,11 +7,11 @@ import logyanim from "../assets/zanrly-assets/images/headers/logyanim.gif";
 import Clients from "../assets/components/clients";
 import edex from "../assets/img/edexlive.png";
 import dainik from "../assets/img/dainikbhaskar.png";
+import eyeicon from "../assets/img/eyeIcon.svg";
 
 import cs1 from "../assets/zanrly-assets/images/blog/blog.png";
 import cs2 from "../assets/zanrly-assets/images/blog/blog2.png";
 import cs3 from "../assets/zanrly-assets/images/blog/blog3.png";
-import articleimg from "../assets/zanrly-assets/images/blog/blog4.png";
 
 import apollo_t from "../assets/img/Apollo-Clinic_t.png";
 import colgate_t from "../assets/img/colgate_t.png";
@@ -286,8 +286,22 @@ export default function Index() {
             </h2>
           </div>
         </section>
-        <Clients />
-        <section className="py-10 overflow-hidden bg-white">
+        <Clients type="clients" />
+        <section className="pt-0 pb-10 overflow-hidden bg-blue-500">
+          <div className="container mx-auto px-12 pb-10">
+            <button
+              className=" px-8 py-2 bg-gray-900 text-white"
+              style={{ borderRadius: "0 0 10px 10px" }}
+            >
+              <p className="flex flex-wrap">
+                Patented Solutions{" "}
+                <img
+                  style={{ width: "20px", marginLeft: "5px" }}
+                  src={eyeicon}
+                />
+              </p>
+            </button>
+          </div>
           <div className="container mx-auto px-4">
             <div className="py-16 px-8 bg-white rounded-3xl">
               <div className="max-w-7xl mx-auto">
@@ -492,6 +506,92 @@ export default function Index() {
           <div className="container mx-auto px-4">
             <div className="py-16 px-8 bg-white border border-gray-100 rounded-3xl">
               <div className="max-w-7xl mx-auto">
+                <div className="mb-8 md:max-w-4xl m text-start">
+                  <h2 className="font-heading mb-2 text-4xl md:text-5xl  text-gray-900 font-bold tracking-tight">
+                    Case Studies
+                  </h2>
+                  <p className="text-gray-500 mb-2 text-xl font-normal">
+                    Making a difference in the community. Read the studies.
+                  </p>
+                  <div className="w-auto lg:block">
+                    <div className="flex flex-wrap ">
+                      <div className="w-full md:w-auto py-2">
+                        <Link
+                          className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full"
+                          to="/cases"
+                        >
+                          Find all Case Studies here
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className=" flex flex-wrap -m-4 case-study-row">
+                  <div className="w-full md:w-1/3 p-4 ">
+                    <div className="h-full bg-gray-100 rounded-3xl p-3">
+                      <img className="w-full" src={cs1} alt="" />
+                      <div className="p-8">
+                        <Link
+                          className="group inline-block mb-4"
+                          to="/cs_kenya"
+                        >
+                          <h3 className="font-bold text-xl text-gray-900 hover:text-gray-700 group-hover:underline font-bold">
+                            Logy.AI eye screening solution: Vidisha 5G use cases
+                            pilot launch on 13th January 2023
+                          </h3>
+                        </Link>
+                        <p className="text-normal text-gray-500 ">
+                          Case Study • 4 min read
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="w-full md:w-1/3 p-4 phone-hidden">
+                    <div className="h-full bg-gray-100 rounded-3xl p-3">
+                      <img className="w-full" src={cs2} alt="" />
+                      <div className="p-8">
+                        <Link
+                          className="group inline-block mb-4"
+                          to="/cs_kenya"
+                        >
+                          <h3 className="font-bold text-xl text-gray-900 hover:text-gray-700 group-hover:underline font-bold">
+                            Logy.AI’s Collaboration with Colgate Kenya
+                          </h3>
+                        </Link>
+                        <p className="text-normal text-gray-500 ">
+                          Case Study • 4 min read
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="w-full md:w-1/3 p-4 phone-hidden">
+                    <div className="h-full bg-gray-100 rounded-3xl p-3">
+                      <img className="w-full" src={cs3} alt="" />
+                      <div className="p-8">
+                        <Link
+                          className="group inline-block mb-4"
+                          to="/cs_kenya"
+                        >
+                          <h3 className="font-bold text-xl text-gray-900 hover:text-gray-700 group-hover:underline font-bold">
+                            Logy.AI 5G digital health launch at Vidisha, Madhya
+                            Pradesh
+                          </h3>
+                        </Link>
+                        <p className="text-normal text-gray-500 ">
+                          Case Study • 4 min read
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="pb-10 bg-gray-50 overflow-hidden">
+          <div className="container mx-auto px-4">
+            <div className="py-16 px-8 bg-white border border-gray-100 rounded-3xl">
+              <div className="max-w-7xl mx-auto">
                 <div className="max-w-lg  text-start">
                   <span className="inline-block mb-2 text-sm text-blue-500 font-bold uppercase tracking-widest">
                     Testimonials
@@ -557,81 +657,8 @@ export default function Index() {
             </div>
           </div>
         </section>
-        <section className="pb-10 bg-gray-50 overflow-hidden">
-          <div className="container mx-auto px-4">
-            <div className="py-16 px-8 bg-white border border-gray-100 rounded-3xl">
-              <div className="max-w-7xl mx-auto">
-                <div className="mb-12 md:max-w-4xl m text-start">
-                  <h2 className="font-heading mb-2 text-4xl md:text-5xl  text-gray-900 font-bold tracking-tight">
-                    Case Studies
-                  </h2>
-                  <p className="text-gray-500 mb-8 text-xl font-normal">
-                    Making a difference in the community. Read the studies.
-                  </p>
-                </div>
-                <div className=" flex flex-wrap -m-4 ">
-                  <div className="w-full md:w-1/3 p-4">
-                    <div className="h-full bg-gray-100 rounded-3xl p-3">
-                      <img className="w-full" src={cs1} alt="" />
-                      <div className="p-8">
-                        <Link
-                          className="group inline-block mb-4"
-                          to="/cs_kenya"
-                        >
-                          <h3 className="font-bold text-xl text-gray-900 hover:text-gray-700 group-hover:underline font-bold">
-                            Logy.AI eye screening solution: Vidisha 5G use cases
-                            pilot launch on 13th January 2023
-                          </h3>
-                        </Link>
-                        <p className="text-normal text-gray-500 ">
-                          Case Study • 4 min read
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="w-full md:w-1/3 p-4">
-                    <div className="h-full bg-gray-100 rounded-3xl p-3">
-                      <img className="w-full" src={cs2} alt="" />
-                      <div className="p-8">
-                        <Link
-                          className="group inline-block mb-4"
-                          to="/cs_kenya"
-                        >
-                          <h3 className="font-bold text-xl text-gray-900 hover:text-gray-700 group-hover:underline font-bold">
-                            Logy.AI’s Collaboration with Colgate Kenya
-                          </h3>
-                        </Link>
-                        <p className="text-normal text-gray-500 ">
-                          Case Study • 4 min read
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="w-full md:w-1/3 p-4">
-                    <div className="h-full bg-gray-100 rounded-3xl p-3">
-                      <img className="w-full" src={cs3} alt="" />
-                      <div className="p-8">
-                        <Link
-                          className="group inline-block mb-4"
-                          to="/cs_kenya"
-                        >
-                          <h3 className="font-bold text-xl text-gray-900 hover:text-gray-700 group-hover:underline font-bold">
-                            Logy.AI 5G digital health launch at Vidisha, Madhya
-                            Pradesh
-                          </h3>
-                        </Link>
-                        <p className="text-normal text-gray-500 ">
-                          Case Study • 4 min read
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="pb-10 bg-gray-50 overflow-hidden">
+
+        {/* <section className="pb-10 bg-gray-50 overflow-hidden">
           <div className="container mx-auto px-4">
             <div className="py-16 px-8 bg-white border border-gray-100 rounded-3xl">
               <div className="max-w-5xl mx-auto">
@@ -709,7 +736,7 @@ export default function Index() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         <section className="pb-10 bg-gray-50 overflow-hidden">
           <div className="container mx-auto px-4">

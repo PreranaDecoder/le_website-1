@@ -227,10 +227,11 @@ export default function Articles() {
             <div className="px-8 bg-white rounded-3xl">
               <div className="max-w-7xl mx-auto">
                 <div className="mb-12 md:max-w-4xl mx-auto text-center pt-12">
-                  <h2 className="font-heading mb-6 text-4xl md:text-5xl lg:text-6xl text-gray-900 font-black tracking-tight">
+                  <h2 className="font-heading mb-6 text-4xl md:text-5xl lg:text-6xl text-gray-900 font-bold tracking-tight">
                     Articles and Publications
                   </h2>
-                  <p className="md:max-w-md mx-auto text-gray-500 font-bold">
+
+                  <p className="md:max-w-4xl mx-auto text-gray-500 font-normal text-2xl">
                     Read the Articles and publications related to Logy.AI
                   </p>
                 </div>
@@ -257,7 +258,7 @@ export default function Articles() {
                                   href="https://www.edexlive.com/happening/2020/dec/14/teeth-talk-this-hyderabad-start-up-is-using-ai-and-whatsapp-to-bring-oral-hygiene-to-the-fore-16582.html"
                                   target="#"
                                 >
-                                  <h3 className="font-heading text-2xl text-gray-900 hover:text-gray-700 group-hover:underline font-black">
+                                  <h3 className="font-heading text-2xl text-gray-900 hover:text-gray-700 group-hover:underline font-bold">
                                     Teeth talk: This Hyderabad start-up is using
                                     AI and WhatsApp to bring oral hygiene to the
                                     fore
@@ -303,7 +304,7 @@ export default function Articles() {
                                   href="https://cmp.smu.edu.sg/ami/article/20230707/beyond-single-quadrant"
                                   target="#"
                                 >
-                                  <h3 className="font-heading text-2xl text-gray-900 hover:text-gray-700 group-hover:underline font-black">
+                                  <h3 className="font-heading text-2xl text-gray-900 hover:text-gray-700 group-hover:underline font-bold">
                                     Beyond a Single Quadrant
                                   </h3>
                                 </a>

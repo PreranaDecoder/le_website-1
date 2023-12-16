@@ -10,14 +10,35 @@
         animation: marquee 24s linear infinite ;
       }
     .marquee1 .marquee--inner img{
-        width: 160px;
+        width: 90px;
+      }
+    .marquee2 .marquee--inner {
+        display: block;
+        width: 130%;
+        position: absolute;
+        animation: marquee-alt 16s linear infinite ;
+      }
+    .marquee2 .marquee--inner img{
+        width: 90px;
       }
       @keyframes marquee {
         0% { left: 20%; }
         100% { left: -130%; }
       }
+      @keyframes marquee-alt {
+        0% { left:30%; }
+        100% { left: -100%; }
+      }
     
       .marquee1 {
+        height: 240px;
+        width: 100%;
+        overflow: hidden;
+        box-sizing: border-box;
+        position: relative;
+        margin-bottom: 20px;
+      }
+      .marquee2 {
         height: 240px;
         width: 100%;
         overflow: hidden;
@@ -58,7 +79,25 @@
           animation: marqueex 24s linear infinite ;
         }
         .marquee1 .marquee--inner img{
-          width: 90px;
+          width: 150px !important;
+        }
+      .marquee2 {
+          height: 170px;
+          width: 150%;
+          overflow: hidden;
+          box-sizing: border-box;
+          position: relative;
+          margin-bottom: 20px;
+        }
+        .marquee2 .marquee--inner{
+          width: 300%;
+          animation: marqueex 24s linear infinite ;
+        }
+        .marquee2 .marquee--inner img{
+          width: 150px !important;
+        }
+        .clientMob{
+          padding: 5% !important;
         }
         @keyframes marqueex {
           0% { left: 50%; }

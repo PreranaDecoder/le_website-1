@@ -6,4 +6,7 @@
     .testimonialblock{
         width: 100%;
     }
+    .investorText{
+        display: none;
+    }
 }

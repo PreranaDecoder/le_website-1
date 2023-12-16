@@ -245,7 +245,7 @@ export default function Eye() {
                     <span className="inline-block mb-3 text-sm text-blue-500 font-bold uppercase tracking-widest">
                       POWERED BY LOGY.AI
                     </span>
-                    <h1 className="font-heading mb-4 text-5xl text-gray-900 font-black tracking-tight">
+                    <h1 className="font-heading mb-4 text-5xl text-gray-900 font-bold tracking-tight">
                       <span>Eye Screening Solution&nbsp;</span>
                       <span className="text-transparent bg-clip-text bg-gradient-orange">
                         faster
@@ -484,7 +484,7 @@ export default function Eye() {
                       <div className="w-full p-3">
                         <div className="flex flex-wrap -m-4">
                           <div className="flex flex-col items-center w-auto p-4">
-                            <div className="flex items-center justify-center mb-6 w-16 h-16 text-xl text-gray-900 font-black bg-gray-100 rounded-full">
+                            <div className="flex items-center justify-center mb-6 w-16 h-16 text-xl text-gray-900 font-bold bg-gray-100 rounded-full">
                               <svg
                                 width={24}
                                 height={24}
@@ -521,7 +521,7 @@ export default function Eye() {
                       <div className="w-full p-3">
                         <div className="flex flex-wrap -m-4">
                           <div className="flex flex-col items-center w-auto p-4">
-                            <div className="flex items-center justify-center mb-6 w-16 h-16 text-xl text-gray-900 font-black bg-gray-100 rounded-full">
+                            <div className="flex items-center justify-center mb-6 w-16 h-16 text-xl text-gray-900 font-bold bg-gray-100 rounded-full">
                               <svg
                                 width={24}
                                 height={24}
@@ -559,7 +559,7 @@ export default function Eye() {
                       <div className="w-full p-3">
                         <div className="flex flex-wrap -m-4">
                           <div className="flex flex-col items-center w-auto p-4">
-                            <div className="flex items-center justify-center mb-6 w-16 h-16 text-xl text-gray-900 font-black bg-gray-100 rounded-full">
+                            <div className="flex items-center justify-center mb-6 w-16 h-16 text-xl text-gray-900 font-bold bg-gray-100 rounded-full">
                               <svg
                                 width={24}
                                 height={24}
@@ -596,7 +596,7 @@ export default function Eye() {
                       <div className="w-full p-3">
                         <div className="flex flex-wrap -m-4">
                           <div className="flex flex-col items-center w-auto p-4">
-                            <div className="flex items-center justify-center mb-6 w-16 h-16 text-xl text-gray-900 font-black bg-gray-100 rounded-full">
+                            <div className="flex items-center justify-center mb-6 w-16 h-16 text-xl text-gray-900 font-bold bg-gray-100 rounded-full">
                               <svg
                                 width={24}
                                 height={24}
@@ -666,7 +666,7 @@ export default function Eye() {
                         </p>
                       </div>
                       <div className="flex-initial">
-                        <h3 className="font-heading text-2xl text-gray-900 font-black">
+                        <h3 className="font-heading text-2xl text-gray-900 font-bold">
                           Monica Johnson
                         </h3>
                         <p className="text-sm text-gray-500 font-bold">
@@ -690,7 +690,7 @@ export default function Eye() {
                         </p>
                       </div>
                       <div className="flex-initial">
-                        <h3 className="font-heading text-2xl text-gray-900 font-black">
+                        <h3 className="font-heading text-2xl text-gray-900 font-bold">
                           Monica Johnson
                         </h3>
                         <p className="text-sm text-gray-500 font-bold">
@@ -714,7 +714,7 @@ export default function Eye() {
                         </p>
                       </div>
                       <div className="flex-initial">
-                        <h3 className="font-heading text-2xl text-gray-900 font-black">
+                        <h3 className="font-heading text-2xl text-gray-900 font-bold">
                           Monica Johnson
                         </h3>
                         <p className="text-sm text-gray-500 font-bold">

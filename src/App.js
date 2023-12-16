@@ -7,6 +7,7 @@ import logo from "../src/assets/img/iconlogo.svg";
 import AboutusPage from "./pages/Aboutus.js";
 import ProductsPage from "./pages/Products.js";
 import ArticlesPage from "./pages/Articles.js";
+import Casestudies from "./pages/Casestudies.jsx";
 import GetintouchPage from "./pages/Getintouch.js";
 import EyePage from "./pages/Eye.js";
 import OralPage from "./pages/Oral.js";
@@ -39,6 +40,7 @@ function App() {
         <Route path="/contact" element={<GetintouchPage />} />
 
         <Route path="/articles" element={<ArticlesPage />} />
+        <Route path="/cases" element={<Casestudies />} />
         <Route path="/about" element={<AboutusPage />} />
         <Route path="/oral" element={<OralPage />} />
 

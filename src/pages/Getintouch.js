@@ -268,7 +268,7 @@ export default function Getintouch() {
                               </div>
                               <div className="flex-1 p-3">
                                 <p className="text-gray-500 font-bold">Email</p>
-                                <h3 className="font-heading text-xl text-gray-900 font-black">
+                                <h3 className="font-heading text-xl text-gray-900 font-bold">
                                   humans@logy.ai
                                 </h3>
                               </div>

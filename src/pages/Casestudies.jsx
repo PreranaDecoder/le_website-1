@@ -3,16 +3,22 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 import logo from "../assets/img/LogoFree.svg";
+import blog4 from "../assets/zanrly-assets/images/blog/blog4.png";
+import blog5 from "../assets/zanrly-assets/images/blog/blog5.png";
+
+import cs1 from "../assets/zanrly-assets/images/blog/blog.png";
+import cs2 from "../assets/zanrly-assets/images/blog/blog2.png";
+import cs3 from "../assets/zanrly-assets/images/blog/blog3.png";
 
 const meta = {
-  title: "Logy.AI - products",
+  title: "Logy.AI - articles",
   meta: [],
   link: [],
   style: [],
   script: [],
 };
 
-export default function Products() {
+export default function Casestudies() {
   const [menu, setMenu] = useState(true);
   const toggleMenu = () => {
     setMenu(!menu);
@@ -57,7 +63,7 @@ export default function Products() {
                         </li>
                         <li className="mr-9">
                           <Link
-                            className=" inline-block text-sm font-bold text-gray-900 hover:text-gray-700 "
+                            className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700 "
                             to="/about"
                           >
                             About us
@@ -65,7 +71,7 @@ export default function Products() {
                         </li>
                         <li className="mr-9">
                           <Link
-                            className="bg-gray-50 px-6 py-2 rounded-full inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
+                            className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
                             to="/products"
                           >
                             Products
@@ -186,7 +192,7 @@ export default function Products() {
                         <li className="mb-9">
                           <Link
                             className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
-                            to="products"
+                            to="/products"
                           >
                             Products
                           </Link>
@@ -219,94 +225,149 @@ export default function Products() {
             </div>
           </div>
         </section>
-        <section className="overflow-hidden">
+
+        <section className="pb-12 bg-gray-50 overflow-hidden">
           <div className="container mx-auto px-4">
-            <div className="relative py-16 px-8 bg-white overflow-hidden rounded-3xl">
-              <div className="absolute top-0 left-1/2 min-w-max transform -translate-x-1/2"></div>
-              <div className="relative z-10">
-                <div className="md:max-w-xl mx-auto text-center">
-                  <span className="inline-block mb-5 text-sm text-blue-500 font-bold uppercase tracking-widest">
-                    FROM THE HOUSE OF LOGY.AI
-                  </span>
+            <div className="px-8 bg-white rounded-3xl">
+              <div className="max-w-7xl mx-auto">
+                <div className="mb-12 md:max-w-4xl mx-auto text-center pt-12">
                   <h2 className="font-heading mb-6 text-4xl md:text-5xl lg:text-6xl text-gray-900 font-bold tracking-tight">
-                    Our Products
+                    Case Studies
                   </h2>
-                  <p className="text-gray-500 font-normal text-2xl">
-                    Our company offers a cutting-edge solution in the form of a
-                    Software as a Medical Device (SAMD) AI tool that enables
-                    healthcare providers to rapidly assess various conditions,
-                    with a current focus on eye and oral diseases.
+                  <p className="md:max-w-4xl mx-auto text-gray-500 font-normal text-2xl">
+                    Making a difference in the community. Read the studies.
                   </p>
                 </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="overflow-hidden bg-white">
-          <div className="container mx-auto px-4">
-            <div className="pt-2 pb-12 px-8 bg-white rounded-3xl">
-              <div className="max-w-7xl mx-auto">
-                <div className="flex flex-wrap -m-8">
-                  <div className="w-full p-8">
-                    <div className="flex flex-wrap -m-4">
-                      <div className="w-full lg:w-1/2 p-4">
-                        <div className="flex flex-col justify-between p-8 h-full bg-gray-100 rounded-3xl">
-                          <div className="flex-initial mb-8">
-                            <span className="inline-block mb-6 text-sm text-blue-500 font-bold uppercase tracking-widest">
-                              PRODUCT
-                            </span>
-                            <h2 className="font-heading mb-4 text-4xl text-gray-900 font-bold tracking-tight">
-                              Oral screening module
-                            </h2>
-                            <div className="flex-initial mb-8">
-                              <h4 className="font-heading mb-4 text-gray-900 font-bold">
-                                What is this?
-                              </h4>
-                              <p className="text-gray-700 font-normal text-xl">
-                                Accessible Oral Health Solutions for Home and
-                                Satellite Camps using Smartphones
-                              </p>
-                            </div>
-
-                            <div className="flex flex-wrap -m-2">
-                              <div className="p-2">
-                                <Link
-                                  className="block px-8 py-2.5 text-sm text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full"
-                                  to="/oral"
+                <div className="max-w-5xl mx-auto">
+                  <div className="flex flex-wrap -m-5 mb-10">
+                    <div className="w-full p-5">
+                      <div className="flex flex-wrap h-full bg-gray-100 overflow-hidden rounded-3xl">
+                        <div className="w-full md:w-1/2">
+                          <img
+                            className="w-full h-full object-cover"
+                            src={cs1}
+                            alt=""
+                          />
+                        </div>
+                        <div className="flex-1">
+                          <div className="md:max-w-lg p-10 h-full">
+                            <div className="flex flex-col justify-between h-full">
+                              <div className="flex-initial mb-8">
+                                <p className="mb-3 text-sm text-gray-500 font-bold">
+                                  edexlive.com • 4 min read
+                                </p>
+                                <a
+                                  className="group inline-block mb-4"
+                                  href="https://www.edexlive.com/happening/2020/dec/14/teeth-talk-this-hyderabad-start-up-is-using-ai-and-whatsapp-to-bring-oral-hygiene-to-the-fore-16582.html"
+                                  target="#"
                                 >
-                                  Explore now
-                                </Link>
+                                  <h3 className="font-heading text-2xl text-gray-900 hover:text-gray-700 group-hover:underline font-bold">
+                                    Logy.AI eye screening solution: Vidisha 5G
+                                    use cases pilot launch on 13th January 2023
+                                  </h3>
+                                </a>
+                              </div>
+                              <div className="flex-initial">
+                                <div className="flex flex-wrap -m-2">
+                                  <div className="w-full md:w-auto p-2">
+                                    <a
+                                      className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold bg-gray-900 hover:bg-gray-800 focus:ring-4 focus:ring-gray-600 rounded-full"
+                                      href="https://www.edexlive.com/happening/2020/dec/14/teeth-talk-this-hyderabad-start-up-is-using-ai-and-whatsapp-to-bring-oral-hygiene-to-the-fore-16582.html"
+                                      target="#"
+                                    >
+                                      Read More
+                                    </a>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <div className="w-full lg:w-1/2 p-4">
-                        <div className="flex flex-col justify-between p-8 h-full bg-gray-100 rounded-3xl">
-                          <div className="flex-initial mb-8">
-                            <span className="inline-block mb-6 text-sm text-blue-500 font-bold uppercase tracking-widest">
-                              PRODUCT
-                            </span>
-                            <h2 className="font-heading mb-4 text-4xl text-gray-900 font-bold tracking-tight">
-                              Eye screening module
-                            </h2>
-                            <div className="flex-initial mb-8">
-                              <h4 className="font-heading mb-4 text-gray-900 font-bold">
-                                What is this?
-                              </h4>
-                              <p className="text-gray-700 font-normal text-xl">
-                                Accessible Eye Care Solutions for Home and
-                                Satellite Camps using Smartphones
-                              </p>
-                            </div>
-                            <div className="flex flex-wrap -m-2">
-                              <div className="p-2">
-                                <Link
-                                  className="block w-full px-8 py-2.5 text-sm text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full"
-                                  to="/eye"
+                    </div>
+                    <div className="w-full p-5">
+                      <div className="flex flex-wrap h-full bg-gray-100 overflow-hidden rounded-3xl">
+                        <div className="w-full md:w-1/2">
+                          <img
+                            className="w-full h-full object-cover"
+                            src={cs2}
+                            alt=""
+                          />
+                        </div>
+                        <div className="flex-1">
+                          <div className="md:max-w-lg p-10 h-full">
+                            <div className="flex flex-col justify-between h-full">
+                              <div className="flex-initial mb-8">
+                                <p className="mb-3 text-sm text-gray-500 font-bold">
+                                  cmp.smu.edu.sg • 4 min read
+                                </p>
+                                <a
+                                  className="group inline-block mb-4"
+                                  href="https://cmp.smu.edu.sg/ami/article/20230707/beyond-single-quadrant"
+                                  target="#"
                                 >
-                                  Explore Now
-                                </Link>
+                                  <h3 className="font-heading text-2xl text-gray-900 hover:text-gray-700 group-hover:underline font-bold">
+                                    Logy.AI’s Collaboration with Colgate Kenya
+                                  </h3>
+                                </a>
+                              </div>
+                              <div className="flex-initial">
+                                <div className="flex flex-wrap -m-2">
+                                  <div className="w-full md:w-auto p-2">
+                                    <a
+                                      className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold bg-gray-900 hover:bg-gray-800 focus:ring-4 focus:ring-gray-600 rounded-full"
+                                      href="https://cmp.smu.edu.sg/ami/article/20230707/beyond-single-quadrant"
+                                      target="#"
+                                    >
+                                      Read More
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="w-full p-5">
+                      <div className="flex flex-wrap h-full bg-gray-100 overflow-hidden rounded-3xl">
+                        <div className="w-full md:w-1/2">
+                          <img
+                            className="w-full h-full object-cover"
+                            src={cs3}
+                            alt=""
+                          />
+                        </div>
+                        <div className="flex-1">
+                          <div className="md:max-w-lg p-10 h-full">
+                            <div className="flex flex-col justify-between h-full">
+                              <div className="flex-initial mb-8">
+                                <p className="mb-3 text-sm text-gray-500 font-bold">
+                                  cmp.smu.edu.sg • 4 min read
+                                </p>
+                                <a
+                                  className="group inline-block mb-4"
+                                  href="https://cmp.smu.edu.sg/ami/article/20230707/beyond-single-quadrant"
+                                  target="#"
+                                >
+                                  <h3 className="font-heading text-2xl text-gray-900 hover:text-gray-700 group-hover:underline font-bold">
+                                    Logy.AI 5G digital health launch at Vidisha,
+                                    Madhya Pradesh
+                                  </h3>
+                                </a>
+                              </div>
+                              <div className="flex-initial">
+                                <div className="flex flex-wrap -m-2">
+                                  <div className="w-full md:w-auto p-2">
+                                    <a
+                                      className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold bg-gray-900 hover:bg-gray-800 focus:ring-4 focus:ring-gray-600 rounded-full"
+                                      href="https://cmp.smu.edu.sg/ami/article/20230707/beyond-single-quadrant"
+                                      target="#"
+                                    >
+                                      Read More
+                                    </a>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -314,6 +375,9 @@ export default function Products() {
                       </div>
                     </div>
                   </div>
+                </div>
+                <div className="flex flex-wrap md:justify-center -m-2">
+                  <div className="w-full md:w-auto p-2" />
                 </div>
               </div>
             </div>
