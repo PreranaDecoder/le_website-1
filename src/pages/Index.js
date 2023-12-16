@@ -290,11 +290,11 @@ export default function Index() {
         <section className="pt-0 pb-10 overflow-hidden bg-blue-500">
           <div className="container mx-auto px-12 pb-10">
             <button
-              className=" px-12 py-2 bg-gray-900 text-white"
+              className=" px-4 py-2 bg-gray-900 text-white"
               style={{ borderRadius: "0 0 10px 10px" }}
             >
               <p className="flex flex-wrap">
-                Patented Solutions{" "}
+                Patented Solution{" "}
                 <img
                   style={{ width: "20px", marginLeft: "5px" }}
                   src={eyeicon}
