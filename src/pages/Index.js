@@ -290,7 +290,7 @@ export default function Index() {
         <section className="pt-0 pb-10 overflow-hidden bg-blue-500">
           <div className="container mx-auto px-12 pb-10">
             <button
-              className=" px-8 py-2 bg-gray-900 text-white"
+              className=" px-12 py-2 bg-gray-900 text-white"
               style={{ borderRadius: "0 0 10px 10px" }}
             >
               <p className="flex flex-wrap">
