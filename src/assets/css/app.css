@@ -12,6 +12,18 @@
     margin-left: auto;
     border-radius: 100px 100px 0 0;
 }
+#pdf-controls{
+  display: none;
+}
+#pdf-page-info{
+  display: none;
+}
+#pdf-page-wrapper{
+  margin-top: 0;
+}
+#header-bar{
+  display: none;
+}
 @media screen and (max-width:600px){
   .phone-hidden{
     display: none;

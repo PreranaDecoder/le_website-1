@@ -57,15 +57,15 @@ export default function Aboutus() {
                 <div className="flex flex-wrap items-center">
                   <div className="w-auto hidden lg:block">
                     <ul className="flex items-center justify-center ">
-                      <li className="mr-9  ">
+                      <li className="">
                         <Link
-                          className=" inline-block text-sm font-bold text-gray-900 hover:text-gray-700  "
+                          className=" inline-block px-6 text-sm font-bold text-gray-900 hover:text-gray-700  "
                           to="/"
                         >
                           Home
                         </Link>
                       </li>
-                      <li className="mr-9">
+                      <li className="">
                         <Link
                           className="bg-gray-50 px-6 py-2 rounded-full inline-block text-sm font-bold text-gray-900 hover:text-gray-700 "
                           to="/about"
@@ -73,9 +73,9 @@ export default function Aboutus() {
                           About us
                         </Link>
                       </li>
-                      <li className="mr-9">
+                      <li className="">
                         <Link
-                          className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
+                          className="inline-block px-6 text-sm font-bold text-gray-900 hover:text-gray-700"
                           to="/products"
                         >
                           Products
@@ -83,7 +83,7 @@ export default function Aboutus() {
                       </li>
                       <li>
                         <Link
-                          className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
+                          className="inline-block px-6 text-sm font-bold text-gray-900 hover:text-gray-700"
                           to="/articles"
                         >
                           Articles

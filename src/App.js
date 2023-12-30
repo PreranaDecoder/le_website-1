@@ -14,6 +14,8 @@ import OralPage from "./pages/Oral.js";
 import Cs1 from "./caseStudies/cs1.jsx";
 import ScrollToTop from "./assets/components/scrollToTop";
 import Footer from "./assets/components/Footer.jsx";
+import Terms from "./pages/Tnc";
+import Cs2 from "./caseStudies/cs2";
 
 function App() {
   const meta = {
@@ -45,7 +47,10 @@ function App() {
         <Route path="/oral" element={<OralPage />} />
 
         <Route path="/eye" element={<EyePage />} />
-        <Route path="/cs_kenya" element={<Cs1 />} />
+        <Route path="/vidisha_1_cs" element={<Cs1 />} />
+        <Route path="/colgate_nigeria_cs" element={<Cs2 />} />
+        {/* <Route path="/vidisha_2_cs" element={<Cs3 />} /> */}
+        <Route path="/tnc" element={<Terms />} />
       </Routes>
       <Footer />
     </div>

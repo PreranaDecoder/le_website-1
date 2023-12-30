@@ -14,14 +14,14 @@ const meta = {
   script: [],
 };
 
-export default function Cs1() {
+export default function Terms() {
   const [menu, setMenu] = useState(true);
   const toggleMenu = () => {
     setMenu(!menu);
   };
   const docs = [
     {
-      uri: require("../assets/documents/vidisha1.pdf"),
+      uri: require("../assets/documents/LogyAI Terms & Conditions.pdf"),
       fileType: "pdf",
       fileName: " ",
     }, // Local File
@@ -58,25 +58,25 @@ export default function Cs1() {
                 <div className="flex flex-wrap items-center">
                   <div className="w-auto hidden lg:block">
                     <ul className="flex items-center justify-center ">
-                      <li className="  ">
+                      <li className="mr-9  ">
                         <Link
-                          className=" inline-block px-6 text-sm font-bold text-gray-900 hover:text-gray-700  "
+                          className=" inline-block text-sm font-bold text-gray-900 hover:text-gray-700  "
                           to="/"
                         >
                           Home
                         </Link>
                       </li>
-                      <li className="">
+                      <li className="mr-9">
                         <Link
-                          className="inline-block px-6 text-sm font-bold text-gray-900 hover:text-gray-700 "
+                          className=" px-6 py-2 rounded-full inline-block text-sm font-bold text-gray-900 hover:text-gray-700 "
                           to="/about"
                         >
                           About us
                         </Link>
                       </li>
-                      <li className="">
+                      <li className="mr-9">
                         <Link
-                          className="inline-block px-6 text-sm font-bold text-gray-900 hover:text-gray-700"
+                          className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
                           to="/products"
                         >
                           Products
@@ -84,7 +84,7 @@ export default function Cs1() {
                       </li>
                       <li>
                         <Link
-                          className="inline-block px-6 text-sm font-bold text-gray-900 hover:text-gray-700"
+                          className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
                           to="/articles"
                         >
                           Articles
@@ -228,8 +228,12 @@ export default function Cs1() {
               </nav>
             </div>
           </div>
+          <div className="flex flex-wrap justify-center -m-4">
+            <div className="w-full md:flex-1 p-4"></div>
+          </div>
         </div>
       </section>
+
       <section>
         <DocViewer
           documents={docs}

@@ -53,25 +53,25 @@ export default function Casestudies() {
                   <div className="flex flex-wrap items-center">
                     <div className="w-auto hidden lg:block">
                       <ul className="flex items-center justify-center ">
-                        <li className="mr-9  ">
+                        <li className="  ">
                           <Link
-                            className=" inline-block text-sm font-bold text-gray-900 hover:text-gray-700  "
+                            className=" inline-block px-6 text-sm font-bold text-gray-900 hover:text-gray-700  "
                             to="/"
                           >
                             Home
                           </Link>
                         </li>
-                        <li className="mr-9">
+                        <li className="">
                           <Link
-                            className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700 "
+                            className="inline-block px-6 text-sm font-bold text-gray-900 hover:text-gray-700 "
                             to="/about"
                           >
                             About us
                           </Link>
                         </li>
-                        <li className="mr-9">
+                        <li className="">
                           <Link
-                            className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
+                            className="inline-block px-6 text-sm font-bold text-gray-900 hover:text-gray-700"
                             to="/products"
                           >
                             Products
@@ -79,7 +79,7 @@ export default function Casestudies() {
                         </li>
                         <li>
                           <Link
-                            className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
+                            className="inline-block px-6 text-sm font-bold text-gray-900 hover:text-gray-700"
                             to="/articles"
                           >
                             Articles
@@ -241,7 +241,7 @@ export default function Casestudies() {
                 <div className="max-w-5xl mx-auto">
                   <div className="flex flex-wrap -m-5 mb-10">
                     <div className="w-full p-5">
-                      <div className="flex flex-wrap h-full bg-gray-100 overflow-hidden rounded-3xl">
+                      <div className="flex flex-wrap h-full  overflow-hidden rounded-3xl">
                         <div className="w-full md:w-1/2">
                           <img
                             className="w-full h-full object-cover"
@@ -253,30 +253,20 @@ export default function Casestudies() {
                           <div className="md:max-w-lg p-10 h-full">
                             <div className="flex flex-col justify-between h-full">
                               <div className="flex-initial mb-8">
-                                <p className="mb-3 text-sm text-gray-500 font-bold">
-                                  edexlive.com • 4 min read
-                                </p>
-                                <a
-                                  className="group inline-block mb-4"
-                                  href="https://www.edexlive.com/happening/2020/dec/14/teeth-talk-this-hyderabad-start-up-is-using-ai-and-whatsapp-to-bring-oral-hygiene-to-the-fore-16582.html"
-                                  target="#"
-                                >
-                                  <h3 className="font-heading text-2xl text-gray-900 hover:text-gray-700 group-hover:underline font-bold">
-                                    Logy.AI eye screening solution: Vidisha 5G
-                                    use cases pilot launch on 13th January 2023
-                                  </h3>
-                                </a>
+                                <h3 className="font-heading text-3xl text-gray-900 hover:text-gray-700 group-hover:underline font-bold">
+                                  Logy.AI eye screening solution: Vidisha 5G use
+                                  cases pilot launch on 13th January 2023
+                                </h3>
                               </div>
                               <div className="flex-initial">
                                 <div className="flex flex-wrap -m-2">
                                   <div className="w-full md:w-auto p-2">
-                                    <a
+                                    <Link
                                       className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold bg-gray-900 hover:bg-gray-800 focus:ring-4 focus:ring-gray-600 rounded-full"
-                                      href="https://www.edexlive.com/happening/2020/dec/14/teeth-talk-this-hyderabad-start-up-is-using-ai-and-whatsapp-to-bring-oral-hygiene-to-the-fore-16582.html"
-                                      target="#"
+                                      to="/vidisha_1_cs"
                                     >
                                       Read More
-                                    </a>
+                                    </Link>
                                   </div>
                                 </div>
                               </div>
@@ -286,7 +276,7 @@ export default function Casestudies() {
                       </div>
                     </div>
                     <div className="w-full p-5">
-                      <div className="flex flex-wrap h-full bg-gray-100 overflow-hidden rounded-3xl">
+                      <div className="flex flex-wrap h-full  overflow-hidden rounded-3xl">
                         <div className="w-full md:w-1/2">
                           <img
                             className="w-full h-full object-cover"
@@ -298,29 +288,19 @@ export default function Casestudies() {
                           <div className="md:max-w-lg p-10 h-full">
                             <div className="flex flex-col justify-between h-full">
                               <div className="flex-initial mb-8">
-                                <p className="mb-3 text-sm text-gray-500 font-bold">
-                                  cmp.smu.edu.sg • 4 min read
-                                </p>
-                                <a
-                                  className="group inline-block mb-4"
-                                  href="https://cmp.smu.edu.sg/ami/article/20230707/beyond-single-quadrant"
-                                  target="#"
-                                >
-                                  <h3 className="font-heading text-2xl text-gray-900 hover:text-gray-700 group-hover:underline font-bold">
-                                    Logy.AI’s Collaboration with Colgate Kenya
-                                  </h3>
-                                </a>
+                                <h3 className="font-heading text-3xl text-gray-900 hover:text-gray-700 group-hover:underline font-bold">
+                                  Logy.AI’s Collaboration with Colgate Nigeria
+                                </h3>
                               </div>
                               <div className="flex-initial">
                                 <div className="flex flex-wrap -m-2">
                                   <div className="w-full md:w-auto p-2">
-                                    <a
+                                    <Link
                                       className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold bg-gray-900 hover:bg-gray-800 focus:ring-4 focus:ring-gray-600 rounded-full"
-                                      href="https://cmp.smu.edu.sg/ami/article/20230707/beyond-single-quadrant"
-                                      target="#"
+                                      to="/colgate_nigeria_cs"
                                     >
                                       Read More
-                                    </a>
+                                    </Link>
                                   </div>
                                 </div>
                               </div>
@@ -329,7 +309,7 @@ export default function Casestudies() {
                         </div>
                       </div>
                     </div>
-                    <div className="w-full p-5">
+                    {/* <div className="w-full p-5">
                       <div className="flex flex-wrap h-full bg-gray-100 overflow-hidden rounded-3xl">
                         <div className="w-full md:w-1/2">
                           <img
@@ -373,7 +353,7 @@ export default function Casestudies() {
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="flex flex-wrap md:justify-center -m-2">

@@ -14,14 +14,14 @@ const meta = {
   script: [],
 };
 
-export default function Cs1() {
+export default function Cs2() {
   const [menu, setMenu] = useState(true);
   const toggleMenu = () => {
     setMenu(!menu);
   };
   const docs = [
     {
-      uri: require("../assets/documents/vidisha1.pdf"),
+      uri: require("../assets/documents/nigeria1.pdf"),
       fileType: "pdf",
       fileName: " ",
     }, // Local File

@@ -49,25 +49,25 @@ export default function Articles() {
                   <div className="flex flex-wrap items-center">
                     <div className="w-auto hidden lg:block">
                       <ul className="flex items-center justify-center ">
-                        <li className="mr-9  ">
+                        <li className="  ">
                           <Link
-                            className=" inline-block text-sm font-bold text-gray-900 hover:text-gray-700  "
+                            className=" inline-block px-6 text-sm font-bold text-gray-900 hover:text-gray-700  "
                             to="/"
                           >
                             Home
                           </Link>
                         </li>
-                        <li className="mr-9">
+                        <li className="">
                           <Link
-                            className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700 "
+                            className="inline-block px-6 text-sm font-bold text-gray-900 hover:text-gray-700 "
                             to="/about"
                           >
                             About us
                           </Link>
                         </li>
-                        <li className="mr-9">
+                        <li className="">
                           <Link
-                            className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
+                            className="inline-block px-6 text-sm font-bold text-gray-900 hover:text-gray-700"
                             to="/products"
                           >
                             Products
