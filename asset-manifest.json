@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/logy/static/css/main.fecee6f3.css",
-    "main.js": "/logy/static/js/main.5a8bcee2.js",
+    "main.css": "/logy/static/css/main.a0028aca.css",
+    "main.js": "/logy/static/js/main.e95497fe.js",
     "static/media/logyanim.gif": "/logy/static/media/logyanim.723301ae925492376c3a.gif",
     "static/media/Nivedita Tiwari.png": "/logy/static/media/Nivedita Tiwari.e19aea7d2a9a124d1bd8.png",
     "static/media/Vinay Khobragade.png": "/logy/static/media/Vinay Khobragade.1146a1a13a76af787b36.png",
@@ -18,7 +18,10 @@
     "static/media/blog3.png": "/logy/static/media/blog3.19df27a365f1cfd03b96.png",
     "static/media/K - DISC logo.png": "/logy/static/media/K - DISC logo.ab80ebee99a4811032d5.png",
     "static/media/Apollo sugar clinic.png": "/logy/static/media/Apollo sugar clinic.7385d25865e2cf8f26b8.png",
+    "static/media/vidisha1.pdf": "/logy/static/media/vidisha1.271ee3dcc9e9ee324350.pdf",
+    "static/media/LogyAI Terms & Conditions.pdf": "/logy/static/media/LogyAI Terms & Conditions.641bc859e38400167f19.pdf",
     "static/media/edexlive.png": "/logy/static/media/edexlive.c3da54407309aa1c8488.png",
+    "static/media/nigeria1.pdf": "/logy/static/media/nigeria1.2f8fc189d1b99c7bb2cd.pdf",
     "static/media/blog4.png": "/logy/static/media/blog4.a91066c9715d49c745dd.png",
     "static/media/Pristyn Care.png": "/logy/static/media/Pristyn Care.ef89f29cc445cbade5a0.png",
     "static/media/DOT.png": "/logy/static/media/DOT.34ecdc580b7566701b65.png",
@@ -56,11 +59,11 @@
     "static/media/eyeIcon.svg": "/logy/static/media/eyeIcon.df5a302f908b90b6a142224daac06112.svg",
     "static/media/fb.svg": "/logy/static/media/fb.0d8c9b7c6d7d4c2dc53f119eeba7347e.svg",
     "static/media/scans.svg": "/logy/static/media/scans.829779fea8b5e7ad110bd851e844a523.svg",
-    "main.fecee6f3.css.map": "/logy/static/css/main.fecee6f3.css.map",
-    "main.5a8bcee2.js.map": "/logy/static/js/main.5a8bcee2.js.map"
+    "main.a0028aca.css.map": "/logy/static/css/main.a0028aca.css.map",
+    "main.e95497fe.js.map": "/logy/static/js/main.e95497fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.fecee6f3.css",
-    "static/js/main.5a8bcee2.js"
+    "static/css/main.a0028aca.css",
+    "static/js/main.e95497fe.js"
   ]
 }
