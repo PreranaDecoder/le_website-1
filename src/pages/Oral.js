@@ -685,7 +685,7 @@ export default function Oral() {
             </div>
           </div>
         </section>
-        <section className="pb-6 pt-6 bg-gray-50 overflow-hidden">
+        {/* <section className="pb-6 pt-6 bg-gray-50 overflow-hidden">
           <div className="container mx-auto px-4">
             <div className="py-16 px-8 bg-white border border-gray-100 rounded-3xl">
               <div className="max-w-7xl ">
@@ -747,7 +747,7 @@ export default function Oral() {
                     </div>
                   </div>
                   <div className="w-full md:w-1/3 p-4">
-                    <div className="flex flex-col justify-between text-start px-8 pt-12 pb-8 h-full text-center bg-gray-100 border border-gray-100rounded-3xl">
+                    <div className="flex flex-col justify-between text-start px-8 pt-12 pb-8 h-full text-center bg-gray-100 border border-gray-100 rounded-3xl">
                       <div className="flex-initial mb-8">
                         <img
                           className="mb-6 mx-auto rounded-full"
@@ -774,7 +774,7 @@ export default function Oral() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         <section className="pb-6 bg-gray-50 overflow-hidden">
           <div className="container mx-auto px-4">
             <div className="py-16 px-8 md:px-16 bg-white rounded-3xl">
