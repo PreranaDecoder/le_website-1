@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/logy/static/css/main.a0028aca.css",
-    "main.js": "/logy/static/js/main.e95497fe.js",
+    "main.js": "/logy/static/js/main.3e6b45fb.js",
     "static/media/logyanim.gif": "/logy/static/media/logyanim.723301ae925492376c3a.gif",
     "static/media/Nivedita Tiwari.png": "/logy/static/media/Nivedita Tiwari.e19aea7d2a9a124d1bd8.png",
     "static/media/Vinay Khobragade.png": "/logy/static/media/Vinay Khobragade.1146a1a13a76af787b36.png",
@@ -60,10 +60,10 @@
     "static/media/fb.svg": "/logy/static/media/fb.0d8c9b7c6d7d4c2dc53f119eeba7347e.svg",
     "static/media/scans.svg": "/logy/static/media/scans.829779fea8b5e7ad110bd851e844a523.svg",
     "main.a0028aca.css.map": "/logy/static/css/main.a0028aca.css.map",
-    "main.e95497fe.js.map": "/logy/static/js/main.e95497fe.js.map"
+    "main.3e6b45fb.js.map": "/logy/static/js/main.3e6b45fb.js.map"
   },
   "entrypoints": [
     "static/css/main.a0028aca.css",
-    "static/js/main.e95497fe.js"
+    "static/js/main.3e6b45fb.js"
   ]
 }
