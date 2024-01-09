@@ -296,7 +296,11 @@ export default function Getintouch() {
                   </div>
                   <div className="w-full md:w-1/3 p-4"></div>
                   <div className="w-full md:w-1/3 ">
-                    <form className="p-6 bg-gray-100 border border-gray-100 rounded-xl">
+                    <form
+                      className="p-6 bg-gray-100 border border-gray-100 rounded-xl"
+                      action="https://formspree.io/mjvalebe"
+                      method="POST"
+                    >
                       <div className="flex flex-wrap -m-3 mb-3">
                         <div
                           className="w-full p-2"
@@ -306,7 +310,9 @@ export default function Getintouch() {
                             className="appearance-none px-6 py-2 w-full text-lg text-gray-500 font-normal bg-white placeholder-gray-500 outline-none focus:ring-4 focus:ring-blue-200 rounded-xl"
                             id="contactLightReverseInput4-1"
                             type="text"
+                            name="name"
                             placeholder="Enter your name"
+                            required
                           />
                         </div>
                         <div
@@ -318,6 +324,8 @@ export default function Getintouch() {
                             id="contactLightReverseInput4-2"
                             type="email"
                             placeholder="Enter Email address"
+                            name="_replyto"
+                            required
                           />
                         </div>
                       </div>
@@ -331,6 +339,8 @@ export default function Getintouch() {
                             id="contactLightReverseInput4-3"
                             type="text"
                             placeholder="Enter your phone number"
+                            name="phone"
+                            required
                           />
                         </div>
                       </div>
@@ -352,6 +362,8 @@ export default function Getintouch() {
                             rows={4}
                             placeholder="Enter your message"
                             defaultValue={""}
+                            name="message"
+                            required
                           />
                         </div>
                         <div className="w-full p-3.5">
@@ -359,12 +371,12 @@ export default function Getintouch() {
                             <div className="w-full p-3">
                               <div className="flex flex-wrap md:justify-end -m-2">
                                 <div className="w-full p-2">
-                                  <a
+                                  <input
+                                    type="submit"
+                                    value="Send"
                                     className="block w-full px-8 py-3.5 text-lg text-center text-white font-bold bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:ring-blue-200 rounded-full"
                                     href="#"
-                                  >
-                                    Send Message
-                                  </a>
+                                  />
                                 </div>
                               </div>
                             </div>
