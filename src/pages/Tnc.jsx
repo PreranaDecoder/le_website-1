@@ -34,9 +34,9 @@ export default function Terms() {
       <HelmetProvider>
         <Helmet {...meta}></Helmet>
       </HelmetProvider>
-      <section className="pt-6 bg-gray-50 overflow-hidden">
+      <section className="pt-6 bg-gray-50 overflow-hidden pb-6">
         <div className="container mx-auto px-4">
-          <div className="mb-6">
+          <div className="mb-1">
             <div className="flex items-center justify-between px-6 py-3.5 bg-white border border-gray-100 rounded-full">
               <div className="w-auto">
                 <div className="flex flex-wrap items-center">
@@ -58,25 +58,25 @@ export default function Terms() {
                 <div className="flex flex-wrap items-center">
                   <div className="w-auto hidden lg:block">
                     <ul className="flex items-center justify-center ">
-                      <li className="mr-9  ">
+                      <li className="  ">
                         <Link
-                          className=" inline-block text-sm font-bold text-gray-900 hover:text-gray-700  "
+                          className=" inline-block px-6 text-sm font-bold text-gray-900 hover:text-gray-700  "
                           to="/"
                         >
                           Home
                         </Link>
                       </li>
-                      <li className="mr-9">
+                      <li className="">
                         <Link
-                          className=" px-6 py-2 rounded-full inline-block text-sm font-bold text-gray-900 hover:text-gray-700 "
+                          className=" inline-block px-6 text-sm font-bold text-gray-900 hover:text-gray-700 "
                           to="/about"
                         >
                           About us
                         </Link>
                       </li>
-                      <li className="mr-9">
+                      <li className="">
                         <Link
-                          className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
+                          className="inline-block px-6 text-sm font-bold text-gray-900 hover:text-gray-700"
                           to="/products"
                         >
                           Products
@@ -84,10 +84,18 @@ export default function Terms() {
                       </li>
                       <li>
                         <Link
-                          className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
+                          className="inline-block px-6 text-sm font-bold text-gray-900 hover:text-gray-700"
                           to="/articles"
                         >
                           Articles
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="inline-block px-6 text-sm font-bold text-gray-900 hover:text-gray-700"
+                          to="/cases"
+                        >
+                          Case Studies
                         </Link>
                       </li>
                     </ul>
@@ -197,17 +205,25 @@ export default function Terms() {
                       <li className="mb-9">
                         <Link
                           className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
-                          to="/products"
+                          to="products"
                         >
                           Products
                         </Link>
                       </li>
-                      <li>
+                      <li className="mb-9">
                         <Link
                           className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
                           to="/articles"
                         >
                           Articles
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
+                          to="/cases"
+                        >
+                          Case Studies
                         </Link>
                       </li>
                     </ul>
@@ -234,7 +250,7 @@ export default function Terms() {
         </div>
       </section>
 
-      <section>
+      <section className="bg-gray-50 pb-12">
         <DocViewer
           documents={docs}
           pluginRenderers={DocViewerRenderers}

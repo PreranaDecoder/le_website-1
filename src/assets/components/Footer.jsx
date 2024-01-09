@@ -25,36 +25,44 @@ function Footer() {
               </div>
               <div className="w-full md:w-1/3 p-8">
                 <ul className="md:max-w-max mx-auto  ">
-                  <li className="mb-6">
+                  <li className="mb-4">
                     <Link
-                      className="inline-block text-3xl text-gray-500 hover:text-blue-500 font-bold tracking-tight"
+                      className="inline-block text-2xl text-gray-500 hover:text-blue-500 font-semibold tracking-tight"
                       to="/about"
                     >
                       About us
                     </Link>
                   </li>
-                  <li className="mb-6">
+                  <li className="mb-4">
                     <Link
-                      className="inline-block text-3xl text-gray-500 hover:text-blue-500 font-bold tracking-tight"
+                      className="inline-block text-2xl text-gray-500 hover:text-blue-500 font-semibold tracking-tight"
                       to="/products"
                     >
                       Products
                     </Link>
                   </li>
-                  <li className="mb-6">
+                  <li className="mb-4">
                     <Link
-                      className="inline-block text-3xl text-gray-500 hover:text-blue-500 font-bold tracking-tight"
+                      className="inline-block text-2xl text-gray-500 hover:text-blue-500 font-semibold tracking-tight"
                       to="/articles"
                     >
                       Articles
                     </Link>
                   </li>
-                  <li className="mb-6">
+                  <li className="mb-4">
                     <Link
-                      className="inline-block text-3xl text-gray-500 hover:text-blue-500 font-bold tracking-tight"
+                      className="inline-block text-2xl text-gray-500 hover:text-blue-500 font-semibold tracking-tight"
                       to="/contact"
                     >
                       Contact
+                    </Link>
+                  </li>
+                  <li className="mb-4">
+                    <Link
+                      className="inline-block text-2xl text-gray-500 hover:text-blue-500 font-semibold tracking-tight"
+                      to="/contact"
+                    >
+                      Terms and conditions
                     </Link>
                   </li>
                   {/* <li>
@@ -80,12 +88,7 @@ function Footer() {
                   <li className="mb-4">LOGY AI HEALTH INC</li>
                   <li className="mb-4">
                     <div className="flex">
-                      <div style={{ marginRight: "8px" }}>
-                        <i
-                          className="fa-solid fa-location-dot"
-                          style={{ color: "#518df5" }}
-                        ></i>
-                      </div>
+                      <div style={{ marginRight: "8px" }}>📍</div>
                       <div>
                         {" "}
                         <span>
@@ -100,12 +103,7 @@ function Footer() {
                   </li>
                   <li className="mb-4">
                     <div className="flex">
-                      <div style={{ marginRight: "8px" }}>
-                        <i
-                          className="fa-solid fa-location-dot"
-                          style={{ color: "#518df5" }}
-                        ></i>
-                      </div>
+                      <div style={{ marginRight: "8px" }}>📍</div>
                       <div>
                         {" "}
                         <span>
