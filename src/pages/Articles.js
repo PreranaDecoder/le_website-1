@@ -81,6 +81,14 @@ export default function Articles() {
                             Articles
                           </Link>
                         </li>
+                        <li>
+                          <Link
+                            className="inline-block px-6 text-sm font-bold text-gray-900 hover:text-gray-700"
+                            to="/cases"
+                          >
+                            Case Studies
+                          </Link>
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -193,12 +201,20 @@ export default function Articles() {
                             Products
                           </Link>
                         </li>
-                        <li>
+                        <li className="mb-9">
                           <Link
                             className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
                             to="/articles"
                           >
                             Articles
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
+                            to="/cases"
+                          >
+                            Case Studies
                           </Link>
                         </li>
                       </ul>

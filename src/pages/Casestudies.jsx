@@ -85,6 +85,14 @@ export default function Casestudies() {
                             Articles
                           </Link>
                         </li>
+                        <li>
+                          <Link
+                            className="bg-gray-50 px-6 py-2 rounded-full inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
+                            to="/cases"
+                          >
+                            Case Studies
+                          </Link>
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -197,12 +205,20 @@ export default function Casestudies() {
                             Products
                           </Link>
                         </li>
-                        <li>
+                        <li className="mb-9">
                           <Link
                             className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
                             to="/articles"
                           >
                             Articles
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            className="inline-block text-sm font-bold text-gray-900 hover:text-gray-700"
+                            to="/cases"
+                          >
+                            Case Studies
                           </Link>
                         </li>
                       </ul>
@@ -250,7 +266,7 @@ export default function Casestudies() {
                           />
                         </div>
                         <div className="flex-1">
-                          <div className="md:max-w-lg p-0 h-full">
+                          <div className="md:max-w-lg p-10 h-full">
                             <div className="flex flex-col justify-between h-full">
                               <div className="flex-initial mb-8">
                                 <h3 className="font-heading text-3xl text-gray-900 hover:text-gray-700 group-hover:underline font-bold">
