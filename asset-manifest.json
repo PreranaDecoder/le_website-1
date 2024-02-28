@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/logy/static/css/main.a0028aca.css",
-    "main.js": "/logy/static/js/main.ab739b73.js",
+    "main.css": "/logy/static/css/main.1cc2dbc3.css",
+    "main.js": "/logy/static/js/main.bc37fad5.js",
     "static/media/logyanim.gif": "/logy/static/media/logyanim.723301ae925492376c3a.gif",
     "static/media/Nivedita Tiwari.png": "/logy/static/media/Nivedita Tiwari.e19aea7d2a9a124d1bd8.png",
     "static/media/Vinay Khobragade.png": "/logy/static/media/Vinay Khobragade.1146a1a13a76af787b36.png",
@@ -42,6 +42,7 @@
     "static/media/colgate2.png": "/logy/static/media/colgate2.d81d8703503df22aa3fe.png",
     "static/media/Colgate-Logo.png": "/logy/static/media/Colgate-Logo.073e60ed6bbfbba77c08.png",
     "static/media/pristynWhiteBg.png": "/logy/static/media/pristynWhiteBg.9bcce75b772a2f8dcb61.png",
+    "static/media/bot2902.svg": "/logy/static/media/bot2902.b11f6c9a8ba09eea2fa685c8f1041316.svg",
     "static/media/iigp.png": "/logy/static/media/iigp.c42185ddb17f2e14f231.png",
     "static/media/BIRAC.png": "/logy/static/media/BIRAC.ec0b97631575a526d297.png",
     "static/media/nimr.png": "/logy/static/media/nimr.8424298bbd08e9edc069.png",
@@ -59,11 +60,11 @@
     "static/media/eyeIcon.svg": "/logy/static/media/eyeIcon.df5a302f908b90b6a142224daac06112.svg",
     "static/media/fb.svg": "/logy/static/media/fb.0d8c9b7c6d7d4c2dc53f119eeba7347e.svg",
     "static/media/scans.svg": "/logy/static/media/scans.829779fea8b5e7ad110bd851e844a523.svg",
-    "main.a0028aca.css.map": "/logy/static/css/main.a0028aca.css.map",
-    "main.ab739b73.js.map": "/logy/static/js/main.ab739b73.js.map"
+    "main.1cc2dbc3.css.map": "/logy/static/css/main.1cc2dbc3.css.map",
+    "main.bc37fad5.js.map": "/logy/static/js/main.bc37fad5.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0028aca.css",
-    "static/js/main.ab739b73.js"
+    "static/css/main.1cc2dbc3.css",
+    "static/js/main.bc37fad5.js"
   ]
 }
