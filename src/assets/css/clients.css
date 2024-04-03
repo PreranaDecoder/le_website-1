@@ -1,0 +1,106 @@
+
+    .clientsmq{
+        overflow: hidden;
+        padding-left: 0;
+    }
+    .marquee1 .marquee--inner {
+        display: block;
+        width: 200%;
+        position: absolute;
+        animation: marquee 24s linear infinite ;
+      }
+    .marquee1 .marquee--inner img{
+        width: 90px;
+      }
+    .marquee2 .marquee--inner {
+        display: block;
+        width: 130%;
+        position: absolute;
+        animation: marquee-alt 16s linear infinite ;
+      }
+    .marquee2 .marquee--inner img{
+        width: 90px;
+      }
+      @keyframes marquee {
+        0% { left: 20%; }
+        100% { left: -130%; }
+      }
+      @keyframes marquee-alt {
+        0% { left:30%; }
+        100% { left: -100%; }
+      }
+    
+      .marquee1 {
+        height: 240px;
+        width: 100%;
+        overflow: hidden;
+        box-sizing: border-box;
+        position: relative;
+        margin-bottom: 20px;
+      }
+      .marquee2 {
+        height: 240px;
+        width: 100%;
+        overflow: hidden;
+        box-sizing: border-box;
+        position: relative;
+        margin-bottom: 20px;
+      }
+      .marquee--inner:hover {
+        animation-play-state: paused;
+      }
+      .span {
+        float: left;
+        width: 50%;
+      }
+      .client-box1 img{
+        
+        align-self: center;
+    }
+    .client-box1{
+        width: 100%;
+        height: 200px;
+        vertical-align: middle;
+        text-align: center;
+        display: flex;
+    }
+    @media screen and (max-width:600px){
+      
+      .marquee1 {
+          height: 170px;
+          width: 150%;
+          overflow: hidden;
+          box-sizing: border-box;
+          position: relative;
+          margin-bottom: 20px;
+        }
+        .marquee1 .marquee--inner{
+          width: 300%;
+          animation: marqueex 24s linear infinite ;
+        }
+        .marquee1 .marquee--inner img{
+          width: 150px !important;
+        }
+      .marquee2 {
+          height: 170px;
+          width: 150%;
+          overflow: hidden;
+          box-sizing: border-box;
+          position: relative;
+          margin-bottom: 20px;
+        }
+        .marquee2 .marquee--inner{
+          width: 300%;
+          animation: marqueex 24s linear infinite ;
+        }
+        .marquee2 .marquee--inner img{
+          width: 150px !important;
+        }
+        .clientMob{
+          padding: 5% !important;
+        }
+        @keyframes marqueex {
+          0% { left: 50%; }
+          100% { left: -280%; }
+        }
+      }
