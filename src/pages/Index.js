@@ -3,7 +3,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import navbarLogo from "../assets/img/NavbarLogo.png";
 
-import logyanim from "../assets/zanrly-assets/images/headers/logyanim.gif";
+import logyanim from "../assets/zanrly-assets/images/headers/logyAnimation.gif";
 import Clients from "../assets/components/clients";
 import edex from "../assets/img/edexlive.png";
 import dainik from "../assets/img/dainikbhaskar.png";
