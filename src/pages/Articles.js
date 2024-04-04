@@ -5,6 +5,7 @@ import navbarLogo from "../assets/img/NavbarLogo.png";
 import logo from "../assets/img/LogoFree.svg";
 import blog4 from "../assets/zanrly-assets/images/blog/blog4.png";
 import blog5 from "../assets/zanrly-assets/images/blog/blog5.png";
+import blog6 from "../assets/img/articleImage3.jpeg";
 
 const meta = {
   title: "Logy.AI - articles",
@@ -254,6 +255,53 @@ export default function Articles() {
                 </div>
                 <div className="max-w-5xl mx-auto">
                   <div className="flex flex-wrap -m-5 mb-10">
+                    <div className="w-full p-5">
+                      <div className="flex flex-wrap h-full bg-gray-100 overflow-hidden rounded-3xl">
+                        <div className="w-full md:w-1/2">
+                          <img
+                            className="w-full h-full object-cover"
+                            src={blog6}
+                            alt=""
+                          />
+                        </div>
+                        <div className="flex-1">
+                          <div className="md:max-w-lg p-10 h-full">
+                            <div className="flex flex-col justify-between h-full">
+                              <div className="flex-initial mb-8">
+                                <p className="mb-3 text-sm text-gray-500 font-bold">
+                                  www.ijmedicine.com • 4 min read
+                                </p>
+                                <a
+                                  className="group inline-block mb-4"
+                                  href="https://www.ijmedicine.com/index.php/ijam/article/view/3967"
+                                  target="#"
+                                >
+                                  <h3 className="font-heading text-2xl text-gray-900 hover:text-gray-700 group-hover:underline font-bold">
+                                    Clinical validation of artificial
+                                    intelligence-based cataract screening
+                                    solution with smartphone images (Logy AI
+                                    cataract screening module)
+                                  </h3>
+                                </a>
+                              </div>
+                              <div className="flex-initial">
+                                <div className="flex flex-wrap -m-2">
+                                  <div className="w-full md:w-auto p-2">
+                                    <a
+                                      className="block w-full px-4 py-2.5 text-sm text-center text-white font-bold bg-gray-900 hover:bg-gray-800 focus:ring-4 focus:ring-gray-600 rounded-full"
+                                      href="https://www.ijmedicine.com/index.php/ijam/article/view/3967"
+                                      target="#"
+                                    >
+                                      Read More
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                     <div className="w-full p-5">
                       <div className="flex flex-wrap h-full bg-gray-100 overflow-hidden rounded-3xl">
                         <div className="w-full md:w-1/2">
