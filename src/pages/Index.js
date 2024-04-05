@@ -3,7 +3,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import navbarLogo from "../assets/img/NavbarLogo.png";
 
-import logyanim from "../assets/zanrly-assets/images/headers/logyAnimation.gif";
+import logyanim from "../assets/zanrly-assets/images/headers/finalanimation.gif";
 import Clients from "../assets/components/clients";
 import edex from "../assets/img/edexlive.png";
 import dainik from "../assets/img/dainikbhaskar.png";
@@ -262,7 +262,11 @@ export default function Index() {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-left -m-4">
               <div className="w-full md:w-1/3 p-4">
-                <img className="mx-auto rounded-3xl" src={logyanim} alt="" />
+                <img
+                  className="mx-auto rounded-3xl w-full"
+                  src={logyanim}
+                  alt=""
+                />
               </div>
               <div className="w-full md:flex-1 p-4">
                 <div className="flex flex-col justify-center items-center p-8 h-full text-start bg-white rounded-3xl">

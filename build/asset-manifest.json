@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/logy/static/css/main.6692b25e.css",
-    "main.js": "/logy/static/js/main.39095fe0.js",
-    "static/media/logyAnimation.gif": "/logy/static/media/logyAnimation.71d5287bfccffbdd8b9f.gif",
+    "main.js": "/logy/static/js/main.4ee8f115.js",
+    "static/media/finalanimation.gif": "/logy/static/media/finalanimation.000e100d2035542470df.gif",
     "static/media/Nivedita Tiwari.png": "/logy/static/media/Nivedita Tiwari.e19aea7d2a9a124d1bd8.png",
     "static/media/Vinay Khobragade.png": "/logy/static/media/Vinay Khobragade.1146a1a13a76af787b36.png",
     "static/media/Anand Panchbhai.png": "/logy/static/media/Anand Panchbhai.a0f38d38e5024ec1e4c8.png",
@@ -63,10 +63,10 @@
     "static/media/fb.svg": "/logy/static/media/fb.946ec2d8104097c73520da7b5b65eda2.svg",
     "static/media/scans.svg": "/logy/static/media/scans.829779fea8b5e7ad110bd851e844a523.svg",
     "main.6692b25e.css.map": "/logy/static/css/main.6692b25e.css.map",
-    "main.39095fe0.js.map": "/logy/static/js/main.39095fe0.js.map"
+    "main.4ee8f115.js.map": "/logy/static/js/main.4ee8f115.js.map"
   },
   "entrypoints": [
     "static/css/main.6692b25e.css",
-    "static/js/main.39095fe0.js"
+    "static/js/main.4ee8f115.js"
   ]
 }
