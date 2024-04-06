@@ -25,9 +25,9 @@ function Footer() {
                   Logy.AI’s proprietary and clinically validated solutions.
                 </p>
               </div>
-              <div className="w-full md:w-1/3 p-8 flex justify-center">
+              <div className="w-full md:w-1/3 p-8 lg:flex lg:justify-center">
                 <ul className="md:max-w-max mx-auto  ">
-                  <li className="mb-4">
+                  <li className="mb-4 hover:text-blue-500">
                     <Link
                       className="inline-block text-xl text-gray-500 hover:text-blue-500 font-semibold tracking-tight"
                       to="/about"
@@ -125,12 +125,16 @@ function Footer() {
               <div className="w-auto p-4">
                 <p className="font-normal">
                   <span>Ⓒ Copyright. All rights reserved by </span>
-                  <a className="text-blue-500 hover:text-blue-600" href="#">
+                  <Link
+                    to="/"
+                    className="text-blue-500 hover:text-blue-600"
+                    href="#"
+                  >
                     Logy.AI
-                  </a>
+                  </Link>
                 </p>
               </div>
-              <div className="w-10/12 p-4">
+              <div className="p-4">
                 <div className="flex -m-4 items-center">
                   <div className="p-1">
                     <a

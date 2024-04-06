@@ -558,7 +558,7 @@ export default function Index() {
                       <div className="p-8">
                         <Link
                           className="group inline-block mb-4"
-                          to="/cs_kenya"
+                          to="/vidisha_1_cs"
                         >
                           <h3 className="font-bold text-xl text-gray-900 hover:text-gray-700 group-hover:underline font-bold">
                             Logy.AI eye screening solution: Vidisha 5G use cases
@@ -577,7 +577,7 @@ export default function Index() {
                       <div className="p-8">
                         <Link
                           className="group inline-block mb-4"
-                          to="/cs_kenya"
+                          to="/colgate_nigeria_cs"
                         >
                           <h3 className="font-bold text-xl text-gray-900 hover:text-gray-700 group-hover:underline font-bold">
                             Logy.AI’s Collaboration with Colgate Kenya
