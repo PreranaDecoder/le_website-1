@@ -25,11 +25,11 @@ function Footer() {
                   Logy.AI’s proprietary and clinically validated solutions.
                 </p>
               </div>
-              <div className="w-full md:w-1/3 p-8">
+              <div className="w-full md:w-1/3 p-8 flex justify-center">
                 <ul className="md:max-w-max mx-auto  ">
                   <li className="mb-4">
                     <Link
-                      className="inline-block text-2xl text-gray-500 hover:text-blue-500 font-semibold tracking-tight"
+                      className="inline-block text-xl text-gray-500 hover:text-blue-500 font-semibold tracking-tight"
                       to="/about"
                     >
                       About us
@@ -37,7 +37,7 @@ function Footer() {
                   </li>
                   <li className="mb-4">
                     <Link
-                      className="inline-block text-2xl text-gray-500 hover:text-blue-500 font-semibold tracking-tight"
+                      className="inline-block text-xl text-gray-500 hover:text-blue-500 font-semibold tracking-tight"
                       to="/products"
                     >
                       Products
@@ -45,7 +45,7 @@ function Footer() {
                   </li>
                   <li className="mb-4">
                     <Link
-                      className="inline-block text-2xl text-gray-500 hover:text-blue-500 font-semibold tracking-tight"
+                      className="inline-block text-xl text-gray-500 hover:text-blue-500 font-semibold tracking-tight"
                       to="/articles"
                     >
                       Articles
@@ -53,7 +53,7 @@ function Footer() {
                   </li>
                   <li className="mb-4">
                     <Link
-                      className="inline-block text-2xl text-gray-500 hover:text-blue-500 font-semibold tracking-tight"
+                      className="inline-block text-xl text-gray-500 hover:text-blue-500 font-semibold tracking-tight"
                       to="/contact"
                     >
                       Contact
@@ -61,7 +61,7 @@ function Footer() {
                   </li>
                   <li className="mb-4">
                     <Link
-                      className="inline-block text-2xl text-gray-500 hover:text-blue-500 font-semibold tracking-tight"
+                      className="inline-block text-xl text-gray-500 hover:text-blue-500 font-semibold tracking-tight"
                       to="/contact"
                     >
                       Terms and conditions
@@ -144,13 +144,13 @@ function Footer() {
                       />
                     </a>
                   </div>
-                  <div className="p-1">
+                  <div className="p-1 m-20">
                     <a
                       href="https://www.youtube.com/@LogyAI"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <YouTubeIcon fontSize="medium" style={{ color: "red" }} />
+                      <YouTubeIcon fontSize="large" style={{ color: "red" }} />
                     </a>
                   </div>
                 </div>
