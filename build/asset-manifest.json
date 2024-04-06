@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/logy/static/css/main.6692b25e.css",
-    "main.js": "/logy/static/js/main.4ee8f115.js",
+    "main.js": "/logy/static/js/main.e8a7ac7a.js",
     "static/media/finalanimation.gif": "/logy/static/media/finalanimation.000e100d2035542470df.gif",
     "static/media/Nivedita Tiwari.png": "/logy/static/media/Nivedita Tiwari.e19aea7d2a9a124d1bd8.png",
     "static/media/Vinay Khobragade.png": "/logy/static/media/Vinay Khobragade.1146a1a13a76af787b36.png",
@@ -51,22 +51,21 @@
     "static/media/iitb.png": "/logy/static/media/iitb.75ba8e1895d71d63b735.png",
     "static/media/LogoFree.svg": "/logy/static/media/LogoFree.ce6822ec19fd926a1cfab4e83088331f.svg",
     "static/media/linkedin.svg": "/logy/static/media/linkedin.7ea38b8a7e11e2d79f014bdc8e296b39.svg",
-    "static/media/insta.svg": "/logy/static/media/insta.ac5711ee936d9658e6cf5e915ddaef58.svg",
     "static/media/eyescans.svg": "/logy/static/media/eyescans.72950f953d64c80336ec3e670d17b879.svg",
     "static/media/wtsapp.svg": "/logy/static/media/wtsapp.70858083eef780ad810fcc858eb81826.svg",
     "static/media/time.svg": "/logy/static/media/time.ab1541c9535e51268deb4c66e0047f17.svg",
     "static/media/iconlogo.svg": "/logy/static/media/iconlogo.3b42ed61956a9411eb3553f7fc221ec8.svg",
-    "static/media/twitter.svg": "/logy/static/media/twitter.397c09eaf6add12766a2f60a1f5b8fb4.svg",
     "index.html": "/logy/index.html",
     "static/media/accuracy.svg": "/logy/static/media/accuracy.ac340b62e8533f8b62764a95a80a9022.svg",
     "static/media/eyeIcon.svg": "/logy/static/media/eyeIcon.df5a302f908b90b6a142224daac06112.svg",
     "static/media/fb.svg": "/logy/static/media/fb.946ec2d8104097c73520da7b5b65eda2.svg",
+    "static/media/linkedin2.svg": "/logy/static/media/linkedin2.fd9e42980a314c0ab7ddcc9967529150.svg",
     "static/media/scans.svg": "/logy/static/media/scans.829779fea8b5e7ad110bd851e844a523.svg",
     "main.6692b25e.css.map": "/logy/static/css/main.6692b25e.css.map",
-    "main.4ee8f115.js.map": "/logy/static/js/main.4ee8f115.js.map"
+    "main.e8a7ac7a.js.map": "/logy/static/js/main.e8a7ac7a.js.map"
   },
   "entrypoints": [
     "static/css/main.6692b25e.css",
-    "static/js/main.4ee8f115.js"
+    "static/js/main.e8a7ac7a.js"
   ]
 }
