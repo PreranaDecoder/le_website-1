@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
 import logo from "../../assets/img/Logyai_newlogo.png";
 import fb from "../../assets/img/fb.svg";
-import insta from "../../assets/img/insta.svg";
-import twitter from "../../assets/img/twitter.svg";
+import linkedin from "../../assets/img/linkedin2.svg";
+import youtube from "../../assets/img/youtube.png";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import YouTubeIcon from "@mui/icons-material/YouTube";
 
 function Footer() {
   return (
@@ -128,21 +130,27 @@ function Footer() {
                   </a>
                 </p>
               </div>
-              <div className="w-auto p-4">
-                <div className="flex flex-wrap -m-4">
-                  <div className="w-auto p-4">
-                    <a className="block" href="#">
-                      <img src={insta} alt="" />
+              <div className="w-10/12 p-4">
+                <div className="flex -m-4 items-center">
+                  <div className="p-1">
+                    <a
+                      href="https://www.linkedin.com/company/logy-ai/?originalSubdomain=in"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <LinkedInIcon
+                        fontSize="medium"
+                        style={{ color: "#0077B5" }}
+                      />
                     </a>
                   </div>
-                  <div className="w-auto p-4">
-                    <a className="block" href="#">
-                      <img src={twitter} alt="" />
-                    </a>
-                  </div>
-                  <div className="w-auto p-4">
-                    <a className="block" href="#">
-                      <img src={fb} alt="" />
+                  <div className="p-1">
+                    <a
+                      href="https://www.youtube.com/@LogyAI"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <YouTubeIcon fontSize="medium" style={{ color: "red" }} />
                     </a>
                   </div>
                 </div>
