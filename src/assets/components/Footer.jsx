@@ -5,6 +5,7 @@ import linkedin from "../../assets/img/linkedin2.svg";
 import youtube from "../../assets/img/youtube.png";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import iso from "../../assets/img/iso_27001_05.png";
 
 function Footer() {
   return (
@@ -123,7 +124,7 @@ function Footer() {
             </div>
             <div className="flex flex-wrap items-center justify-between -m-4">
               <div className="w-auto p-4">
-                <p className="font-normal">
+                <div className="font-normal">
                   <span>Ⓒ Copyright. All rights reserved by </span>
                   <Link
                     to="/"
@@ -132,7 +133,18 @@ function Footer() {
                   >
                     Logy.AI
                   </Link>
-                </p>
+                  <div className="pr-10 space-x-9 flex items-center justify-betweeen">
+                    <img
+                      className="w-10 h-10 rounded-xl"
+                      src={iso}
+                      alt="logo"
+                    />
+
+                    <h1 className="font-bold  text-lg   space-x-10">
+                      Certified
+                    </h1>
+                  </div>
+                </div>
               </div>
               <div className="p-4">
                 <div className="flex -m-4 items-center">

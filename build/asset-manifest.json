@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/logy/static/css/main.6692b25e.css",
-    "main.js": "/logy/static/js/main.cd13990d.js",
+    "main.js": "/logy/static/js/main.29e4cc53.js",
     "static/media/finalanimation.gif": "/logy/static/media/finalanimation.000e100d2035542470df.gif",
     "static/media/Nivedita Tiwari.png": "/logy/static/media/Nivedita Tiwari.e19aea7d2a9a124d1bd8.png",
     "static/media/Vinay Khobragade.png": "/logy/static/media/Vinay Khobragade.1146a1a13a76af787b36.png",
@@ -41,6 +41,7 @@
     "static/media/sharpsight_t.png": "/logy/static/media/sharpsight_t.b0554afd29ebed450a98.png",
     "static/media/blog5.png": "/logy/static/media/blog5.0e46dab39076483d24bb.png",
     "static/media/cdot_logo.png": "/logy/static/media/cdot_logo.ccb4505b33d554a2623a.png",
+    "static/media/iso_27001_05.png": "/logy/static/media/iso_27001_05.5241779a39f9d9db5458.png",
     "static/media/oralc.png": "/logy/static/media/oralc.ccdf44e7d8c1fc48430a.png",
     "static/media/colgate2.png": "/logy/static/media/colgate2.d81d8703503df22aa3fe.png",
     "static/media/Colgate-Logo.png": "/logy/static/media/Colgate-Logo.073e60ed6bbfbba77c08.png",
@@ -62,10 +63,10 @@
     "static/media/linkedin2.svg": "/logy/static/media/linkedin2.fd9e42980a314c0ab7ddcc9967529150.svg",
     "static/media/scans.svg": "/logy/static/media/scans.829779fea8b5e7ad110bd851e844a523.svg",
     "main.6692b25e.css.map": "/logy/static/css/main.6692b25e.css.map",
-    "main.cd13990d.js.map": "/logy/static/js/main.cd13990d.js.map"
+    "main.29e4cc53.js.map": "/logy/static/js/main.29e4cc53.js.map"
   },
   "entrypoints": [
     "static/css/main.6692b25e.css",
-    "static/js/main.cd13990d.js"
+    "static/js/main.29e4cc53.js"
   ]
 }
