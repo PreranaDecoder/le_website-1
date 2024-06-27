@@ -5,7 +5,7 @@ import linkedin from "../../assets/img/linkedin2.svg";
 import youtube from "../../assets/img/youtube.png";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import YouTubeIcon from "@mui/icons-material/YouTube";
-import iso from "../../assets/img/iso_27001_05.png";
+
 
 function Footer() {
   return (
@@ -68,14 +68,14 @@ function Footer() {
                       Terms and conditions
                     </Link>
                   </li>
-                  {/* <li>
+                  <li>
                     <a
-                      className="inline-block text-3xl text-gray-700 hover:text-blue-500 font-black tracking-tight"
-                      href="#"
+                      className="inline-block text-xl text-gray-500 hover:text-blue-500 font-semibold tracking-tight"
+                      href="https://docs.google.com/document/u/0/d/e/2PACX-1vQJDkbwSDLAvy1ea7LcDJIM0TCw-v9e_Jbpu5ah79BR7goKU0hXhf-rhVXLusABoCjlYj6vApGPQ8mZ/pub?pli=1"
                     >
                       Privacy Policy
                     </a>
-                  </li> */}
+                  </li>
                 </ul>
               </div>
               <div className="w-full md:w-1/3 p-8">
@@ -134,15 +134,8 @@ function Footer() {
                     Logy.AI
                   </Link>
                   <div className="pr-10 space-x-9 flex items-center justify-betweeen">
-                    <img
-                      className="w-10 h-10 rounded-xl"
-                      src={iso}
-                      alt="logo"
-                    />
-
-                    <h1 className="font-bold  text-lg   space-x-10">
-                      Certified
-                    </h1>
+                   
+                  
                   </div>
                 </div>
               </div>

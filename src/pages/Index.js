@@ -6,6 +6,7 @@ import navbarLogo from "../assets/img/NavbarLogo.png";
 import logyanim from "../assets/zanrly-assets/images/headers/finalanimation.gif";
 import Clients from "../assets/components/clients";
 import edex from "../assets/img/edexlive.png";
+import isoImage from "../assets/img/iso_certification.png";
 import dainik from "../assets/img/dainikbhaskar.png";
 import eyeicon from "../assets/img/eyeIcon.svg";
 
@@ -304,6 +305,33 @@ export default function Index() {
             </div>
           </div>
         </section>
+        <div className="w-full relative bg-white overflow-hidden flex flex-row items-start justify-start">
+          <section className="flex-1 bg-gray-50 flex flex-row items-start justify-start p-8 md:p-10 lg:p-14 text-center text-2xl lg:text-4xl text-black font-poppins">
+            <div className="hidden bg-gray-50 max-w-full"></div>
+            <div className="flex-1 rounded-2xl  justify-center p-5 bg-white flex flex-row flex-wrap items-start justify-start p-14 lg:p-20 box-border gap-16 lg:gap-20 max-w-full z-10" style={{borderRadius: '30px'}}>
+              <div className="hidden max-w-full"></div>
+              <div className="flex-1 flex flex-col items-start justify-start pt-10 lg:pt-14 box-border min-w-[823px] max-w-full">
+                <div className="font-semibold z-10 text-2xl lg:text-3xl">
+                  <h5>
+                    We are also proud to announce that we are now{" "}
+                    <span className="text-blue-500 font-black">ISO 27001 certified</span>{" "}
+                    ensuring the highest standards of information security
+                    management.
+                  </h5>
+                </div>
+              </div>
+              <div className="flex flex-col items-center justify-center p-4">
+                <img
+                  className="md:h-32 md:w-32 lg:h-36 lg:w-36 rounded-lg object-contain z-10 my-8"
+                  style={{ height: 130, width: 130 }}
+                  src={isoImage}
+                  alt="ISO 27001 Certified"
+                />
+              </div>
+            </div>
+          </section>
+        </div>
+
         <section className="py-10 overflow-hidden bg-gray-50">
           <div className="container mx-auto px-4">
             <h2 className="font-heading mb-2 text-4xl md:text-5xl text-gray-900 font-bold tracking-tight">
