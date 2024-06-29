@@ -1,0 +1,12 @@
+.testimonialblock{
+    width: 25%;
+    padding: 1rem;
+}
+@media screen and (max-width:600px){
+    .testimonialblock{
+        width: 100%;
+    }
+    .investorText{
+        display: none;
+    }
+}
