@@ -6,7 +6,6 @@ import logo from "../assets/img/LogoFree.svg";
 import linkedin from "../assets/img/linkedin.svg";
 import abouthead from "../assets/img/abouthead.png";
 import aboutusnumbers from "../assets/img/aboutusnumbers.svg";
-import mplier from "../assets/img/mplier.png";
 import anand from "../assets/zanrly-assets/images/teams/Anand Panchbhai.png";
 import vinay from "../assets/zanrly-assets/images/teams/Vinay Khobragade.png";
 import priyanjit from "../assets/zanrly-assets/images/teams/Priyanjit Ghosh.png";
@@ -332,13 +331,7 @@ export default function Aboutus() {
                     </p>
                   </div>
                 </div>
-                <div className="w-full md:w-1/2">
-                  <img
-                    className="mx-auto md:mr-0 rounded-3xl p-6"
-                    src={mplier}
-                    alt=""
-                  />
-                </div>
+                
               </div>
             </div>
           </div>
